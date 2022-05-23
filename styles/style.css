@@ -16,6 +16,7 @@ html {
 body {
   font-family: 'Quicksand', Helvetica, sans-serif;
   background-color: rgb(255, 255, 255);
+
   /*  position: relative; */
   min-height: 100vh;  /* vh (viewport height as unit of measure)) */
   margin: 0;

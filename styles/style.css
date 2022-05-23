@@ -92,6 +92,16 @@ body {
     padding: 16px 55px;
   }
 
+  .section-1-button-mobile a:hover {
+    color: #1a2236;
+    background-color: white;
+    border: 1px solid #1a2236;
+  }
+
+  .section-1-button-mobile a:active {
+    border: 5px solid #1a2236;
+  }
+
   .section-1-img-mobile {
     background-image: url("../images/image2.jpg");
     background-repeat: no-repeat;
@@ -150,6 +160,16 @@ body {
     text-decoration: none;
     text-align: center;
     padding: 16px 75px;
+  }
+
+  .section-1-button-mobile a:hover {
+    color: #1a2236;
+    background-color: white;
+    border: 1px solid #1a2236;
+  }
+
+  .section-1-button-mobile a:active {
+    border: 5px solid #1a2236;
   }
 
   .section-1-img-mobile {

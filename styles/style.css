@@ -1,0 +1,185 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;  /* for Google Chrome and Apple Safari */
+  -moz-box-sizing: border-box;    /* for Mozilla Firefox */
+  -ms-box-sizing: border-box;   /* for Microsoft's Internet Explorer */
+  box-sizing: border-box;       /* box-sizing is a property allows us to change exactly how the box-model works  */
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', Helvetica, sans-serif;
+  background-color: rgb(255, 255, 255);
+
+  /*  position: relative; */
+  min-height: 100vh;  /* vh (viewport height as unit of measure)) */
+  margin: 0;
+}
+
+.playfair-display-font {
+  font-family: 'Playfair Display', serif;
+}
+
+.poppins-font {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-color {
+  color: #1a2236;
+}
+
+.font-white {
+  color: white;
+}
+
+.bg-color {
+  background-color: #1a2236;
+}
+
+/* Styles for mobile screens sizes at most 319px */
+@media only screen and (max-width: 319px) {
+  .nav-mobile {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .image-1-mobile {
+    width: 99px;
+    height: 75px;
+    position: relative;
+    top: -8px;
+    left: -8px;
+  }
+
+  .hamburger-icon {
+    position: relative;
+    top: 19px;
+    right: 16px;
+  }
+
+  /* Styles for Section 1/Headline Section */
+  .section-1-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 8px;
+  }
+
+  .section-1-heading-mobile {
+    font-size: 50px;
+    margin-bottom: 0;
+  }
+
+  .section-1-paragraph-mobile {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+
+  .section-1-button-mobile {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-1-button-mobile a {
+    text-decoration: none;
+    text-align: center;
+    padding: 16px 55px;
+  }
+
+  .section-1-button-mobile a:hover {
+    color: #1a2236;
+    background-color: white;
+    border: 1px solid #1a2236;
+  }
+
+  .section-1-button-mobile a:active {
+    border: 5px solid #1a2236;
+  }
+
+  .section-1-img-mobile {
+    background-image: url("../images/image2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    height: 160px;
+    position: relative;
+    top: 50px;
+  }
+}
+
+/* Styles for mobile screens sizes at & above 320px */
+@media only screen and (min-width: 320px) {
+  .nav-mobile {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .image-1-mobile {
+    position: relative;
+    top: -8px;
+    left: -8px;
+  }
+
+  .hamburger-icon {
+    position: relative;
+    top: 19px;
+    right: 16px;
+  }
+
+  /* Styles for Section 1/Headline Section */
+  .section-1-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 15px;
+  }
+
+  .section-1-heading-mobile {
+    font-size: 50px;
+    margin-bottom: 0;
+  }
+
+  .section-1-paragraph-mobile {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+
+  .section-1-button-mobile {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-1-button-mobile a {
+    text-decoration: none;
+    text-align: center;
+    padding: 16px 75px;
+  }
+
+  .section-1-button-mobile a:hover {
+    color: #1a2236;
+    background-color: white;
+    border: 1px solid #1a2236;
+  }
+
+  .section-1-button-mobile a:active {
+    border: 5px solid #1a2236;
+  }
+
+  .section-1-img-mobile {
+    background-image: url("../images/image2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    height: 160px;
+    position: relative;
+    top: 50px;
+  }
+}

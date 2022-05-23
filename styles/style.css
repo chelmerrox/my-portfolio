@@ -120,4 +120,43 @@ body {
     top: -3px;
     right: 16px;
   }
+
+  /* Styles for Section 1/Headline Section */
+  .section-1-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .section-1-heading-mobile {
+    font-size: 50px;
+    margin-bottom: 0;
+  }
+
+  .section-1-paragraph-mobile {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+
+  .section-1-button-mobile {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-1-button-mobile a {
+    text-decoration: none;
+    text-align: center;
+    padding: 16px 75px;
+  }
+
+  .section-1-img-mobile {
+    background-image: url("../images/image2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    height: 160px;
+    position: relative;
+    top: 50px;
+  }
 }

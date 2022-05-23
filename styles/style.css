@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;  /* for Google Chrome and Apple Safari */
+  -moz-box-sizing: border-box;    /* for Mozilla Firefox */
+  -ms-box-sizing: border-box;   /* for Microsoft's Internet Explorer */
+  box-sizing: border-box;       /* box-sizing is a property allows us to change exactly how the box-model works  */
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', Helvetica, sans-serif;
+  background-color: rgb(255, 255, 255);
+  /*  position: relative; */
+  min-height: 100vh;  /* vh (viewport height as unit of measure)) */
+  margin: 0;
+}
+
+/* Styles for mobile screens sizes at most 319px */
+@media only screen and (max-width: 319px) {
+  .nav-mobile {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .image-1-mobile {
+    width: 99px;
+    height: 75px;
+    position: relative;
+    top: -8px;
+    left: -8px;
+  }
+
+  .hamburger-icon {
+    position: relative;
+    top: -3px;
+    right: 16px;
+  }
+}

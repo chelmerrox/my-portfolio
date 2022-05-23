@@ -11,9 +11,9 @@
 - CSS3
 - Git
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://raw.githack.com/chelmerrox/my-portfolio/milestone-1/index.html)
 
 
 ## Getting Started

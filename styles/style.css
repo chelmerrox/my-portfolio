@@ -294,12 +294,6 @@ body {
     top: 30px;
   }
 
-  .section-3-button-mobile a span img {
-    position: relative;
-    top: 5px;
-    left: 15px;
-  }
-
   .lang-frame-skills-mobile {
     display: grid;
     grid-template-columns: 1fr;
@@ -585,12 +579,6 @@ body {
     position: relative;
     left: 226px;
     top: 30px;
-  }
-
-  .section-3-button-mobile a span img {
-    position: relative;
-    top: 5px;
-    left: 15px;
   }
 
   .lang-frame-skills-mobile {

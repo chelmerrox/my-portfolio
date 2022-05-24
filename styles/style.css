@@ -281,24 +281,6 @@ body {
     border: 5px solid #1a2236;
   }
 
-  .lang-mobile img {
-    position: relative;
-    left: 131px;
-    top: 30px;
-  }
-
-  .frame-mobile img {
-    position: relative;
-    left: 138px;
-    top: 35px;
-  }
-
-  .skills-mobile img {
-    position: relative;
-    left: 131px;
-    top: 30px;
-  }
-
   .lang-frame-skills-mobile {
     display: grid;
     grid-template-columns: 1fr;
@@ -341,6 +323,24 @@ body {
   .frame-mobile h3,
   .skills-mobile h3 {
     margin-left: 20px;
+  }
+
+  .lang-mobile img {
+    position: relative;
+    left: 131px;
+    top: 30px;
+  }
+
+  .frame-mobile img {
+    position: relative;
+    left: 138px;
+    top: 35px;
+  }
+
+  .skills-mobile img {
+    position: relative;
+    left: 131px;
+    top: 30px;
   }
 }
 
@@ -573,24 +573,6 @@ body {
     border: 5px solid #1a2236;
   }
 
-  .lang-mobile img {
-    position: relative;
-    left: 226px;
-    top: 55px;
-  }
-
-  .frame-mobile img {
-    position: relative;
-    left: 232px;
-    top: 35px;
-  }
-
-  .skills-mobile img {
-    position: relative;
-    left: 226px;
-    top: 30px;
-  }
-
   .lang-frame-skills-mobile {
     display: grid;
     grid-template-columns: 1fr;
@@ -633,5 +615,23 @@ body {
   .frame-mobile h3,
   .skills-mobile h3 {
     margin-left: 20px;
+  }
+
+  .lang-mobile img {
+    position: relative;
+    left: 226px;
+    top: 55px;
+  }
+
+  .frame-mobile img {
+    position: relative;
+    left: 232px;
+    top: 35px;
+  }
+
+  .skills-mobile img {
+    position: relative;
+    left: 226px;
+    top: 30px;
   }
 }

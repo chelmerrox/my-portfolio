@@ -553,6 +553,12 @@ body {
     margin-top: 20px;
   }
 
+  .section-3-button-mobile a span {
+    position: relative;
+    top: 6px;
+    left: 14px;
+  }
+
   .section-3-button-mobile a:hover {
     color: #1a2236;
     background-color: white;

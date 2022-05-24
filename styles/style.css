@@ -249,10 +249,12 @@ body {
   /* Section 3 | About Section for mobile screens */
   .section-3-heading-mobile {
     font-size: 50px;
+    padding-left: 13px;
   }
 
   .section-3-paragraph-mobile {
     font-size: 14px;
+    padding-left: 13px;
   }
 
   .section-3-mobile .section-3-button-mobile {
@@ -541,10 +543,12 @@ body {
   /* Section 3 | About Section for mobile screens */
   .section-3-heading-mobile {
     font-size: 50px;
+    padding-left: 39px;
   }
 
   .section-3-paragraph-mobile {
     font-size: 14px;
+    padding-left: 39px;
   }
 
   .section-3-mobile .section-3-button-mobile {

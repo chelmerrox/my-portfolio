@@ -38,8 +38,16 @@ body {
   color: white;
 }
 
+.font-weight-lighter {
+  font-weight: lighter;
+}
+
 .bg-color {
   background-color: #1a2236;
+}
+
+.mr-3 {
+  margin-right: 3px;
 }
 
 /* Styles for mobile screens sizes at most 319px */
@@ -63,7 +71,7 @@ body {
     right: 16px;
   }
 
-  /* Styles for Section 1/Headline Section */
+  /* Styles for Section 1 | Headline Section */
   .section-1-mobile {
     display: flex;
     flex-direction: column;
@@ -111,6 +119,119 @@ body {
     height: 160px;
     position: relative;
     top: 50px;
+  }
+
+  /* Section 2 | Projects Section */
+  .section-2-heading-mobile {
+    margin-top: 90px;
+    font-size: 50px;
+    text-align: left;
+  }
+
+  .projects-container-mobile {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    width: min-content;
+  }
+
+  .card-1-mobile,
+  .card-2-mobile,
+  .card-3-mobile,
+  .card-4-mobile,
+  .card-5-mobile,
+  .card-6-mobile {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .card-1-mobile {
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .card-2-mobile {
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .card-3-mobile {
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .card-4-mobile {
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+
+  .card-5-mobile {
+    grid-row-start: 5;
+    grid-row-end: 6;
+  }
+
+  .card-6-mobile {
+    grid-row-start: 6;
+    grid-row-end: 7;
+  }
+
+  .card-1-img-mobile,
+  .card-2-img-mobile,
+  .card-3-img-mobile,
+  .card-4-img-mobile,
+  .card-5-img-mobile,
+  .card-6-img-mobile {
+    width: 100%;
+  }
+
+  .project-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px;
+    position: relative;
+    top: -2px;
+  }
+
+  .project-description h3 {
+    font-size: 20px;
+  }
+
+  .project-description .project-technologies {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: -10px;
+    left: -36px;
+  }
+
+  .project-description .project-technologies li {
+    background-color: #98dede;
+    padding: 5px 9px;
+    font-size: 10px;
+  }
+
+  .see-this-project-btn-mobile {
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px;
+  }
+
+  .see-this-project-btn-mobile a:hover {
+    color: #1a2236;
+    background-color: white;
+    border: 1px solid #1a2236;
+  }
+
+  .see-this-project-btn-mobile a:active {
+    border: 5px solid #1a2236;
+  }
+
+  .see-this-project-btn-mobile span {
+    position: relative;
+    top: 7px;
+    left: 3px;
   }
 }
 

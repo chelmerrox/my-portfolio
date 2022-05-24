@@ -272,6 +272,11 @@ body {
     border: 1px solid #1a2236;
   }
 
+  .section-3-button-mobile a span svg .download-icon-path-1:hover,
+  .section-3-button-mobile a span svg .download-icon-path-2:hover {
+    fill: #1a2236;
+  }
+
   .section-3-button-mobile a:active {
     border: 5px solid #1a2236;
   }
@@ -557,6 +562,11 @@ body {
     color: #1a2236;
     background-color: white;
     border: 1px solid #1a2236;
+  }
+
+  .section-3-button-mobile a span svg .download-icon-path-1:hover,
+  .section-3-button-mobile a span svg .download-icon-path-2:hover {
+    fill: #1a2236;
   }
 
   .section-3-button-mobile a:active {

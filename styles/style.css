@@ -493,18 +493,24 @@ body {
   }
 
   .see-this-project-btn-mobile {
-    text-decoration: none;
     border: 1px solid white;
     padding: 10px;
   }
 
-  .see-this-project-btn-mobile a:hover {
-    color: #1a2236;
-    background-color: white;
-    border: 1px solid #1a2236;
+  .see-this-project-btn-mobile a {
+    text-decoration: none;
   }
 
-  .see-this-project-btn-mobile a:active {
+  .see-this-project-btn-mobile:hover {
+    background-color: white;
+  }
+
+  .see-this-project-btn-mobile a:hover {
+    background-color: white;
+    color: #1a2236;
+  }
+
+  .see-this-project-btn-mobile:active {
     border: 5px solid #1a2236;
   }
 
@@ -513,15 +519,6 @@ body {
     top: 7px;
     left: 3px;
   }
-
-  /* .see-this-project-btn-mobile a:hover {
-    color: #1a2236;
-    background-color: white;
-    border: 1px solid #1a2236;
-  }
-  .see-this-project-btn-mobile a:active {
-    border: 5px solid #1a2236;
-  } */
 
   /* Section 3 | About Section for mobile screens */
   .section-3-heading-mobile {

@@ -224,21 +224,18 @@ body {
   }
 
   .see-this-project-btn-mobile {
+    text-decoration: none;
+    padding: 11px;
     border: 1px solid white;
-    padding: 10px;
   }
 
   .see-this-project-btn-mobile:hover {
-    background-color: white;
-  }
-
-  .see-this-project-btn-mobile a:hover {
     background-color: white;
     color: #1a2236;
   }
 
   .see-this-project-btn-mobile:active {
-    border: 5px solid #1a2236;
+    border: 5px solid rgb(22, 22, 22);
   }
 
   .see-this-project-btn-mobile span {
@@ -521,21 +518,18 @@ body {
   }
 
   .see-this-project-btn-mobile {
+    text-decoration: none;
+    padding: 11px;
     border: 1px solid white;
-    padding: 10px;
   }
 
   .see-this-project-btn-mobile:hover {
-    background-color: white;
-  }
-
-  .see-this-project-btn-mobile a:hover {
     background-color: white;
     color: #1a2236;
   }
 
   .see-this-project-btn-mobile:active {
-    border: 5px solid #1a2236;
+    border: 5px solid rgb(22, 22, 22);
   }
 
   .see-this-project-btn-mobile span {

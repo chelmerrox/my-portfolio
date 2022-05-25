@@ -290,6 +290,8 @@ body {
     row-gap: 25px;
     margin-top: 44px;
     margin-bottom: 44px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .lang-mobile,
@@ -584,6 +586,8 @@ body {
     row-gap: 25px;
     margin-top: 44px;
     margin-bottom: 44px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .lang-mobile,

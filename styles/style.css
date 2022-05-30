@@ -504,8 +504,8 @@ body {
 
   .project-description .project-technologies {
     list-style: none;
-    display: flex;
-    justify-content: flex-start;
+    /* display: flex;
+    justify-content: flex-start; */
     position: relative;
     top: -10px;
     left: -36px;
@@ -515,6 +515,7 @@ body {
     background-color: #98dede;
     padding: 9px 17px;
     font-size: 10px;
+    float: left;
   }
 
   .see-this-project-btn-mobile {

@@ -522,6 +522,7 @@ body {
     text-decoration: none;
     padding: 11px;
     border: 1px solid white;
+    clear: left;
   }
 
   .see-this-project-btn-mobile:hover {

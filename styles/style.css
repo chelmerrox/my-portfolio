@@ -862,4 +862,33 @@ body {
   .contact-form .user-submit-btn:active {
     border: 5px solid #1a2236;
   }
+  .footer-mobile {
+    width: 100%;
+    padding: 25px 15px;
+  }
+
+  .footer-mobile .footer-1-mobile {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .footer-mobile .footer-1-mobile a {
+    text-decoration: none;
+    color: #92dcdc;
+  }
+
+  .footer-mobile .footer-1-mobile a span {
+    position: relative;
+    top: 5px;
+    left: 8px;
+  }
+
+  .footer-mobile .footer-2-mobile {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
 }

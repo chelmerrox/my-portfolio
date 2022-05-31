@@ -141,6 +141,11 @@ body {
     top: 50px;
   }
 
+  /* Hide Section 1 | Headline Section for tablet & desktop screens */
+  .section-1-desktop {
+    display: none;
+  }
+
   /* Section 2 | Projects Section */
   .section-2-heading-mobile {
     margin-top: 90px;
@@ -563,6 +568,11 @@ body {
     height: 160px;
     position: relative;
     top: 50px;
+  }
+
+  /* Hide Section 1 | Headline Section for tablet & desktop screens */
+  .section-1-desktop {
+    display: none;
   }
 
   /* Section 2 | Projects Section */

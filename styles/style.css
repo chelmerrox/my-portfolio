@@ -345,10 +345,10 @@ body {
     top: 30px;
   }
 
-   /* Section 4 | Get Started Section for mobile screens */
-   .section-4-mobile {
+  /* Section 4 | Get Started Section for mobile screens */
+  .section-4-mobile {
     padding-bottom: 38px;
-    background-color: #F9F9FA;
+    background-color: #f9f9fa;
   }
 
   .section-4-mobile img {
@@ -764,10 +764,10 @@ body {
     top: 30px;
   }
 
-   /* Section 4 | Get Started Section for mobile screens */
-   .section-4-mobile {
+  /* Section 4 | Get Started Section for mobile screens */
+  .section-4-mobile {
     padding-bottom: 38px;
-    background-color: #F9F9FA;
+    background-color: #f9f9fa;
   }
 
   .section-4-mobile img {
@@ -862,6 +862,7 @@ body {
   .contact-form .user-submit-btn:active {
     border: 5px solid #1a2236;
   }
+
   .footer-mobile {
     width: 100%;
     padding: 25px 15px;

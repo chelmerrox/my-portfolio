@@ -941,16 +941,8 @@ body {
   }
 
   /* Hide Section 1 | Headline Section for mobile screens */
-  .section-1-mobile {
-    display: none;
-  }
-
-  /* Hide Section 1 | Headline Section for mobile screens */
-  .section-1-button-mobile {
-    display: none;
-  }
-
-  /* Hide Section 1 | Headline Section for mobile screens */
+  .section-1-mobile,
+  .section-1-button-mobile,
   .section-1-img-mobile {
     display: none;
   }

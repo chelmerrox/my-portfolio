@@ -946,6 +946,61 @@ body {
   .section-1-img-mobile {
     display: none;
   }
+
+  /* Styles for Section 1 | Headline Section */
+  .section-1-desktop {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .section-1-texts-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    top: 43px;
+    left: 76px;
+  }
+
+  .section-1-texts-desktop .section-1-heading-desktop {
+    font-size: 42px;
+  }
+
+  .section-1-texts-desktop .section-1-paragraph-desktop {
+    font-size: 11px;
+    position: relative;
+    top: -28px;
+    margin-right: 54px;
+  }
+
+  .section-1-button-desktop {
+    text-decoration: none;
+    font-size: 13px;
+    margin-top: -7px;
+    padding: 13px 26px;
+  }
+
+  .section-1-button-desktop:hover {
+    color: #1a2236;
+    background-color: white;
+    border: 1px solid #1a2236;
+  }
+
+  .section-1-button-desktop:active {
+    border: 5px solid #1a2236;
+  }
+
+  .section-1-image-1 {
+    height: 98px;
+    width: 98px;
+    position: relative;
+    top: 382px;
+  }
+
+  .section-1-image-2 {
+    height: 481px;
+    width: 702px;
+  }
   
   /* Hide Section 2 | Projects Section for mobile screens */
   .section-2-mobile {
@@ -965,5 +1020,138 @@ body {
   /* Hide Footer Section for mobile screens */
   .footer-mobile {
     display: none;
+  }
+}
+
+/* Styles for tablet & desktop screen sizes at & above 820px */
+@media only screen and (min-width: 820px) {
+  /* Styles for Section 1 | Headline Section elements */
+  .section-1-texts-desktop .section-1-heading-desktop {
+    font-size: 51px;
+  }
+
+  .section-1-desktop .section-1-texts-desktop .section-1-paragraph-desktop {
+    margin-right: 55px;
+  }
+}
+
+/* Styles for tablet & desktop screen sizes at & above 912px */
+@media only screen and (min-width: 912px){
+  /* Styles for Section 1 | Headline Section elements */
+  .section-1-texts-desktop {
+    position: relative;
+    top: 31px;
+    left: 76px;
+  }
+
+  .section-1-desktop .section-1-heading-desktop {
+    font-size: 60px;
+  }
+
+  .section-1-desktop .section-1-heading-desktop span {
+    display: block;
+  }
+
+  .section-1-desktop .section-1-texts-desktop .section-1-paragraph-desktop {
+    font-size: 15px;
+    margin-right: 17px;
+  }
+
+  .section-1-button-desktop {
+    font-size: 17px;
+  }
+
+  .section-1-image-1 {
+    height: 108px;
+    width: 108px;
+    position: relative;
+    top: 475px;
+  }
+
+  .section-1-image-2 {
+    height: 586px;
+    width: 702px;
+  }
+}
+
+/* Styles for tablet & desktop screen sizes at & above 1024px */
+@media only screen and (min-width: 1024px){
+  /* Styles for Section 1 | Headline Section elements */
+  .section-1-desktop .section-1-heading-desktop {
+    font-size: 71px;
+  }
+  
+  .section-1-desktop .section-1-texts-desktop .section-1-paragraph-desktop {
+    display: block;
+    margin-right: 87px;
+  }
+}
+
+/* Styles for tablet & desktop screen sizes at & above 1200px */
+@media only screen and (min-width: 1200px){
+  /* Styles for Section 1 | Headline Section elements */
+  .section-1-texts-desktop {
+    position: relative;
+    top: 53px;
+    left: 130px;
+  }
+
+  .section-1-desktop .section-1-heading-desktop {
+    font-size: 82px;
+  }
+
+  .section-1-desktop .section-1-texts-desktop .section-1-paragraph-desktop {
+    display: block;
+    margin-right: 123px;
+    font-size: 17px;
+  }
+
+  .section-1-image-1 {
+    height: 146px;
+    width: 146px;
+    position: relative;
+    top: 602px;
+  }
+
+  .section-1-image-2 {
+    height: 752px;
+    width: 702px;
+  }
+}
+
+/* Styles for tablet & desktop screen sizes at & above 1500px */
+@media only screen and (min-width: 1500px){
+  /* Styles for Section 1 | Headline Section elements */
+  .section-1-texts-desktop {
+    position: relative;
+    top: 98px;
+    left: 130px;
+  }
+
+  .section-1-desktop .section-1-heading-desktop {
+    font-size: 110px;
+  }
+
+  .section-1-desktop .section-1-texts-desktop .section-1-paragraph-desktop {
+    display: block;
+    margin-right: 78px;
+    font-size: 23px;
+  }
+
+  .section-1-button-desktop {
+    font-size: 27px;
+    padding: 28px;
+  }
+
+  .section-1-image-1 {
+    height: 211px;
+    width: 211px;
+    position: relative;
+    top: 868px;
+  }
+
+  .section-1-image-2 {
+    height: 1088px;
+    width: 742px;
   }
 }

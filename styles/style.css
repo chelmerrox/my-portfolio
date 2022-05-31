@@ -71,6 +71,11 @@ body {
     right: 16px;
   }
 
+  /* Hide Navbar for tablet & desktop screens */
+  .nav-desktop {
+    display: none;
+  }
+
   /* Styles for Section 1 | Headline Section */
   .section-1-mobile {
     display: flex;
@@ -488,6 +493,11 @@ body {
     position: relative;
     top: 19px;
     right: 16px;
+  }
+
+  /* Hide Navbar for tablet & desktop screens */
+  .nav-desktop {
+    display: none;
   }
 
   /* Styles for Section 1/Headline Section */

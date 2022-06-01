@@ -368,6 +368,11 @@ body {
     top: 30px;
   }
 
+  /* Hide Section 3 |  About Section for tablet & desktop screens */
+  .section-3-desktop {
+    display: none;
+  }
+
   /* Section 4 | Get Started Section for mobile screens */
   .section-4-mobile {
     padding-bottom: 38px;
@@ -804,6 +809,11 @@ body {
     position: relative;
     left: 226px;
     top: 30px;
+  }
+
+  /* Hide Section 3 |  About Section for tablet & desktop screens */
+  .section-3-desktop {
+    display: none;
   }
 
   /* Section 4 | Get Started Section for mobile screens */

@@ -1027,6 +1027,88 @@ body {
     display: none;
   }
 
+  /* Styles for Section 2-1 | Projects Section 2-1 */
+  .section-2-1-desktop {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section-2-1-heading-desktop {
+    font-size: 51px;
+    position: relative;
+    bottom: 191px;
+    left: 211px;
+    transform: rotate(270deg);
+  }
+
+  .section-2-1-img-1 {
+    width: 98px;
+    height: 98px;
+    position: relative;
+    top: 3px;
+    left: -2px;
+  }
+
+  .card-1-desktop {
+    width: 100%;
+  }
+
+  .card-1-img-desktop {
+    width: 100%;
+  }
+
+  .project-description-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px;
+    position: relative;
+    top: -186px;
+  }
+
+  .project-description-desktop h3 {
+    font-size: 32px;
+  }
+
+  .project-description-desktop .project-technologies-desktop {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: -21px;
+    left: -36px;
+  }
+
+  .project-description-desktop .project-technologies-desktop li {
+    background-color: #98dede;
+    padding: 9px 17px;
+    font-size: 10px;
+  }
+
+  .see-this-project-btn-desktop {
+    text-decoration: none;
+    padding: 11px;
+    background-color: white;
+    color: #1a2236;
+  }
+
+  .see-this-project-btn-desktop:hover {
+    background-color: #1a2236;
+    color: white;
+    border: 1px solid white;
+  }
+
+  .see-this-project-btn-desktop:active {
+    border: 5px solid white;
+  }
+
+  .see-this-project-btn-desktop span {
+    position: relative;
+    top: 7px;
+    left: 3px;
+  }
+
   /* Hide Section 3 | About Section for mobile screens */
   .section-3-mobile {
     display: none;
@@ -1047,11 +1129,33 @@ body {
 @media only screen and (min-width: 820px) {
   /* Styles for Section 1 | Headline Section elements */
   .section-1-texts-desktop .section-1-heading-desktop {
-    font-size: 51px;
+    font-size: 57px;
   }
 
   .section-1-desktop .section-1-texts-desktop .section-1-paragraph-desktop {
     margin-right: 55px;
+  }
+
+  /* Styles for Section 2-1 | Projects Section 2-1 */
+  .section-2-1-heading-desktop {
+    font-size: 57px;
+  }
+  
+  .project-description-desktop {
+    position: relative;
+    top: -195px;
+  }
+
+  .section-2-1-desktop .project-description-desktop h3 {
+    font-size: 37px;
+  }
+
+  .project-description-desktop .project-technologies-desktop li {
+    font-size: 15px;
+  }
+
+  .see-this-project-btn-desktop {
+    font-size: 20px;
   }
 }
 
@@ -1092,6 +1196,36 @@ body {
     height: 586px;
     width: 702px;
   }
+
+  /* Style for Section 2-1 | Projects Section 2-1 */
+  .section-2-1-heading-desktop {
+    font-size: 63px;
+    position: relative;
+    top: -226px;
+    left: 249px;
+  }
+
+  .section-2-1-img-1 {
+    width: 108px;
+    height: 108px;
+  }
+
+  .project-description-desktop {
+    position: relative;
+    top: -219px;
+  }
+
+  .section-2-1-desktop .project-description-desktop h3 {
+    font-size: 43px;
+  }
+
+  .project-description-desktop .project-technologies-desktop li {
+    font-size: 18px;
+  }
+
+  .see-this-project-btn-desktop {
+    font-size: 21px;
+  }
 }
 
 /* Styles for tablet & desktop screen sizes at & above 1024px */
@@ -1104,6 +1238,13 @@ body {
   .section-1-desktop .section-1-texts-desktop .section-1-paragraph-desktop {
     display: block;
     margin-right: 87px;
+  }
+
+  /* Styles for Section 2-1 | Projects Section 2-1 */
+  .section-2-1-heading-desktop {
+    font-size: 76px;
+    position: relative;
+    top: -218px
   }
 }
 
@@ -1136,6 +1277,36 @@ body {
   .section-1-image-2 {
     height: 752px;
     width: 702px;
+  }
+
+  /* Styles for Section 2-1 | Projects Section 2-1 */
+  .section-2-1-heading-desktop {
+    font-size: 82px;
+    position: relative;
+    top: -304px;
+    left: 318px;
+  }
+
+  .section-2-1-img-1 {
+    width: 146px;
+    height: 146px;
+  }
+
+  .project-description-desktop {
+    position: relative;
+    top: -306px;
+  }
+
+  .section-2-1-desktop .project-description-desktop h3 {
+    font-size: 58px;
+  }
+
+  .project-description-desktop .project-technologies-desktop li {
+    font-size: 22px;
+  }
+
+  .see-this-project-btn-desktop {
+    font-size: 28px;
   }
 }
 
@@ -1173,5 +1344,49 @@ body {
   .section-1-image-2 {
     height: 1088px;
     width: 742px;
+  }
+
+  /* Styles for Section 2-1 | Projects Section 2-1 */
+  .section-2-1-heading-desktop {
+    font-size: 110px;
+  }
+
+  .section-2-1-img-1 {
+    width: 211px;
+    height: 211px;
+  }
+
+  .project-description-desktop {
+    padding: 50px 37px;
+    position: relative;
+    top: -357px;
+  }
+  
+  .section-2-1-desktop .project-description-desktop h3 {
+    font-size: 60px;
+  }
+
+  .project-description-desktop .project-technologies-desktop {
+    position: relative;
+    top: -42px;
+  }
+
+  .project-description-desktop .project-technologies-desktop li {
+    font-size: 25px;
+  }
+}
+
+/* Styles for tablet & desktop screen sizes at & above 1800px */
+@media only screen and (min-width: 1800px){
+  /* Styles for Section 2-1 | Projects Section 2-1 */
+  .section-2-1-heading-desktop {
+    position: relative;
+    top: -395px;
+    left: 418px;
+  }
+
+  .project-description-desktop {
+    position: relative;
+    top: -454px;
   }
 }

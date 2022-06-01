@@ -1148,7 +1148,7 @@ body {
     backface-visibility: hidden;
   }
 
-  .middle {
+  .card-2-desktop .middle {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
@@ -1269,6 +1269,161 @@ body {
     left: 3px;
   }
 
+  /* Styles for Section 2-3 | Projects Section 2-3 */
+  .section-2-3-desktop {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    position: relative;
+    top: -306px;
+  }
+
+  .section-2-3-desktop .card-3-desktop,
+  .section-2-3-desktop div {
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .section-2-3-desktop .card-3-desktop {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .container {
+    position: relative;
+    width: 50%;
+  }
+
+  .card-3-img-desktop {
+    opacity: 1;
+    display: block;
+    height: 346px;
+    width: 406px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .card-3-desktop .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 38%;
+    left: 96%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+  }
+
+  .container:hover .card-3-img-desktop {
+    opacity: 0.3;
+  }
+
+  .container:hover .middle {
+    opacity: 1;
+  }
+
+  .middle .see-this-project-btn-desktop {
+    text-decoration: none;
+    padding: 16px 24px;
+    background-color: #1a2236;
+    color: white;
+    font-size: 18px;
+    width: max-content;
+  }
+
+  .middle .see-this-project-btn-desktop:hover {
+    background-color: white;
+    color: #1a2236;
+    border: 1px solid #1a2236;
+  }
+
+  .middle .see-this-project-btn-desktop:active {
+    border: 5px solid #1a2236;
+  }
+
+  .see-this-project-btn-desktop span {
+    position: relative;
+    top: 7px;
+    left: 3px;
+  }
+
+  .section-2-3-desktop .section-2-3-1-desktop {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -73px;
+  }
+
+  .section-2-3-1-desktop  .container {
+    position: relative;
+    width: 50%;
+  }
+
+  .card-5-img-desktop {
+    opacity: 1;
+    display: block;
+    height: 219px;
+    width: 228px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    position: relative;
+    left: 43px;
+  }
+
+  .card-5-desktop .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 52%;
+    left: 93%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+  }
+
+  .container:hover .card-5-img-desktop {
+    opacity: 0.3;
+  }
+
+  .container:hover .middle {
+    opacity: 1;
+  }
+
+  .middle .see-this-project-btn-desktop {
+    text-decoration: none;
+    padding: 16px 24px;
+    background-color: #1a2236;
+    color: white;
+    font-size: 18px;
+    width: max-content;
+  }
+
+  .middle .see-this-project-btn-desktop:hover {
+    background-color: white;
+    color: #1a2236;
+    border: 1px solid #1a2236;
+  }
+
+  .middle .see-this-project-btn-desktop:active {
+    border: 5px solid #1a2236;
+  }
+
+  .see-this-project-btn-desktop span {
+    position: relative;
+    top: 7px;
+    left: 3px;
+  }
+
+  .section-2-3-img-1 {
+    height: 193.417847px;
+    width: 361.75px;
+  }
+
 
   /* Hide Section 3 | About Section for mobile screens */
   .section-3-mobile {
@@ -1323,6 +1478,22 @@ body {
   .section-2-2-desktop {
     position: relative;
     top: -130px;
+  }
+
+  /* Styles for Section 2-3 | Projects Section 2-3 */
+  .section-2-3-desktop {
+    position: relative;
+    top: -314px;
+  }
+
+  .card-5-img-desktop {
+    width: 274px;
+    position: relative;
+    left: 33px;
+  }
+
+  .section-2-3-img-1 {
+    width: 410.75px;
   }
 }
 
@@ -1407,6 +1578,25 @@ body {
   .section-2-2-img-1 {
     width: 305px;
   }
+
+  /* Style for Section 2-3 | Projects Section 2-3 */
+  .section-2-3-desktop {
+    position: relative;
+    top: -336px;
+  }
+
+  .card-3-img-desktop {
+    height: 356px;
+    width: 458px;
+  }
+
+  .card-5-img-desktop {
+    width: 307px
+  }
+
+  .section-2-3-img-1 {
+    width: 451.75px;
+  }
 }
 
 /* Styles for tablet & desktop screen sizes at & above 1024px */
@@ -1453,6 +1643,24 @@ body {
 
   .project-description-card-6-desktop .see-this-project-btn-desktop {
     font-size: 13px;
+  }
+
+  /* Style for Section 2-3 | Projects Section 2-3 */
+  .card-3-img-desktop {
+    height: 368px;
+    width: 511px;
+    position: relative;
+    top: -19px;
+  }
+
+  .card-5-img-desktop {
+    width: 340px;
+    position: relative;
+    left: 43px;
+  }
+
+  .section-2-3-img-1 {
+    width: 509.75px;
   }
 }
 
@@ -1554,6 +1762,35 @@ body {
 
   .project-description-card-6-desktop .see-this-project-btn-desktop {
     font-size: 19px;
+  }
+
+  /* Style for Section 2-3 | Projects Section 2-3 */
+  .section-2-3-desktop {
+    position: relative;
+    top: -401px;
+  }
+
+  .card-3-img-desktop {
+    height: 419px;
+    width: 640px;
+    position: relative;
+    top: 21px;
+  }
+
+  .card-3-desktop .middle {
+    position: absolute;
+    top: 46%;
+  }
+
+  .card-5-img-desktop {
+    width: 426px;
+    position: relative;
+    left: 54px;
+  }
+
+  .section-2-3-img-1 {
+    height: 290px;
+    width: 639.75px;
   }
 }
 
@@ -1672,6 +1909,31 @@ body {
     font-size: 26px;
     padding: 10px;
   }
+
+  /* Style for Section 2-3 | Projects Section 2-3 */
+  .section-2-2-desktop {
+    position: relative;
+    top: -220px;
+  }
+
+  .card-3-img-desktop {
+    height: 501px;
+    width: 749px;
+  }
+
+  .card-5-img-desktop {
+    height: 267px;
+    width: 503px;
+    position: relative;
+    left: 62px;
+  }
+
+  .section-2-3-img-1 {
+    height: 323px;
+    width: 747.75px;
+  }
+
+
 }
 
 /* Styles for tablet & desktop screen sizes at & above 1800px */
@@ -1699,6 +1961,11 @@ body {
     height: 480px;
   }
 
+  .card-2-desktop .middle {
+    position: absolute;
+    top: 41%;
+  }
+
   .middle .see-this-project-btn-desktop {
     padding: 37px 33px;
     font-size: 41px;
@@ -1717,5 +1984,35 @@ body {
 
   .project-description-card-6-desktop h4 {
     font-size: 40px;
+  }
+
+  /* Style for Section 2-3 | Projects Section 2-3 */
+  .card-3-img-desktop {
+    height: 681px;
+    width: 901px;
+    position: relative;
+    top: -57px;
+  }
+
+  .card-3-desktop .middle {
+    position: absolute;
+    top: 35%;
+  }
+
+  .section-2-3-desktop .section-2-3-1-desktop {
+    position: relative;
+    top: -221px;
+  }
+
+  .card-5-img-desktop {
+    height: 316px;
+    width: 594px;
+    position: relative;
+    left: 79px;
+  }
+
+  .section-2-3-img-1 {
+    height: 520px;
+    width: 890.75px;
   }
 }

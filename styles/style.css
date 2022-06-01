@@ -258,8 +258,9 @@ body {
     left: 3px;
   }
 
-  /* Hide Section 2-1 | Projects Section 2-1 for tablet & desktop screens */
-  .section-2-1-desktop {
+  /* Hide Section 2-1, Section 2-2 | Projects Section 2-1, 2-2 for tablet & desktop screens */
+  .section-2-1-desktop,
+  .section-2-2-desktop {
     display: none;
   }
 
@@ -692,8 +693,9 @@ body {
     left: 3px;
   }
 
-  /* Hide Section 2-1 | Projects Section 2-1 for tablet & desktop screens */
-  .section-2-1-desktop {
+  /* Hide Section 2-1, Section 2-2 | Projects Section 2-1, 2-2 for tablet & desktop screens */
+  .section-2-1-desktop,
+  .section-2-2-desktop {
     display: none;
   }
 

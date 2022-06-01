@@ -1111,6 +1111,163 @@ body {
     left: 3px;
   }
 
+  /* Styles for Section 2-2 | Projects Section 2-2 */
+  .section-2-2-desktop {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    position: relative;
+    top: -121px;
+  }
+
+  .card-2-desktop,
+  .section-2-2-img-1, 
+  .card-6-desktop {
+    grid-row-start: 1;
+    grid-row-end: 2;
+  } 
+
+  .card-2-desktop {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .container {
+    position: relative;
+    width: 50%;
+  }
+
+  .card-2-img-desktop {
+    opacity: 1;
+    display: block;
+    height: 237px;
+    width: 269px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 31%;
+    left: 96%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+  }
+
+  .container:hover .card-2-img-desktop {
+    opacity: 0.3;
+  }
+
+  .container:hover .middle {
+    opacity: 1;
+  }
+
+  .middle .see-this-project-btn-desktop {
+    text-decoration: none;
+    padding: 16px 24px;
+    background-color: #1a2236;
+    color: white;
+    font-size: 18px;
+    width: max-content;
+  }
+
+  .middle .see-this-project-btn-desktop:hover {
+    background-color: white;
+    color: #1a2236;
+    border: 1px solid #1a2236;
+  }
+
+  .middle .see-this-project-btn-desktop:active {
+    border: 5px solid #1a2236;
+  }
+
+  .see-this-project-btn-desktop span {
+    position: relative;
+    top: 7px;
+    left: 3px;
+  }
+
+  .section-2-2-img-1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 300.000122px;
+    width: 274px;
+    position: relative;
+    top: -65px;
+  }
+
+  .card-6-desktop {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    width: 100%;
+  }
+
+  .card-6-img-desktop {
+    height: 257px;
+    width: 225px;
+    position: relative;
+    top: -45px;
+  }
+
+  .project-description-card-6-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 5px 0px 8px;
+    position: relative;
+    top: -257px;
+  }
+
+  .project-description-card-6-desktop h4 {
+    font-size: 17px;
+  }
+
+  .project-description-card-6-desktop .project-technologies-desktop {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: -28px;
+    left: -36px;
+  }
+
+  .project-description-card-6-desktop .project-technologies-desktop li {
+    background-color: #98dede;
+    padding: 6px;
+    font-size: 10px;
+  }
+
+  .project-description-card-6-desktop .see-this-project-btn-desktop {
+    text-decoration: none;
+    padding: 2px 6px;
+    background-color: white;
+    color: #1a2236;
+    font-size: 13px;
+    position: relative;
+    top: -25px;
+  }
+
+  .project-description-card-6-desktop .see-this-project-btn-desktop:hover {
+    background-color: #1a2236;
+    color: white;
+    border: 1px solid white;
+  }
+
+  .project-description-card-6-desktop .see-this-project-btn-desktop:active {
+    border: 5px solid white;
+  }
+
+  .see-this-project-btn-desktop span {
+    position: relative;
+    top: 7px;
+    left: 3px;
+  }
+
+
   /* Hide Section 3 | About Section for mobile screens */
   .section-3-mobile {
     display: none;
@@ -1158,6 +1315,12 @@ body {
 
   .see-this-project-btn-desktop {
     font-size: 20px;
+  }
+
+  /* Styles for Section 2-2 | Projects Section 2-2 */
+  .section-2-2-desktop {
+    position: relative;
+    top: -130px;
   }
 }
 
@@ -1228,6 +1391,20 @@ body {
   .see-this-project-btn-desktop {
     font-size: 21px;
   }
+
+  /* Styles for Section 2-2 | Projects Section 2-2 */
+  .section-2-2-desktop {
+    position: relative;
+    top: -154px;
+  }
+
+  .card-2-img-desktop {
+    width: 303px;
+  }
+
+  .section-2-2-img-1 {
+    width: 305px;
+  }
 }
 
 /* Styles for tablet & desktop screen sizes at & above 1024px */
@@ -1247,6 +1424,33 @@ body {
     font-size: 76px;
     position: relative;
     top: -218px
+  }
+
+  /* Styles for Section 2-2 | Projects Section 2-2 */
+  .card-2-img-desktop {
+    width: 341px;
+    height: 257px;
+  }
+
+  .section-2-2-img-1 {
+    width: 341px;
+    height: 320px;
+  }
+
+  .card-6-img-desktop {
+    width: 257px;
+  }
+
+  .project-description-card-6-desktop h4 {
+    font-size: 25px;
+  }
+
+  .project-description-card-6-desktop .project-technologies-desktop li {
+    font-size: 12px;
+  }
+
+  .project-description-card-6-desktop .see-this-project-btn-desktop {
+    font-size: 13px;
   }
 }
 
@@ -1309,6 +1513,45 @@ body {
 
   .see-this-project-btn-desktop {
     font-size: 28px;
+  }
+
+  /* Styles for Section 2-2 | Projects Section 2-2 */
+  .section-2-2-desktop {
+    position: relative;
+    top: -218px;
+  }
+
+  .card-2-img-desktop {
+    width: 426px;
+    height: 314px;
+  }
+
+  .middle .see-this-project-btn-desktop {
+    padding: 22px 33px;
+    font-size: 25px;
+  }
+
+  .section-2-2-img-1 {
+    width: 428px;
+    height: 399px;
+    position: relative;
+    top: -89px;
+  }
+
+  .card-6-img-desktop {
+    width: 322px;
+  }
+
+  .project-description-card-6-desktop h4 {
+    font-size: 28px;
+  }
+
+  .project-description-card-6-desktop .project-technologies-desktop li {
+    font-size: 15px;
+  }
+
+  .project-description-card-6-desktop .see-this-project-btn-desktop {
+    font-size: 19px;
   }
 }
 
@@ -1376,6 +1619,57 @@ body {
   .project-description-desktop .project-technologies-desktop li {
     font-size: 25px;
   }
+
+  /* Styles for Section 2-2 | Projects Section 2-2 */
+  .section-2-2-desktop {
+    position: relative;
+    top: -269px;
+  }
+
+  .card-2-img-desktop {
+    width: 499px;
+    height: 408px;
+  }
+
+  .middle {
+    position: absolute;
+    top: 38%;
+    left: 98%;
+  }
+
+  .middle .see-this-project-btn-desktop {
+    padding: 37px 33px;
+    font-size: 32px;
+  }
+
+  .section-2-2-img-1 {
+    width: 500px;
+    height: 493px;
+    position: relative;
+    top: -89px;
+  }
+
+  .card-6-img-desktop {
+    width: 409px;
+  }
+
+  .project-description-card-6-desktop {
+    padding: 0 5px 9px 14px;
+  }
+
+  .project-description-card-6-desktop h4 {
+    font-size: 38px;
+  }
+
+  .project-description-card-6-desktop .project-technologies-desktop li {
+    font-size: 22px;
+    padding: 10px;
+  }
+
+  .project-description-card-6-desktop .see-this-project-btn-desktop {
+    font-size: 26px;
+    padding: 10px;
+  }
 }
 
 /* Styles for tablet & desktop screen sizes at & above 1800px */
@@ -1390,5 +1684,36 @@ body {
   .project-description-desktop {
     position: relative;
     top: -454px;
+  }
+
+  /* Styles for Section 2-2 | Projects Section 2-2 */
+  .section-2-2-desktop {
+    position: relative;
+    top: -365px;
+  }
+
+  .card-2-img-desktop {
+    width: 601px;
+    height: 480px;
+  }
+
+  .middle .see-this-project-btn-desktop {
+    padding: 37px 33px;
+    font-size: 41px;
+  }
+
+  .section-2-2-img-1 {
+    width: 604px;
+    height: 562px;
+    position: relative;
+    top: -89px;
+  }
+
+  .card-6-img-desktop {
+    width: 421px;
+  }
+
+  .project-description-card-6-desktop h4 {
+    font-size: 40px;
   }
 }

@@ -502,6 +502,11 @@ body {
     margin-bottom: 0;
     padding-left: 0;
   }
+
+  /* Hide Footer Section for tablet & desktop screens */
+  .footer-desktop {
+    display: none;
+  }
 }
 
 /* Styles for mobile screens sizes at & above 320px */
@@ -953,6 +958,11 @@ body {
     margin-top: 30px;
     margin-bottom: 0;
     padding-left: 0;
+  }
+
+  /* Hide Footer Section for tablet & desktop screens */
+  .footer-desktop {
+    display: none;
   }
 }
 

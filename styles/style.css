@@ -1691,6 +1691,114 @@ body {
     display: none;
   }
 
+  /* Styles for Section 4 | Get Started Section (Contact Form) */
+  .section-4-desktop {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    background-color: #F9F9FA;
+  }
+
+  .section-4-desktop .section-4-img-1 {
+    background-image: url("../images/image-geometry_6.svg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+    background-color: #F9F9FA;
+    width: 590px;
+    height: 487px;
+  }
+
+  .section-4-form-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 2px;
+  }
+
+  .section-4-form-desktop .section-4-texts-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-4-form-desktop .section-4-heading-desktop {
+    font-size: 89px;
+  }
+
+  .section-4-form-desktop .section-4-paragraph-desktop {
+    font-size: 16px;
+    margin-top: -10px;
+    word-break: break-all;
+  }
+
+  .section-4-form-desktop .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-4-form-desktop .contact-form .name-email-container {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+  }
+
+  .section-4-form-desktop .contact-form .user-name-section label,
+  .section-4-form-desktop .contact-form .user-email-section label {
+    color: #7d7c84;
+    font-size: 10px;
+    position: relative;
+    top: 19px;
+    left: 10px;
+  }
+
+  .section-4-form-desktop .contact-form .user-name {
+    color: #7d7c84;
+    padding: 20px 86px 15px 11px;
+    border: 1px solid #dfdfe0;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  .section-4-form-desktop .contact-form .user-email {
+    color: #7d7c84;
+    padding: 20px 1px 15px 11px;
+    border: 1px solid #dfdfe0;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  .section-4-form-desktop .contact-form .user-submit-btn {
+    margin-top: 15px;
+    text-align: center;
+    padding: 20px 97px;
+    border: none;
+  }
+
+  .section-4-form-desktop .contact-form .user-submit-btn:hover {
+    background-color: white;
+    color: #1a2236;
+    border: 1px solid #1a2236;
+  }
+
+  .section-4-form-desktop .contact-form .user-submit-btn:active {
+    border: 5px solid #1a2236;
+  }
+
+  .section-4-desktop .section-4-img-2 {
+    background-image: url("../images/image-geometry_7.svg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+    background-color: #F9F9FA;
+    width: 684px;
+    height: 175px;
+    position: relative;
+    top: 652px;
+  }
+
+
   /* Hide Footer Section for mobile screens */
   .footer-mobile {
     display: none;
@@ -1775,6 +1883,12 @@ body {
     position: relative;
     top: 5px;
     left: 108px;
+  }
+
+  /* Styles for Section 4 | Get Started (Contact Form) Section */
+  .section-4-desktop .section-4-img-2 {
+    position: relative;
+    top: 628px;
   }
 }
 
@@ -2229,6 +2343,18 @@ body {
   .section-3-1-button-desktop a {
     font-size: 20px;
   }
+
+  /* Styles for Section 4 | Get Started (Contact Form) Section */
+  .section-4-form-desktop .section-4-paragraph-desktop {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .section-4-desktop .section-4-img-2 {
+    position: relative;
+    top: 548px;
+    height: 257px;
+  }
 }
 
 /* Styles for tablet & desktop screen sizes at & above 1500px */
@@ -2416,6 +2542,22 @@ body {
     padding: 30px 58px;
     font-size: 28px;
   }
+
+  /* Styles for Section 4 | Get Started (Contact Form) Section */
+  .section-4-form-desktop .section-4-paragraph-desktop {
+    margin-left: 241px;
+    margin-right: 241px;
+    font-size: 24px;
+  }
+
+  .section-4-desktop .section-4-img-2 {
+    position: relative;
+    top: 631px;
+  }
+
+  .section-4-form-desktop .contact-form .user-submit-btn {
+    font-size: 19px;
+  }
 }
 
 /* Styles for tablet & desktop screen sizes at & above 1800px */
@@ -2539,5 +2681,20 @@ body {
   .section-3-1-button-desktop a {
     font-size: 35px;
     padding: 22px 64px;
+  }
+
+  /* Styles for Section 4 | Get Started (Contact Form) Section */
+  .section-4-form-desktop .section-4-heading-desktop {
+    font-size: 110px;
+  }
+
+  .section-4-form-desktop .contact-form .user-name,
+  .section-4-form-desktop .contact-form .user-email {
+    padding: 33px 154px 15px 11px;
+  }
+
+  .section-4-desktop .section-4-img-2 {
+    position: relative;
+    top: 684px;
   }
 }

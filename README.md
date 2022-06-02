@@ -19,7 +19,6 @@
 
 ![Website preview](images/preview.png)
 
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -71,7 +70,10 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
-- Learning Partner: 1. Amol Charpe   2. Okolo Oshoke
+- Coding & Learning Partners: 
+  1. Okolo Oshoke
+  2. Amol Charpe 
+  3. Clifford Owusu
 - Stand-Up Team
 - Microverse TSEs
 - Figma 

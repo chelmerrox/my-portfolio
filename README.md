@@ -13,8 +13,11 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/chelmerrox/my-portfolio/milestone-2/index.html)
+[Live Demo Link](https://raw.githack.com/chelmerrox/my-portfolio/milestone-4/index.html)
 
+## Preview
+
+![Website preview](images/preview.png)
 
 ## Getting Started
 
@@ -67,8 +70,12 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
-- Learning Partner: 1. Amol Charpe   2. Okolo Oshoke
-- Stand-Up Team
+- Coding & Learning Partners: 
+  1. Okolo Oshoke
+  2. Amol Charpe 
+  3. Clifford Owusu
+- Morning Session Teams
+- Stand-Up Teams
 - Microverse TSEs
 - Figma 
 

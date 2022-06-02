@@ -50,6 +50,14 @@ body {
   margin-right: 3px;
 }
 
+.mr-52 {
+  margin-right: 52px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
 /* Styles for mobile screens sizes at most 319px */
 @media only screen and (max-width: 319px) {
   .nav-mobile {
@@ -69,6 +77,11 @@ body {
     position: relative;
     top: 19px;
     right: 16px;
+  }
+
+  /* Hide Navbar for tablet & desktop screens */
+  .nav-desktop {
+    display: none;
   }
 
   /* Styles for Section 1 | Headline Section */
@@ -130,6 +143,11 @@ body {
     height: 160px;
     position: relative;
     top: 50px;
+  }
+
+  /* Hide Section 1 | Headline Section for tablet & desktop screens */
+  .section-1-desktop {
+    display: none;
   }
 
   /* Section 2 | Projects Section */
@@ -244,6 +262,15 @@ body {
     left: 3px;
   }
 
+  /* Hide Section 2-1, Section 2-2, Section 2-3, Section 2-4 |
+  Projects Section 2-1, 2-2, 2-3, 2-4 for tablet & desktop screens */
+  .section-2-1-desktop,
+  .section-2-2-desktop,
+  .section-2-3-desktop,
+  .section-2-4-desktop {
+    display: none;
+  }
+
   /* Section 3 | About Section for mobile screens */
   .section-3-heading-mobile {
     font-size: 50px;
@@ -345,6 +372,11 @@ body {
     top: 30px;
   }
 
+  /* Hide Section 3 |  About Section for tablet & desktop screens */
+  .section-3-desktop {
+    display: none;
+  }
+
   /* Section 4 | Get Started Section for mobile screens */
   .section-4-mobile {
     padding-bottom: 38px;
@@ -440,6 +472,11 @@ body {
     border: 5px solid #1a2236;
   }
 
+  /* Hide Section 4 |  Contact Form Section for tablet & desktop screens */
+  .section-4-desktop {
+    display: none;
+  }
+
   /* Footer Section for mobile screens */
   .footer-mobile {
     width: 100%;
@@ -469,6 +506,11 @@ body {
     margin-bottom: 0;
     padding-left: 0;
   }
+
+  /* Hide Footer Section for tablet & desktop screens */
+  .footer-desktop {
+    display: none;
+  }
 }
 
 /* Styles for mobile screens sizes at & above 320px */
@@ -488,6 +530,11 @@ body {
     position: relative;
     top: 19px;
     right: 16px;
+  }
+
+  /* Hide Navbar for tablet & desktop screens */
+  .nav-desktop {
+    display: none;
   }
 
   /* Styles for Section 1/Headline Section */
@@ -549,6 +596,11 @@ body {
     height: 160px;
     position: relative;
     top: 50px;
+  }
+
+  /* Hide Section 1 | Headline Section for tablet & desktop screens */
+  .section-1-desktop {
+    display: none;
   }
 
   /* Section 2 | Projects Section */
@@ -663,6 +715,15 @@ body {
     left: 3px;
   }
 
+  /* Hide Section 2-1, Section 2-2, Section 2-3, Section 2-4 |
+  Projects Section 2-1, 2-2, 2-3, 2-4 for tablet & desktop screens */
+  .section-2-1-desktop,
+  .section-2-2-desktop,
+  .section-2-3-desktop,
+  .section-2-4-desktop {
+    display: none;
+  }
+
   /* Section 3 | About Section for mobile screens */
   .section-3-heading-mobile {
     font-size: 50px;
@@ -764,6 +825,11 @@ body {
     top: 30px;
   }
 
+  /* Hide Section 3 |  About Section for tablet & desktop screens */
+  .section-3-desktop {
+    display: none;
+  }
+
   /* Section 4 | Get Started Section for mobile screens */
   .section-4-mobile {
     padding-bottom: 38px;
@@ -863,6 +929,11 @@ body {
     border: 5px solid #1a2236;
   }
 
+  /* Hide Section 4 |  Contact Form Section for tablet & desktop screens */
+  .section-4-desktop {
+    display: none;
+  }
+
   .footer-mobile {
     width: 100%;
     padding: 25px 15px;
@@ -891,5 +962,1672 @@ body {
     margin-top: 30px;
     margin-bottom: 0;
     padding-left: 0;
+  }
+
+  /* Hide Footer Section for tablet & desktop screens */
+  .footer-desktop {
+    display: none;
+  }
+}
+
+/* Styles for tablet & desktop screen sizes at & above 768px */
+@media only screen and (min-width: 768px) {
+  /* Hide navbar for mobile screens */
+  .nav-mobile {
+    display: none;
+  }
+
+  /* Styles for navbar */
+  .nav-desktop {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: 1px solid #dddfe6;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+  }
+
+  .nav-desktop ul {
+    list-style: none;
+    display: flex;
+  }
+
+  .section-3-1-button-desktop a {
+    text-decoration: none;
+    padding: 15px 32px;
+    font-size: 15px;
+  }
+
+  .footer-1-desktop a {
+    text-decoration: none;
+    color: #92dcdc;
+  }
+
+  .nav-desktop ul li a {
+    text-decoration: none;
+  }
+
+  .nav-desktop ul li .nav-hello-desktop::after {
+    content: ' ';
+    border-bottom: 1px solid #1a2236;
+    width: 30px;
+    display: flex;
+    margin-right: 39px;
+  }
+
+  /* Hide Section 1 | Headline Section for mobile screens */
+  .section-1-mobile,
+  .section-1-button-mobile,
+  .section-1-img-mobile {
+    display: none;
+  }
+
+  /* Styles for Section 1 | Headline Section */
+  .section-1-desktop {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .section-1-texts-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    top: 43px;
+    left: 76px;
+  }
+
+  .section-1-texts-desktop .section-1-heading-desktop {
+    font-size: 42px;
+  }
+
+  .section-1-texts-desktop .section-1-paragraph-desktop {
+    font-size: 11px;
+    position: relative;
+    top: -28px;
+    margin-right: 54px;
+  }
+
+  .section-1-button-desktop {
+    text-decoration: none;
+    font-size: 13px;
+    margin-top: -7px;
+    padding: 13px 26px;
+  }
+
+  .section-1-button-desktop:hover {
+    color: #1a2236;
+    background-color: white;
+    border: 1px solid #1a2236;
+  }
+
+  .section-1-button-desktop:active {
+    border: 5px solid #1a2236;
+  }
+
+  .section-1-image-1 {
+    height: 98px;
+    width: 98px;
+    position: relative;
+    top: 382px;
+  }
+
+  .section-1-image-2 {
+    height: 481px;
+    width: 702px;
+  }
+
+  /* Hide Section 2 | Projects Section for mobile screens */
+  .section-2-mobile {
+    display: none;
+  }
+
+  /* Styles for Section 2-1 | Projects Section 2-1 */
+  .section-2-1-desktop {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section-2-1-heading-desktop {
+    font-size: 51px;
+    position: relative;
+    bottom: 191px;
+    left: 211px;
+    transform: rotate(270deg);
+  }
+
+  .section-2-1-img-1 {
+    width: 98px;
+    height: 98px;
+    position: relative;
+    top: 3px;
+    left: -2px;
+  }
+
+  .card-1-desktop {
+    width: 100%;
+  }
+
+  .card-1-img-desktop {
+    width: 100%;
+  }
+
+  .project-description-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px;
+    position: relative;
+    top: -186px;
+  }
+
+  .project-description-desktop h3 {
+    font-size: 32px;
+  }
+
+  .project-description-desktop .project-technologies-desktop {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: -21px;
+    left: -36px;
+  }
+
+  .lang-desktop ul li,
+  .frame-desktop ul li,
+  .skills-desktop ul li {
+    font-size: 19px;
+  }
+
+  .project-description-desktop .project-technologies-desktop li {
+    background-color: #98dede;
+    padding: 9px 17px;
+    font-size: 10px;
+  }
+
+  .see-this-project-btn-desktop {
+    text-decoration: none;
+    padding: 11px;
+    background-color: white;
+    color: #1a2236;
+  }
+
+  .see-this-project-btn-desktop:hover {
+    background-color: #1a2236;
+    color: white;
+    border: 1px solid white;
+  }
+
+  .see-this-project-btn-desktop:active {
+    border: 5px solid white;
+  }
+
+  .see-this-project-btn-desktop span {
+    position: relative;
+    top: 7px;
+    left: 3px;
+  }
+
+  /* Styles for Section 2-2 | Projects Section 2-2 */
+  .section-2-2-desktop {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    position: relative;
+    top: -121px;
+  }
+
+  .card-2-desktop,
+  .section-2-2-img-1,
+  .card-6-desktop {
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .card-2-desktop {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .container {
+    position: relative;
+    width: 50%;
+  }
+
+  .card-2-img-desktop {
+    opacity: 1;
+    display: block;
+    height: 237px;
+    width: 269px;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+  }
+
+  .card-2-desktop .middle {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 31%;
+    left: 96%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+  }
+
+  .container:hover .card-2-img-desktop {
+    opacity: 0.3;
+  }
+
+  .card-3-desktop .middle {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 38%;
+    left: 96%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+  }
+
+  .card-5-desktop .middle {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 52%;
+    left: 93%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+  }
+
+  .card-4-desktop .middle {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 52%;
+    left: 91%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+  }
+
+  .container:hover .middle {
+    opacity: 1;
+  }
+
+  .middle .see-this-project-btn-desktop {
+    text-decoration: none;
+    padding: 16px 24px;
+    background-color: #1a2236;
+    color: white;
+    font-size: 18px;
+    width: max-content;
+  }
+
+  .project-description-card-6-desktop .see-this-project-btn-desktop {
+    text-decoration: none;
+    padding: 2px 6px;
+    background-color: white;
+    color: #1a2236;
+    font-size: 13px;
+    position: relative;
+    top: -25px;
+  }
+
+  .middle .see-this-project-btn-desktop:hover {
+    background-color: white;
+    color: #1a2236;
+    border: 1px solid #1a2236;
+  }
+
+  .middle .see-this-project-btn-desktop:active {
+    border: 5px solid #1a2236;
+  }
+
+  .section-2-2-img-1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 300.000122px;
+    width: 274px;
+    position: relative;
+    top: -65px;
+  }
+
+  .card-6-desktop {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    width: 100%;
+  }
+
+  .card-6-img-desktop {
+    height: 257px;
+    width: 225px;
+    position: relative;
+    top: -45px;
+  }
+
+  .project-description-card-6-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 5px 0 8px;
+    position: relative;
+    top: -257px;
+  }
+
+  .project-description-card-6-desktop h4 {
+    font-size: 17px;
+  }
+
+  .project-description-card-6-desktop .project-technologies-desktop {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: -28px;
+    left: -36px;
+  }
+
+  .project-description-card-6-desktop .project-technologies-desktop li {
+    background-color: #98dede;
+    padding: 6px;
+    font-size: 10px;
+  }
+
+  .project-description-card-6-desktop .see-this-project-btn-desktop:hover {
+    background-color: #1a2236;
+    color: white;
+    border: 1px solid white;
+  }
+
+  .project-description-card-6-desktop .see-this-project-btn-desktop:active {
+    border: 5px solid white;
+  }
+
+  /* Styles for Section 2-3 | Projects Section 2-3 */
+  .section-2-3-desktop {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    position: relative;
+    top: -306px;
+  }
+
+  .section-2-3-desktop .card-3-desktop,
+  .section-2-3-desktop div {
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .section-2-3-desktop .card-3-desktop {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .card-3-img-desktop {
+    opacity: 1;
+    display: block;
+    height: 346px;
+    width: 406px;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+  }
+
+  .container:hover .card-3-img-desktop {
+    opacity: 0.3;
+  }
+
+  .section-2-3-desktop .section-2-3-1-desktop {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -73px;
+  }
+
+  .section-2-3-1-desktop .container {
+    position: relative;
+    width: 50%;
+  }
+
+  .card-5-img-desktop {
+    opacity: 1;
+    display: block;
+    height: 219px;
+    width: 228px;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+    position: relative;
+    left: 43px;
+  }
+
+  .container:hover .card-5-img-desktop {
+    opacity: 0.3;
+  }
+
+  .section-2-3-img-1 {
+    height: 193.417847px;
+    width: 361.75px;
+  }
+
+  /* Styles for Section 2-4 | Projects Section 2-4 */
+  .section-2-4-desktop {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    position: relative;
+    top: -374px;
+  }
+
+  .section-2-4-img-1,
+  .section-2-4-img-2,
+  .card-4-desktop {
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+
+  .section-2-4-img-1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 142px;
+  }
+
+  .section-2-4-img-2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 59px;
+    position: relative;
+    left: 144px;
+  }
+
+  .card-4-desktop {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin-right: 64px;
+  }
+
+  .card-4-img-desktop {
+    opacity: 1;
+    display: block;
+    height: 226px;
+    width: 300px;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+  }
+
+  .container:hover .card-4-img-desktop {
+    opacity: 0.3;
+  }
+
+  /* Hide Section 3 | About Section for mobile screens */
+  .section-3-mobile {
+    display: none;
+  }
+
+  /* Styles for Section 3 | About Section */
+  .section-3-desktop {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+    top: -198px;
+  }
+
+  .lang-frame-skills-desktop {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .lang-desktop,
+  .frame-desktop {
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .skills-desktop,
+  .lang-frame-skills-desktop img {
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .lang-desktop,
+  .skills-desktop {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .frame-desktop,
+  .lang-frame-skills-desktop img {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  .lang-desktop,
+  .frame-desktop,
+  .skills-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 40px 0 40px;
+  }
+
+  .lang-desktop {
+    background-color: #1c528a;
+  }
+
+  .frame-desktop {
+    background-color: #e2505c;
+  }
+
+  .skills-desktop {
+    background-color: #febf52;
+  }
+
+  .lang-desktop h3,
+  .frame-desktop h3,
+  .skills-desktop h3 {
+    font-size: 23px;
+  }
+
+  .lang-frame-skills-desktop img {
+    width: 173px;
+    height: 173px;
+    position: relative;
+    top: 202px;
+    left: 54px;
+  }
+
+  .lang-frame-skills-desktop .lang-desktop img,
+  .lang-frame-skills-desktop .frame-desktop img,
+  .lang-frame-skills-desktop .skills-desktop img {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 2px;
+    left: 89px;
+  }
+
+  .section-3-1-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .section-3-1-desktop .section-3-1-heading-desktop {
+    font-size: 62px;
+  }
+
+  .section-3-1-paragraph-desktop {
+    font-size: 16px;
+  }
+
+  .section-3-1-button-desktop {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-3-1-button-desktop a span {
+    position: relative;
+    top: 6px;
+    left: 14px;
+  }
+
+  .section-3-1-button-desktop a:hover {
+    color: #1a2236;
+    background-color: white;
+    border: 1px solid #1a2236;
+  }
+
+  .section-3-1-button-desktop a span svg .download-icon-path-1:hover,
+  .section-3-1-button-desktop a span svg .download-icon-path-2:hover {
+    fill: #1a2236;
+  }
+
+  .section-3-1-button-desktop a:active {
+    border: 5px solid #1a2236;
+  }
+
+  /* Hide Section 4 | Get Started Section (Contact Form) for mobile screens */
+  .section-4-mobile {
+    display: none;
+  }
+
+  /* Styles for Section 4 | Get Started Section (Contact Form) */
+  .section-4-desktop {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    background-color: #f9f9fa;
+  }
+
+  .section-4-desktop .section-4-img-1 {
+    background-image: url("../images/image-geometry_6.svg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+    background-color: #f9f9fa;
+    width: 590px;
+    height: 487px;
+  }
+
+  .section-4-form-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 2px;
+  }
+
+  .section-4-form-desktop .section-4-texts-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-4-form-desktop .section-4-heading-desktop {
+    font-size: 89px;
+  }
+
+  .section-4-form-desktop .section-4-paragraph-desktop {
+    font-size: 16px;
+    margin-top: -10px;
+    word-break: break-all;
+  }
+
+  .section-4-form-desktop .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-4-form-desktop .contact-form .name-email-container {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+  }
+
+  .section-4-form-desktop .contact-form .user-name-section label,
+  .section-4-form-desktop .contact-form .user-email-section label {
+    color: #7d7c84;
+    font-size: 10px;
+    position: relative;
+    top: 19px;
+    left: 10px;
+  }
+
+  .section-4-form-desktop .contact-form .user-name {
+    color: #7d7c84;
+    padding: 20px 86px 15px 11px;
+    border: 1px solid #dfdfe0;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  .section-4-form-desktop .contact-form .user-email {
+    color: #7d7c84;
+    padding: 20px 1px 15px 11px;
+    border: 1px solid #dfdfe0;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  .section-4-form-desktop .contact-form .user-submit-btn {
+    margin-top: 15px;
+    text-align: center;
+    padding: 20px 97px;
+    border: none;
+  }
+
+  .section-4-form-desktop .contact-form .user-submit-btn:hover {
+    background-color: white;
+    color: #1a2236;
+    border: 1px solid #1a2236;
+  }
+
+  .section-4-form-desktop .contact-form .user-submit-btn:active {
+    border: 5px solid #1a2236;
+  }
+
+  .section-4-desktop .section-4-img-2 {
+    background-image: url("../images/image-geometry_7.svg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+    background-color: #f9f9fa;
+    width: 684px;
+    height: 175px;
+    position: relative;
+    top: 652px;
+  }
+
+  /* Hide Footer Section for mobile screens */
+  .footer-mobile {
+    display: none;
+  }
+
+  .footer-desktop {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 25px 15px;
+  }
+
+  .footer-desktop .footer-1-desktop a span {
+    position: relative;
+    top: 5px;
+    left: 8px;
+  }
+
+  .footer-desktop .footer-2-desktop {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+}
+
+/* Styles for tablet & desktop screen sizes at & above 820px */
+@media only screen and (min-width: 820px) {
+  /* Styles for Section 1 | Headline Section elements */
+  .section-1-texts-desktop .section-1-heading-desktop {
+    font-size: 57px;
+  }
+
+  .section-1-desktop .section-1-texts-desktop .section-1-paragraph-desktop {
+    margin-right: 55px;
+  }
+
+  /* Styles for Section 2-1 | Projects Section 2-1 */
+  .section-2-1-heading-desktop {
+    font-size: 57px;
+  }
+
+  .project-description-desktop {
+    position: relative;
+    top: -195px;
+  }
+
+  .lang-desktop h3,
+  .frame-desktop h3,
+  .skills-desktop h3 {
+    font-size: 34px;
+  }
+
+  .section-2-1-desktop .project-description-desktop h3 {
+    font-size: 37px;
+  }
+
+  .project-description-desktop .project-technologies-desktop li {
+    font-size: 15px;
+  }
+
+  .see-this-project-btn-desktop {
+    font-size: 20px;
+  }
+
+  /* Styles for Section 2-2 | Projects Section 2-2 */
+  .section-2-2-desktop {
+    position: relative;
+    top: -130px;
+  }
+
+  /* Styles for Section 2-3 | Projects Section 2-3 */
+  .section-2-3-desktop {
+    position: relative;
+    top: -314px;
+  }
+
+  .card-5-img-desktop {
+    width: 274px;
+    position: relative;
+    left: 33px;
+  }
+
+  .section-2-3-img-1 {
+    width: 410.75px;
+  }
+
+  /* Styles for Section 2-4 | Projects Section 2-4 */
+  .section-2-4-desktop {
+    position: relative;
+    top: -382px;
+  }
+
+  .card-4-img-desktop {
+    width: 351px;
+  }
+
+  /* Styles for Section 3 | About Section 3 */
+  .lang-desktop,
+  .frame-desktop,
+  .skills-desktop {
+    padding: 10px 50px 0 50px;
+  }
+
+  .lang-frame-skills-desktop .lang-desktop img,
+  .lang-frame-skills-desktop .frame-desktop img,
+  .lang-frame-skills-desktop .skills-desktop img {
+    position: relative;
+    top: 5px;
+    left: 108px;
+  }
+
+  /* Styles for Section 4 | Get Started (Contact Form) Section */
+  .section-4-desktop .section-4-img-2 {
+    position: relative;
+    top: 628px;
+  }
+}
+
+/* Styles for tablet & desktop screen sizes at & above 912px */
+@media only screen and (min-width: 912px) {
+  /* Styles for Section 1 | Headline Section elements */
+  .section-1-texts-desktop {
+    position: relative;
+    top: 31px;
+    left: 76px;
+  }
+
+  .section-1-desktop .section-1-heading-desktop {
+    font-size: 60px;
+  }
+
+  .section-1-desktop .section-1-heading-desktop span {
+    display: block;
+  }
+
+  .section-1-desktop .section-1-texts-desktop .section-1-paragraph-desktop {
+    font-size: 15px;
+    margin-right: 17px;
+  }
+
+  .section-1-button-desktop {
+    font-size: 17px;
+  }
+
+  .section-1-image-1 {
+    height: 108px;
+    width: 108px;
+    position: relative;
+    top: 475px;
+  }
+
+  .section-1-image-2 {
+    height: 586px;
+    width: 702px;
+  }
+
+  /* Style for Section 2-1 | Projects Section 2-1 */
+  .section-2-1-heading-desktop {
+    font-size: 63px;
+    position: relative;
+    top: -226px;
+    left: 249px;
+  }
+
+  .section-2-1-img-1 {
+    width: 108px;
+    height: 108px;
+  }
+
+  .project-description-desktop {
+    position: relative;
+    top: -219px;
+  }
+
+  .section-2-1-desktop .project-description-desktop h3 {
+    font-size: 43px;
+  }
+
+  .project-description-desktop .project-technologies-desktop li {
+    font-size: 18px;
+  }
+
+  .see-this-project-btn-desktop {
+    font-size: 21px;
+  }
+
+  /* Styles for Section 2-2 | Projects Section 2-2 */
+  .section-2-2-desktop {
+    position: relative;
+    top: -154px;
+  }
+
+  .card-2-img-desktop {
+    width: 303px;
+  }
+
+  .section-2-2-img-1 {
+    width: 305px;
+  }
+
+  /* Style for Section 2-3 | Projects Section 2-3 */
+  .section-2-3-desktop {
+    position: relative;
+    top: -336px;
+  }
+
+  .card-3-img-desktop {
+    height: 356px;
+    width: 458px;
+  }
+
+  .card-5-img-desktop {
+    width: 307px;
+  }
+
+  .section-2-3-img-1 {
+    width: 451.75px;
+  }
+
+  /* Styles for Section 2-4 | Projects Section 2-4 */
+  .section-2-4-desktop {
+    position: relative;
+    top: -393px;
+  }
+
+  .section-2-4-img-1 {
+    width: 170px;
+  }
+
+  .section-2-4-img-2 {
+    width: 68px;
+    position: relative;
+    left: 160px;
+  }
+
+  .card-4-img-desktop {
+    width: 393px;
+    height: 310px;
+  }
+
+  .middle .see-this-project-btn-desktop {
+    font-size: 32px;
+  }
+
+  /* Styles for Section 3 | About Section */
+  .lang-desktop,
+  .frame-desktop,
+  .skills-desktop {
+    padding: 10px 70px 0 70px;
+  }
+
+  .section-3-1-button-desktop a {
+    font-size: 17px;
+  }
+}
+
+/* Styles for tablet & desktop screen sizes at & above 1024px */
+@media only screen and (min-width: 1024px) {
+  /* Styles for Section 1 | Headline Section elements */
+  .section-1-desktop .section-1-heading-desktop {
+    font-size: 71px;
+  }
+
+  .section-1-desktop .section-1-texts-desktop .section-1-paragraph-desktop {
+    display: block;
+    margin-right: 87px;
+  }
+
+  /* Styles for Section 2-1 | Projects Section 2-1 */
+  .section-2-1-heading-desktop {
+    font-size: 76px;
+    position: relative;
+    top: -218px;
+  }
+
+  /* Styles for Section 2-2 | Projects Section 2-2 */
+  .card-2-img-desktop {
+    width: 341px;
+    height: 257px;
+  }
+
+  .section-2-2-img-1 {
+    width: 341px;
+    height: 320px;
+  }
+
+  .card-6-img-desktop {
+    width: 257px;
+  }
+
+  .project-description-card-6-desktop h4 {
+    font-size: 25px;
+  }
+
+  .project-description-card-6-desktop .project-technologies-desktop li {
+    font-size: 12px;
+  }
+
+  .project-description-card-6-desktop .see-this-project-btn-desktop {
+    font-size: 13px;
+  }
+
+  /* Style for Section 2-3 | Projects Section 2-3 */
+  .card-3-img-desktop {
+    height: 368px;
+    width: 511px;
+    position: relative;
+    top: -19px;
+  }
+
+  .card-5-img-desktop {
+    width: 340px;
+    position: relative;
+    left: 43px;
+  }
+
+  .section-2-3-img-1 {
+    width: 509.75px;
+  }
+
+  /* Styles for Section 2-4 | Projects Section 2-4 */
+  .section-2-4-desktop {
+    position: relative;
+    top: -402px;
+  }
+
+  .section-2-4-img-2 {
+    position: relative;
+    left: 188px;
+  }
+
+  .card-4-img-desktop {
+    width: 449px;
+  }
+
+  /* Styles for Section 3 | About Section 3 */
+  .section-3-desktop {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 57px;
+    margin-left: 55px;
+    margin-right: 55px;
+  }
+
+  .lang-desktop,
+  .frame-desktop,
+  .skills-desktop {
+    padding: 16px 70px 0 70px;
+  }
+
+  .lang-frame-skills-desktop img {
+    position: relative;
+    top: 213px;
+    left: 81px;
+  }
+
+  .lang-frame-skills-desktop .lang-desktop img,
+  .lang-frame-skills-desktop .frame-desktop img,
+  .lang-frame-skills-desktop .skills-desktop img {
+    position: relative;
+    top: 3px;
+    left: 127px;
+  }
+
+  .section-3-1-desktop .section-3-1-heading-desktop {
+    font-size: 70px;
+  }
+}
+
+/* Styles for tablet & desktop screen sizes at & above 1200px */
+@media only screen and (min-width: 1200px) {
+  /* Styles for Section 1 | Headline Section elements */
+  .section-1-texts-desktop {
+    position: relative;
+    top: 53px;
+    left: 130px;
+  }
+
+  .section-1-desktop .section-1-heading-desktop {
+    font-size: 82px;
+  }
+
+  .section-1-desktop .section-1-texts-desktop .section-1-paragraph-desktop {
+    display: block;
+    margin-right: 123px;
+    font-size: 17px;
+  }
+
+  .section-1-image-1 {
+    height: 146px;
+    width: 146px;
+    position: relative;
+    top: 602px;
+  }
+
+  .section-1-image-2 {
+    height: 752px;
+    width: 702px;
+  }
+
+  /* Styles for Section 2-1 | Projects Section 2-1 */
+  .section-2-1-heading-desktop {
+    font-size: 82px;
+    position: relative;
+    top: -304px;
+    left: 318px;
+  }
+
+  .section-2-1-img-1 {
+    width: 146px;
+    height: 146px;
+  }
+
+  .project-description-desktop {
+    position: relative;
+    top: -306px;
+  }
+
+  .section-2-1-desktop .project-description-desktop h3 {
+    font-size: 58px;
+  }
+
+  .lang-desktop ul li,
+  .frame-desktop ul li,
+  .skills-desktop ul li {
+    font-size: 24px;
+  }
+
+  .project-description-desktop .project-technologies-desktop li {
+    font-size: 22px;
+  }
+
+  .see-this-project-btn-desktop {
+    font-size: 28px;
+  }
+
+  /* Styles for Section 2-2 | Projects Section 2-2 */
+  .section-2-2-desktop {
+    position: relative;
+    top: -218px;
+  }
+
+  .card-2-img-desktop {
+    width: 426px;
+    height: 314px;
+  }
+
+  .middle .see-this-project-btn-desktop {
+    padding: 22px 33px;
+    font-size: 25px;
+  }
+
+  .section-2-2-img-1 {
+    width: 428px;
+    height: 399px;
+    position: relative;
+    top: -89px;
+  }
+
+  .card-6-img-desktop {
+    width: 322px;
+  }
+
+  .project-description-card-6-desktop h4 {
+    font-size: 28px;
+  }
+
+  .project-description-card-6-desktop .project-technologies-desktop li {
+    font-size: 15px;
+  }
+
+  .project-description-card-6-desktop .see-this-project-btn-desktop {
+    font-size: 19px;
+  }
+
+  /* Style for Section 2-3 | Projects Section 2-3 */
+  .section-2-3-desktop {
+    position: relative;
+    top: -401px;
+  }
+
+  .card-3-img-desktop {
+    height: 419px;
+    width: 640px;
+    position: relative;
+    top: 21px;
+  }
+
+  .card-3-desktop .middle {
+    position: absolute;
+    top: 46%;
+  }
+
+  .card-5-img-desktop {
+    width: 426px;
+    position: relative;
+    left: 54px;
+  }
+
+  .section-2-3-img-1 {
+    height: 290px;
+    width: 639.75px;
+  }
+
+  /* Style for Section 2-4 | Projects Section 2-4 */
+  .section-2-4-desktop {
+    position: relative;
+    top: -471px;
+  }
+
+  .section-2-4-img-1 {
+    width: 189px;
+  }
+
+  .section-2-4-img-2 {
+    width: 75px;
+    position: relative;
+    left: 245px;
+  }
+
+  .card-4-img-desktop {
+    width: 577px;
+  }
+
+  /* Styles for Section 3 | About Section */
+  .section-3-desktop {
+    margin-left: 121px;
+    margin-right: 121px;
+  }
+
+  .lang-desktop,
+  .frame-desktop,
+  .skills-desktop {
+    padding: 20px 70px 0 70px;
+  }
+
+  .lang-frame-skills-desktop img {
+    width: 233px;
+    height: 233px;
+    position: relative;
+    top: 238px;
+    left: 106px;
+  }
+
+  .lang-frame-skills-desktop .lang-desktop img,
+  .lang-frame-skills-desktop .frame-desktop img,
+  .lang-frame-skills-desktop .skills-desktop img {
+    width: 122px;
+    height: 122px;
+    position: relative;
+    top: 4px;
+    left: 138px;
+  }
+
+  .section-3-1-desktop .section-3-1-heading-desktop {
+    font-size: 83px;
+  }
+
+  .section-3-1-paragraph-desktop {
+    font-size: 19px;
+  }
+
+  .section-3-1-button-desktop a {
+    font-size: 20px;
+  }
+
+  /* Styles for Section 4 | Get Started (Contact Form) Section */
+  .section-4-form-desktop .section-4-paragraph-desktop {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .section-4-desktop .section-4-img-2 {
+    position: relative;
+    top: 548px;
+    height: 257px;
+  }
+}
+
+/* Styles for tablet & desktop screen sizes at & above 1500px */
+@media only screen and (min-width: 1500px) {
+  /* Styles for Section 1 | Headline Section elements */
+  .section-1-texts-desktop {
+    position: relative;
+    top: 98px;
+    left: 130px;
+  }
+
+  .section-1-desktop .section-1-heading-desktop {
+    font-size: 110px;
+  }
+
+  .section-1-desktop .section-1-texts-desktop .section-1-paragraph-desktop {
+    display: block;
+    margin-right: 78px;
+    font-size: 23px;
+  }
+
+  .section-1-button-desktop {
+    font-size: 27px;
+    padding: 28px;
+  }
+
+  .section-1-image-1 {
+    height: 211px;
+    width: 211px;
+    position: relative;
+    top: 868px;
+  }
+
+  .section-1-image-2 {
+    height: 1088px;
+    width: 742px;
+  }
+
+  /* Styles for Section 2-1 | Projects Section 2-1 */
+  .section-2-1-heading-desktop {
+    font-size: 110px;
+  }
+
+  .section-2-1-img-1 {
+    width: 211px;
+    height: 211px;
+  }
+
+  .project-description-desktop {
+    padding: 50px 37px;
+    position: relative;
+    top: -357px;
+  }
+
+  .section-2-1-desktop .project-description-desktop h3 {
+    font-size: 60px;
+  }
+
+  .project-description-desktop .project-technologies-desktop {
+    position: relative;
+    top: -42px;
+  }
+
+  .project-description-desktop .project-technologies-desktop li {
+    font-size: 25px;
+  }
+
+  /* Styles for Section 2-2 | Projects Section 2-2 */
+  .section-2-2-desktop {
+    position: relative;
+    top: -269px;
+  }
+
+  .card-2-img-desktop {
+    width: 499px;
+    height: 408px;
+  }
+
+  .middle {
+    position: absolute;
+    top: 38%;
+    left: 98%;
+  }
+
+  .middle .see-this-project-btn-desktop {
+    padding: 37px 33px;
+    font-size: 32px;
+  }
+
+  .section-2-2-img-1 {
+    width: 500px;
+    height: 493px;
+    position: relative;
+    top: -89px;
+  }
+
+  .card-6-img-desktop {
+    width: 409px;
+  }
+
+  .project-description-card-6-desktop {
+    padding: 0 5px 9px 14px;
+  }
+
+  .project-description-card-6-desktop h4 {
+    font-size: 38px;
+  }
+
+  .project-description-card-6-desktop .project-technologies-desktop li {
+    font-size: 22px;
+    padding: 10px;
+  }
+
+  .project-description-card-6-desktop .see-this-project-btn-desktop {
+    font-size: 26px;
+    padding: 10px;
+  }
+
+  /* Style for Section 2-3 | Projects Section 2-3 */
+  .card-3-img-desktop {
+    height: 501px;
+    width: 749px;
+  }
+
+  .card-5-img-desktop {
+    height: 267px;
+    width: 503px;
+    position: relative;
+    left: 62px;
+  }
+
+  .section-2-3-img-1 {
+    height: 323px;
+    width: 747.75px;
+  }
+
+  /* Style for Section 2-4 | Projects Section 2-4 */
+  .section-2-4-img-1 {
+    width: 239px;
+  }
+
+  .section-2-4-img-2 {
+    width: 94px;
+    position: relative;
+    left: 278px;
+  }
+
+  .card-4-img-desktop {
+    width: 691px;
+    height: 345px;
+  }
+
+  /* Styles for Section 3 | About Section */
+  .lang-desktop,
+  .frame-desktop,
+  .skills-desktop {
+    padding: 26px 100px 41px 100px;
+  }
+
+  .lang-frame-skills-desktop img {
+    position: relative;
+    top: 288px;
+  }
+
+  .lang-frame-skills-desktop .lang-desktop img,
+  .lang-frame-skills-desktop .frame-desktop img,
+  .lang-frame-skills-desktop .skills-desktop img {
+    position: relative;
+    top: 40px;
+    left: 168px;
+  }
+
+  .section-3-1-desktop .section-3-1-heading-desktop {
+    font-size: 106px;
+  }
+
+  .section-3-1-paragraph-desktop {
+    font-size: 27px;
+  }
+
+  .section-3-1-button-desktop a {
+    padding: 30px 58px;
+    font-size: 28px;
+  }
+
+  /* Styles for Section 4 | Get Started (Contact Form) Section */
+  .section-4-form-desktop .section-4-paragraph-desktop {
+    margin-left: 241px;
+    margin-right: 241px;
+    font-size: 24px;
+  }
+
+  .section-4-desktop .section-4-img-2 {
+    position: relative;
+    top: 631px;
+  }
+
+  .section-4-form-desktop .contact-form .user-submit-btn {
+    font-size: 19px;
+  }
+}
+
+/* Styles for tablet & desktop screen sizes at & above 1800px */
+@media only screen and (min-width: 1800px) {
+  /* Styles for Section 2-1 | Projects Section 2-1 */
+  .section-2-1-heading-desktop {
+    position: relative;
+    top: -395px;
+    left: 418px;
+  }
+
+  .project-description-desktop {
+    position: relative;
+    top: -454px;
+  }
+
+  /* Styles for Section 2-2 | Projects Section 2-2 */
+  .section-2-2-desktop {
+    position: relative;
+    top: -365px;
+  }
+
+  .card-2-img-desktop {
+    width: 601px;
+    height: 480px;
+  }
+
+  .card-2-desktop .middle {
+    position: absolute;
+    top: 41%;
+  }
+
+  .middle .see-this-project-btn-desktop {
+    padding: 37px 33px;
+    font-size: 41px;
+  }
+
+  .section-2-2-img-1 {
+    width: 604px;
+    height: 562px;
+    position: relative;
+    top: -89px;
+  }
+
+  .card-6-img-desktop {
+    width: 421px;
+  }
+
+  .project-description-card-6-desktop h4 {
+    font-size: 40px;
+  }
+
+  /* Style for Section 2-3 | Projects Section 2-3 */
+  .card-3-img-desktop {
+    height: 681px;
+    width: 901px;
+    position: relative;
+    top: -57px;
+  }
+
+  .card-3-desktop .middle {
+    position: absolute;
+    top: 35%;
+  }
+
+  .section-2-3-desktop .section-2-3-1-desktop {
+    position: relative;
+    top: -221px;
+  }
+
+  .card-5-img-desktop {
+    height: 316px;
+    width: 594px;
+    position: relative;
+    left: 79px;
+  }
+
+  .section-2-3-img-1 {
+    height: 520px;
+    width: 890.75px;
+  }
+
+  /* Style for Section 2-4 | Projects Section 2-4 */
+  .section-2-4-desktop {
+    position: relative;
+    top: -616px;
+  }
+
+  .section-2-4-img-1 {
+    width: 249px;
+  }
+
+  .section-2-4-img-2 {
+    width: 102px;
+    position: relative;
+    left: 349px;
+  }
+
+  .card-4-desktop {
+    margin-right: 208px;
+  }
+
+  .card-4-img-desktop {
+    height: 353px;
+  }
+
+  .card-4-desktop .middle {
+    position: absolute;
+    left: 85%;
+  }
+
+  /* Styles for Section 3 | About Section */
+  .section-3-1-desktop .section-3-1-heading-desktop {
+    font-size: 110px;
+  }
+
+  .section-3-1-paragraph-desktop {
+    margin-top: -15px;
+  }
+
+  .section-3-1-button-desktop a {
+    font-size: 35px;
+    padding: 22px 64px;
+  }
+
+  /* Styles for Section 4 | Get Started (Contact Form) Section */
+  .section-4-form-desktop .section-4-heading-desktop {
+    font-size: 110px;
+  }
+
+  .section-4-form-desktop .contact-form .user-name,
+  .section-4-form-desktop .contact-form .user-email {
+    padding: 33px 154px 15px 11px;
+  }
+
+  .section-4-desktop .section-4-img-2 {
+    position: relative;
+    top: 684px;
   }
 }

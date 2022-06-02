@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,6 +27,16 @@
       </a>
     </header> 
 
+    <!--Navbar for tablet & desktop screens-->
+    <header class="nav-desktop">
+      <ul>
+        <li class="poppins-font mr-52"><a href="#" class="nav-hello-desktop font-color">Hello</a></li>
+        <li class="poppins-font mr-52"><a href="#" class="font-color">Portfolio</a></li>
+        <li class="poppins-font mr-52"><a href="#" class="font-color">About</a></li>
+        <li class="poppins-font mr-52"><a href="#" class="font-color">Contact</a></li>
+      </ul>
+    </header>
+
     <main>
       <!--Section 1 | Headline Section for mobile screens-->
       <div>
@@ -42,6 +52,23 @@
       
         <!--Image in Section 1/Headline Section-->
         <div class="section-1-img-mobile"></div>
+      </div>
+
+      <!--Section 1 | Headline Section for tablet & desktop screens-->
+      <div class="section-1-desktop">
+        <section class="section-1-texts-desktop">
+          <h1 class="section-1-heading-desktop playfair-display-font font-color">Losalini <span>Rokocakau</span></h1>
+          <p class="section-1-paragraph-desktop poppins-font font-color">Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works.
+            If you like what you see and have a project you need coded, don’t hesitate and contact me.</p>
+
+          <a href="#" class="section-1-button-desktop poppins-font bg-color font-white">Start Collaboration</a>
+        </section>
+
+        <!--Dotted image-->
+        <img src="images/image9.jpg" alt="Square dotted image" class="section-1-image-1"/>
+
+        <!--Geometric image-->
+        <img src="images/image10.jpg" alt="Colorful geometric image" class="section-1-image-2"/>
       </div>
 
       <!--Section 2 | Projects Section for mobile screens-->
@@ -159,90 +186,285 @@
           </div>
         </div>
       </section>
-
-     <!--Section 3 | About Section for mobile screens-->
-     <section class="section-3-mobile">
-      <h2 class="section-3-heading-mobile playfair-display-font font-color">About</h2>
-      <p class="section-3-paragraph-mobile poppins-font font-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod</p>
       
-      <div class="section-3-button-mobile">
-        <a href="#" class="poppins-font bg-color font-white">Get my CV <span><svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1 6V24H25V6" stroke="white" stroke-width="2" class="download-icon-path-1"/>
-          <path d="M13.6623 13.9624L17.9103 9.71441L19.3245 11.1286L12.6622 17.7909L6 11.1286L7.41421 9.71441L11.6623 13.9625V2.52881e-07L13.6623 0V13.9624Z" class="download-icon-path-2" fill="white"/>
-        </svg></span></a>
-      </div>
+      <!--Section 2 | Projects Section 2 for tablet & desktop screens -->
+      <!--Section 2-1 for tablet & desktop screens-->
+      <section class="section-2-1-desktop">
+        <h2 class="section-2-1-heading-desktop playfair-display-font font-color">Projects</h2>
+        <img src="images/image9.jpg" alt="Square dotted image" class="section-2-1-img-1">
 
-      <div class="lang-frame-skills-mobile">
-        <section class="lang-mobile">
-          <h3 class="poppins-font font-white">Languages</h3>
+        <!--Project Card 1-->
+        <div class="card-1-desktop">
+          <img src="images/image3.jpg" alt="Hands on a macbook keyboard" class="card-1-img-desktop"/>
 
-          <ul>
-            <li class="poppins-font font-white">JavaScript (ES5/ES6)</li>
-            <li class="poppins-font font-white">Ruby</li>
-            <li class="poppins-font font-white">HTML</li>
-            <li class="poppins-font font-white">CSS</li>
-          </ul>
+          <!--Project description-->
+          <div class="project-description-desktop bg-color">
+            <h3 class="poppins-font font-white">Project name goes here</h3>
 
-          <img src="images/ic_languages_mob.svg" alt="Hashtag Icon"/>
-        </section>
+            <ul class="project-technologies-desktop font-white">
+              <li class="font-color mr-3">HTML/CSS</li>
+              <li class="font-color mr-3">Ruby on Rails</li>
+              <li class="font-color">JavaScript</li>
+            </ul>
 
-        <section class="frame-mobile">
-          <h3 class="poppins-font font-white">Frameworks</h3>
+            <a href="#" class="see-this-project-btn-desktop poppins-font bg-color font-white">See this project <span class="material-icons ">arrow_forward</span></a>
+          </div>
+        </div>
+      </section>
 
-          <ul>
-            <li class="poppins-font font-white">Bootstrap</li>
-            <li class="poppins-font font-white">Ruby on rails</li>
-            <li class="poppins-font font-white">RSpec</li>
-            <li class="poppins-font font-white">Capybara</li>
-            <li class="poppins-font font-white">Selenium</li>
-          </ul>
-
-          <img src="images/ic_framework.svg" alt="Frameworks Icon"/>
-        </section>
-
-        <section class="skills-mobile">
-          <h3 class="poppins-font font-white">Skills</h3>
-
-          <ul>
-            <li class="poppins-font font-white">Codekit</li>
-            <li class="poppins-font font-white">Codepen</li>
-            <li class="poppins-font font-white">GitHub</li>
-            <li class="poppins-font font-white">GitLab</li>
-            <li class="poppins-font font-white">Terminal</li>
-          </ul>
-
-          <img src="images/ic_skills.svg" alt="Lightbulb Icon"/>
-        </section>
-      </div>
-     </section>
-
-     <!--Section 4 | Get Started Section (Contact form) for mobile screens-->
-     <div class="section-4-mobile" id="section-4-mobile">
-      <img src="images/image-1-1.svg" alt="Geometric image in top corner" />
-
-      <div>
-        <h2 class="section-4-heading-mobile playfair-display-font font-color" id="section-4-heading-mobile">Get started</h2>
-
-        <p class="section-4-paragraph-mobile poppins-font font-color" id="section-4-paragraph-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-      </div>
-
-      <form action="https://formspree.io/f/xwkyyayl" method="POST" name="contact-form" class="contact-form" id="contact-form">
-        <div class="user-name-section" id="user-name-section">
-          <label for="user-name" class="poppins-font">Your name</label>
-          <input type="text" class="poppins-font user-name" id="user-name" name="user-name" placeholder="Anastasiia" maxlength="30" required/>
+      <!--Section 2-2 for tablet & desktop screens-->
+      <div class="section-2-2-desktop">
+        <!--Project Card 2-->
+        <div class="container card-2-desktop">
+          <img src="images/image4.jpg" alt="Hands on a macbook keyboard" class="card-2-img-desktop"/>
+          <div class="middle">
+            <a href="#" class="see-this-project-btn-desktop poppins-font bg-color font-white">See project <span class="material-icons ">arrow_forward</span></a>
+          </div>
         </div>
         
-        <div class="user-email-section" id="user-email-section">
-          <label for="user-email" class="poppins-font">Your email</label>
-          <input type="email" class="poppins-font user-email" id="user-email" name="user-email" placeholder="anastassia@gmail.com" required/>
+        <img src="images/image11.png" alt="Hands on a macbook keyboard" class="section-2-2-img-1"/>
+        
+        <!--Project Card 6-->
+        <div class="card-6-desktop">
+          <img src="images/image8.jpg" alt="Hands on a macbook keyboard" class="card-6-img-desktop"/>
+
+          <!--Project description-->
+          <div class="project-description-card-6-desktop bg-color">
+            <h4 class="poppins-font font-white">Project name goes here</h4>
+
+            <ul class="project-technologies-desktop font-white">
+              <li class="font-color mr-3">HTML/CSS</li>
+              <li class="font-color mr-3">Ruby on Rails</li>
+              <li class="font-color">+1</li>
+            </ul>
+
+            <a href="#" class="see-this-project-btn-desktop poppins-font bg-color font-white">See this project <span class="material-icons ">arrow_forward</span></a>
+          </div>
+        </div>
+      </div>
+
+       <!--Section 2-3 for tablet & desktop screens-->
+       <div class="section-2-3-desktop">
+        <!--Project Card 3-->
+        <div class="container card-3-desktop">
+          <img src="images/image5.jpg" alt="Laptop & mobile phone devices" class="card-3-img-desktop"/>
+          <div class="middle">
+            <a href="#" class="see-this-project-btn-desktop poppins-font bg-color font-white">See project <span class="material-icons ">arrow_forward</span></a>
+          </div>
         </div>
 
-        <textarea class="poppins-font" id="user-comments" name="user-comments" placeholder="Enter your message here..." maxlength="500" required></textarea>
-        <input type="submit" class="user-submit-btn poppins-font font-white bg-color" id="user-submit-btn" value="Start collaboration"/>
-      </form>
-     </div>
+        <div class="section-2-3-1-desktop">
+          <!--Project Card 5-->
+          <div class="container card-5-desktop">
+            <img src="images/image7.jpg" alt="Laptop & mobile phone devices" class="card-5-img-desktop"/>
+            <div class="middle">
+              <a href="#" class="see-this-project-btn-desktop poppins-font bg-color font-white">See project <span class="material-icons ">arrow_forward</span></a>
+            </div>
+          </div>
+
+          <img src="images/image12.png" alt="Geometric image" class="section-2-3-img-1"/>
+        </div>
+      </div>
+
+      <!--Section 2-4 for tablet & desktop screens-->
+      <div class="section-2-4-desktop">
+        <img src="images/image13.png" alt="Geometric image on top left corner" class="section-2-4-img-1"/>
+        <img src="images/image14.png" alt="Geometric image on top right corner" class="section-2-4-img-2"/>
+        
+        <!--Project Card 4-->
+        <div class="container card-4-desktop">
+          <img src="images/image6.jpg" alt="Laptop & mobile phone devices" class="card-4-img-desktop"/>
+          <div class="middle">
+            <a href="#" class="see-this-project-btn-desktop poppins-font bg-color font-white">See project <span class="material-icons ">arrow_forward</span></a>
+          </div>
+        </div>
+      </div>
+
+      <!--Section 3 | About Section for mobile screens-->
+      <section class="section-3-mobile">
+        <h2 class="section-3-heading-mobile playfair-display-font font-color">About</h2>
+        <p class="section-3-paragraph-mobile poppins-font font-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod</p>
+      
+        <div class="section-3-button-mobile">
+          <a href="#" class="poppins-font bg-color font-white">Get my CV <span><svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 6V24H25V6" stroke="white" stroke-width="2" class="download-icon-path-1"/>
+            <path d="M13.6623 13.9624L17.9103 9.71441L19.3245 11.1286L12.6622 17.7909L6 11.1286L7.41421 9.71441L11.6623 13.9625V2.52881e-07L13.6623 0V13.9624Z" class="download-icon-path-2" fill="white"/>
+          </svg></span></a>
+        </div>
+
+        <div class="lang-frame-skills-mobile">
+          <section class="lang-mobile">
+            <h3 class="poppins-font font-white">Languages</h3>
+
+            <ul>
+              <li class="poppins-font font-white">JavaScript (ES5/ES6)</li>
+              <li class="poppins-font font-white">Ruby</li>
+              <li class="poppins-font font-white">HTML</li>
+              <li class="poppins-font font-white">CSS</li>
+            </ul>
+
+            <img src="images/ic_languages_mob.svg" alt="Hashtag Icon"/>
+          </section>
+
+          <section class="frame-mobile">
+            <h3 class="poppins-font font-white">Frameworks</h3>
+
+            <ul>
+              <li class="poppins-font font-white">Bootstrap</li>
+              <li class="poppins-font font-white">Ruby on rails</li>
+              <li class="poppins-font font-white">RSpec</li>
+              <li class="poppins-font font-white">Capybara</li>
+              <li class="poppins-font font-white">Selenium</li>
+            </ul>
+
+            <img src="images/ic_framework.svg" alt="Frameworks Icon"/>
+          </section>
+
+          <section class="skills-mobile">
+            <h3 class="poppins-font font-white">Skills</h3>
+
+            <ul>
+              <li class="poppins-font font-white">Codekit</li>
+              <li class="poppins-font font-white">Codepen</li>
+              <li class="poppins-font font-white">GitHub</li>
+              <li class="poppins-font font-white">GitLab</li>
+              <li class="poppins-font font-white">Terminal</li>
+            </ul>
+
+            <img src="images/ic_skills.svg" alt="Lightbulb Icon"/>
+          </section>
+        </div>
+      </section>
+
+      <!--Section 3 | About Section for tablet & desktop screens-->
+      <div class="section-3-desktop">
+        <div class="lang-frame-skills-desktop">
+          <section class="lang-desktop">
+            <h3 class="poppins-font font-white">Languages</h3>
+
+            <ul>
+              <li class="poppins-font font-white">JavaScript (ES5/ES6)</li>
+              <li class="poppins-font font-white">Ruby</li>
+              <li class="poppins-font font-white">HTML</li>
+              <li class="poppins-font font-white">CSS</li>
+            </ul>
+
+            <div class="lang-frame-skills-dots-icons-container">
+              <img src="images/ic_languages_mob.svg" alt="Hashtag Icon"/>
+            </div>
+          </section>
+
+          <section class="frame-desktop">
+            <h3 class="poppins-font font-white">Frameworks</h3>
+
+            <ul>
+              <li class="poppins-font font-white">Bootstrap</li>
+              <li class="poppins-font font-white">Ruby on rails</li>
+              <li class="poppins-font font-white">RSpec</li>
+              <li class="poppins-font font-white">Capybara</li>
+              <li class="poppins-font font-white">Selenium</li>
+            </ul>
+
+            <div class="lang-frame-skills-dots-icons-container">
+              <img src="images/ic_framework.svg" alt="Hashtag Icon"/>
+            </div>
+          </section>
+
+          <section class="skills-desktop">
+            <h3 class="poppins-font font-white">Skills</h3>
+
+            <ul>
+              <li class="poppins-font font-white">Codekit</li>
+              <li class="poppins-font font-white">Codepen</li>
+              <li class="poppins-font font-white">GitHub</li>
+              <li class="poppins-font font-white">GitLab</li>
+              <li class="poppins-font font-white">Terminal</li>
+            </ul>
+
+            <div class="lang-frame-skills-dots-icons-container">
+              <img src="images/ic_skills.svg" alt="Lightbulb Icon"/>
+            </div>
+          </section>
+
+          <div class="lang-frame-skills-dots-icons-container">
+            <img src="images/image_dots_with_teal.svg" alt="Image dots with teal square"/>
+          </div>
+        </div>
+
+        <section class="section-3-1-desktop">
+          <h2 class="section-3-1-heading-desktop playfair-display-font font-color">About</h2>
+          <p class="section-3-1-paragraph-desktop poppins-font font-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod</p>
+      
+          <div class="section-3-1-button-desktop">
+            <a href="#" class="poppins-font bg-color font-white">Get my CV <span><svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 6V24H25V6" stroke="white" stroke-width="2" class="download-icon-path-1"/>
+              <path d="M13.6623 13.9624L17.9103 9.71441L19.3245 11.1286L12.6622 17.7909L6 11.1286L7.41421 9.71441L11.6623 13.9625V2.52881e-07L13.6623 0V13.9624Z" class="download-icon-path-2" fill="white"/>
+              </svg></span>
+            </a>
+          </div>
+        </section>
+      </div>
+
+      <!--Section 4 | Get Started Section (Contact form) for mobile screens-->
+      <div class="section-4-mobile" id="section-4-mobile">
+       <img src="images/image-1-1.svg" alt="Geometric image in top corner" />
+
+        <div>
+          <h2 class="section-4-heading-mobile playfair-display-font font-color" id="section-4-heading-mobile">Get started</h2>
+
+          <p class="section-4-paragraph-mobile poppins-font font-color" id="section-4-paragraph-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+        </div>
+
+        <form action="https://formspree.io/f/xwkyyayl" method="POST" name="contact-form" class="contact-form" id="contact-form">
+          <div class="user-name-section" id="user-name-section">
+            <label for="user-name" class="poppins-font">Your name</label>
+            <input type="text" class="poppins-font user-name" id="user-name" name="user-name" placeholder="Anastasiia" maxlength="30" required/>
+          </div>
+          
+          <div class="user-email-section" id="user-email-section">
+            <label for="user-email" class="poppins-font">Your email</label>
+            <input type="email" class="poppins-font user-email" id="user-email" name="user-email" placeholder="anastassia@gmail.com" required/>
+          </div>
+
+          <textarea class="poppins-font" id="user-comments" name="user-comments" placeholder="Enter your message here..." maxlength="500" required></textarea>
+          <input type="submit" class="user-submit-btn poppins-font font-white bg-color" id="user-submit-btn" value="Start collaboration"/>
+        </form>
+      </div>
+
+      <!--Section 4 | Get Started Section (Contact form) for tablet & desktop screens-->
+      <div class="section-4-desktop">
+        <div class="section-4-img-1"></div>
+
+        <section class="section-4-form-desktop">
+          <div class="section-4-texts-desktop">
+            <h2 class="section-4-heading-desktop playfair-display-font font-color" id="section-4-heading-desktop">Get started</h2>
+            <p class="section-4-paragraph-desktop poppins-font font-color" id="section-4-paragraph-desktop">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          
+          <form action="https://formspree.io/f/xwkyyayl" method="POST" name="contact-form" class="contact-form">
+              <!--Name & email container-->
+              <div class="name-email-container">
+                <div class="user-name-section">
+                  <label for="user-name-desktop" class="poppins-font">Your name</label>
+                  <input type="text" class="poppins-font user-name" id="user-name-desktop" name="user-name" placeholder="Anastasiia" maxlength="30" required/>
+                </div>
+                
+                <div class="user-email-section">
+                  <label for="user-email-desktop" class="poppins-font">Your email</label>
+                  <input type="email" class="poppins-font user-email" id="user-email-desktop" name="user-email" placeholder="anastassia@gmail.com" required/>
+                </div>
+              </div>
+    
+              <textarea class="poppins-font" id="user-comments-desktop" name="user-comments" placeholder="Enter your message here..." maxlength="500" required></textarea>
+              <input type="submit" class="user-submit-btn poppins-font font-white bg-color" id="user-submit-btn-desktop" value="Start collaboration"/>
+          </form>
+        </section>
+
+        <div class="section-4-img-2"></div>
+      </div>
     </main>
 
     <!--Footer Section for mobile screens-->
@@ -268,6 +490,34 @@
           <a href="#"><span><img src="images/ic_medium.svg" alt="Medium Icon"/></span></a>
         </li>
         <li>
+          <a href="#"><span><img src="images/ic_angellist.svg" alt="AngelList Icon"/></span></a>
+        </li>
+      </ul>
+    </footer>
+
+    <!--Footer Section for tablet & desktop screens-->
+    <footer class="footer-desktop bg-color">
+      <div class="footer-1-desktop">
+        <a href="#" class="font-teal">Get my CV <span><img src="images/ic-link_teal.svg" alt="Download icon"/></span></a>
+      </div>
+ 
+      <ul class="footer-2-desktop">
+        <li class="mr-15">
+          <a href="#"><span><img src="images/ic_stackoverflow.svg" alt="Stackoverflow Icon"/></span></a>
+        </li>
+        <li class="mr-15">
+          <a href="#"><span><img src="images/ic_github.svg" alt="GitHub Icon"/></span></a>
+        </li>
+        <li class="mr-15">
+          <a href="#"><span><img src="images/ic_twitter.svg" alt="Twitter Icon"/></span></a>
+        </li>
+        <li class="mr-15">
+          <a href="#"><span><img src="images/ic_linkedin.svg" alt="LinkedIn Icon"></span></a>
+        </li>
+        <li class="mr-15">
+          <a href="#"><span><img src="images/ic_medium.svg" alt="Medium Icon"/></span></a>
+        </li>
+        <li class="mr-15">
           <a href="#"><span><img src="images/ic_angellist.svg" alt="AngelList Icon"/></span></a>
         </li>
       </ul>

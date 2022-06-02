@@ -54,6 +54,10 @@ body {
   margin-right: 52px;
 }
 
+.mr-15 {
+  margin-right: 15px;
+}
+
 /* Styles for mobile screens sizes at most 319px */
 @media only screen and (max-width: 319px) {
   .nav-mobile {
@@ -1808,10 +1812,35 @@ body {
     top: 652px;
   }
 
-
   /* Hide Footer Section for mobile screens */
   .footer-mobile {
     display: none;
+  }
+
+  .footer-desktop {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 25px 15px;
+  }
+
+  .footer-1-desktop a {
+    text-decoration: none;
+    color: #92dcdc;
+  }
+
+  .footer-desktop .footer-1-desktop a span {
+    position: relative;
+    top: 5px;
+    left: 8px;
+  }
+
+  .footer-desktop .footer-2-desktop {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding-left: 0;
   }
 }
 

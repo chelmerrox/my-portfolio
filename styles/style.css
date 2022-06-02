@@ -262,7 +262,7 @@ body {
     left: 3px;
   }
 
-  /* Hide Section 2-1, Section 2-2, Section 2-3, Section 2-4 | 
+  /* Hide Section 2-1, Section 2-2, Section 2-3, Section 2-4 |
   Projects Section 2-1, 2-2, 2-3, 2-4 for tablet & desktop screens */
   .section-2-1-desktop,
   .section-2-2-desktop,
@@ -715,7 +715,7 @@ body {
     left: 3px;
   }
 
-  /* Hide Section 2-1, Section 2-2, Section 2-3, Section 2-4 | 
+  /* Hide Section 2-1, Section 2-2, Section 2-3, Section 2-4 |
   Projects Section 2-1, 2-2, 2-3, 2-4 for tablet & desktop screens */
   .section-2-1-desktop,
   .section-2-2-desktop,
@@ -972,13 +972,13 @@ body {
 
 /* Styles for tablet & desktop screen sizes at & above 768px */
 @media only screen and (min-width: 768px) {
-  /* Hide navbar for mobile screens*/
+  /* Hide navbar for mobile screens */
   .nav-mobile {
     display: none;
   }
 
-   /* Styles for navbar */
-   .nav-desktop {
+  /* Styles for navbar */
+  .nav-desktop {
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -988,6 +988,17 @@ body {
   .nav-desktop ul {
     list-style: none;
     display: flex;
+  }
+
+  .section-3-1-button-desktop a {
+    text-decoration: none;
+    padding: 15px 32px;
+    font-size: 15px;
+  }
+
+  .footer-1-desktop a {
+    text-decoration: none;
+    color: #92dcdc;
   }
 
   .nav-desktop ul li a {
@@ -1063,7 +1074,7 @@ body {
     height: 481px;
     width: 702px;
   }
-  
+
   /* Hide Section 2 | Projects Section for mobile screens */
   .section-2-mobile {
     display: none;
@@ -1122,6 +1133,12 @@ body {
     left: -36px;
   }
 
+  .lang-desktop ul li,
+  .frame-desktop ul li,
+  .skills-desktop ul li {
+    font-size: 19px;
+  }
+
   .project-description-desktop .project-technologies-desktop li {
     background-color: #98dede;
     padding: 9px 17px;
@@ -1161,11 +1178,11 @@ body {
   }
 
   .card-2-desktop,
-  .section-2-2-img-1, 
+  .section-2-2-img-1,
   .card-6-desktop {
     grid-row-start: 1;
     grid-row-end: 2;
-  } 
+  }
 
   .card-2-desktop {
     grid-column-start: 1;
@@ -1182,12 +1199,12 @@ body {
     display: block;
     height: 237px;
     width: 269px;
-    transition: .5s ease;
+    transition: 0.5s ease;
     backface-visibility: hidden;
   }
 
   .card-2-desktop .middle {
-    transition: .5s ease;
+    transition: 0.5s ease;
     opacity: 0;
     position: absolute;
     top: 31%;
@@ -1200,6 +1217,42 @@ body {
 
   .container:hover .card-2-img-desktop {
     opacity: 0.3;
+  }
+
+  .card-3-desktop .middle {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 38%;
+    left: 96%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+  }
+
+  .card-5-desktop .middle {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 52%;
+    left: 93%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+  }
+
+  .card-4-desktop .middle {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 52%;
+    left: 91%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
   }
 
   .container:hover .middle {
@@ -1215,6 +1268,16 @@ body {
     width: max-content;
   }
 
+  .project-description-card-6-desktop .see-this-project-btn-desktop {
+    text-decoration: none;
+    padding: 2px 6px;
+    background-color: white;
+    color: #1a2236;
+    font-size: 13px;
+    position: relative;
+    top: -25px;
+  }
+
   .middle .see-this-project-btn-desktop:hover {
     background-color: white;
     color: #1a2236;
@@ -1223,12 +1286,6 @@ body {
 
   .middle .see-this-project-btn-desktop:active {
     border: 5px solid #1a2236;
-  }
-
-  .see-this-project-btn-desktop span {
-    position: relative;
-    top: 7px;
-    left: 3px;
   }
 
   .section-2-2-img-1 {
@@ -1257,7 +1314,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0 5px 0px 8px;
+    padding: 0 5px 0 8px;
     position: relative;
     top: -257px;
   }
@@ -1281,16 +1338,6 @@ body {
     font-size: 10px;
   }
 
-  .project-description-card-6-desktop .see-this-project-btn-desktop {
-    text-decoration: none;
-    padding: 2px 6px;
-    background-color: white;
-    color: #1a2236;
-    font-size: 13px;
-    position: relative;
-    top: -25px;
-  }
-
   .project-description-card-6-desktop .see-this-project-btn-desktop:hover {
     background-color: #1a2236;
     color: white;
@@ -1299,12 +1346,6 @@ body {
 
   .project-description-card-6-desktop .see-this-project-btn-desktop:active {
     border: 5px solid white;
-  }
-
-  .see-this-project-btn-desktop span {
-    position: relative;
-    top: 7px;
-    left: 3px;
   }
 
   /* Styles for Section 2-3 | Projects Section 2-3 */
@@ -1327,63 +1368,17 @@ body {
     grid-column-end: 2;
   }
 
-  .container {
-    position: relative;
-    width: 50%;
-  }
-
   .card-3-img-desktop {
     opacity: 1;
     display: block;
     height: 346px;
     width: 406px;
-    transition: .5s ease;
+    transition: 0.5s ease;
     backface-visibility: hidden;
-  }
-
-  .card-3-desktop .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 38%;
-    left: 96%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-    display: flex;
   }
 
   .container:hover .card-3-img-desktop {
     opacity: 0.3;
-  }
-
-  .container:hover .middle {
-    opacity: 1;
-  }
-
-  .middle .see-this-project-btn-desktop {
-    text-decoration: none;
-    padding: 16px 24px;
-    background-color: #1a2236;
-    color: white;
-    font-size: 18px;
-    width: max-content;
-  }
-
-  .middle .see-this-project-btn-desktop:hover {
-    background-color: white;
-    color: #1a2236;
-    border: 1px solid #1a2236;
-  }
-
-  .middle .see-this-project-btn-desktop:active {
-    border: 5px solid #1a2236;
-  }
-
-  .see-this-project-btn-desktop span {
-    position: relative;
-    top: 7px;
-    left: 3px;
   }
 
   .section-2-3-desktop .section-2-3-1-desktop {
@@ -1396,7 +1391,7 @@ body {
     top: -73px;
   }
 
-  .section-2-3-1-desktop  .container {
+  .section-2-3-1-desktop .container {
     position: relative;
     width: 50%;
   }
@@ -1406,55 +1401,14 @@ body {
     display: block;
     height: 219px;
     width: 228px;
-    transition: .5s ease;
+    transition: 0.5s ease;
     backface-visibility: hidden;
     position: relative;
     left: 43px;
   }
 
-  .card-5-desktop .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 52%;
-    left: 93%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-    display: flex;
-  }
-
   .container:hover .card-5-img-desktop {
     opacity: 0.3;
-  }
-
-  .container:hover .middle {
-    opacity: 1;
-  }
-
-  .middle .see-this-project-btn-desktop {
-    text-decoration: none;
-    padding: 16px 24px;
-    background-color: #1a2236;
-    color: white;
-    font-size: 18px;
-    width: max-content;
-  }
-
-  .middle .see-this-project-btn-desktop:hover {
-    background-color: white;
-    color: #1a2236;
-    border: 1px solid #1a2236;
-  }
-
-  .middle .see-this-project-btn-desktop:active {
-    border: 5px solid #1a2236;
-  }
-
-  .see-this-project-btn-desktop span {
-    position: relative;
-    top: 7px;
-    left: 3px;
   }
 
   .section-2-3-img-1 {
@@ -1498,63 +1452,17 @@ body {
     margin-right: 64px;
   }
 
-  .container {
-    position: relative;
-    width: 50%;
-  }
-
   .card-4-img-desktop {
     opacity: 1;
     display: block;
     height: 226px;
     width: 300px;
-    transition: .5s ease;
+    transition: 0.5s ease;
     backface-visibility: hidden;
-  }
-
-  .card-4-desktop .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 52%;
-    left: 91%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-    display: flex;
   }
 
   .container:hover .card-4-img-desktop {
     opacity: 0.3;
-  }
-
-  .container:hover .middle {
-    opacity: 1;
-  }
-
-  .middle .see-this-project-btn-desktop {
-    text-decoration: none;
-    padding: 16px 24px;
-    background-color: #1a2236;
-    color: white;
-    font-size: 18px;
-    width: max-content;
-  }
-
-  .middle .see-this-project-btn-desktop:hover {
-    background-color: white;
-    color: #1a2236;
-    border: 1px solid #1a2236;
-  }
-
-  .middle .see-this-project-btn-desktop:active {
-    border: 5px solid #1a2236;
-  }
-
-  .see-this-project-btn-desktop span {
-    position: relative;
-    top: 7px;
-    left: 3px;
   }
 
   /* Hide Section 3 | About Section for mobile screens */
@@ -1630,10 +1538,12 @@ body {
     font-size: 23px;
   }
 
-  .lang-desktop ul li,
-  .frame-desktop ul li,
-  .skills-desktop ul li {
-    font-size: 19px;
+  .lang-frame-skills-desktop img {
+    width: 173px;
+    height: 173px;
+    position: relative;
+    top: 202px;
+    left: 54px;
   }
 
   .lang-frame-skills-desktop .lang-desktop img,
@@ -1644,14 +1554,6 @@ body {
     position: relative;
     top: 2px;
     left: 89px;
-  }
-
-  .lang-frame-skills-desktop img {
-    width: 173px;
-    height: 173px;
-    position: relative;
-    top: 202px;
-    left: 54px;
   }
 
   .section-3-1-desktop {
@@ -1671,12 +1573,6 @@ body {
   .section-3-1-button-desktop {
     display: flex;
     justify-content: center;
-  }
-
-  .section-3-1-button-desktop a {
-    text-decoration: none;
-    padding: 15px 32px;
-    font-size: 15px;
   }
 
   .section-3-1-button-desktop a span {
@@ -1710,7 +1606,7 @@ body {
     display: flex;
     justify-content: space-between;
     column-gap: 10px;
-    background-color: #F9F9FA;
+    background-color: #f9f9fa;
   }
 
   .section-4-desktop .section-4-img-1 {
@@ -1718,7 +1614,7 @@ body {
     background-repeat: no-repeat;
     background-position: left top;
     background-size: contain;
-    background-color: #F9F9FA;
+    background-color: #f9f9fa;
     width: 590px;
     height: 487px;
   }
@@ -1805,7 +1701,7 @@ body {
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: cover;
-    background-color: #F9F9FA;
+    background-color: #f9f9fa;
     width: 684px;
     height: 175px;
     position: relative;
@@ -1822,11 +1718,6 @@ body {
     justify-content: space-around;
     width: 100%;
     padding: 25px 15px;
-  }
-
-  .footer-1-desktop a {
-    text-decoration: none;
-    color: #92dcdc;
   }
 
   .footer-desktop .footer-1-desktop a span {
@@ -1859,10 +1750,16 @@ body {
   .section-2-1-heading-desktop {
     font-size: 57px;
   }
-  
+
   .project-description-desktop {
     position: relative;
     top: -195px;
+  }
+
+  .lang-desktop h3,
+  .frame-desktop h3,
+  .skills-desktop h3 {
+    font-size: 34px;
   }
 
   .section-2-1-desktop .project-description-desktop h3 {
@@ -1910,14 +1807,14 @@ body {
   }
 
   /* Styles for Section 3 | About Section 3 */
-  .lang-desktop, 
-  .frame-desktop, 
+  .lang-desktop,
+  .frame-desktop,
   .skills-desktop {
     padding: 10px 50px 0 50px;
   }
 
-  .lang-frame-skills-desktop .lang-desktop img, 
-  .lang-frame-skills-desktop .frame-desktop img, 
+  .lang-frame-skills-desktop .lang-desktop img,
+  .lang-frame-skills-desktop .frame-desktop img,
   .lang-frame-skills-desktop .skills-desktop img {
     position: relative;
     top: 5px;
@@ -1932,7 +1829,7 @@ body {
 }
 
 /* Styles for tablet & desktop screen sizes at & above 912px */
-@media only screen and (min-width: 912px){
+@media only screen and (min-width: 912px) {
   /* Styles for Section 1 | Headline Section elements */
   .section-1-texts-desktop {
     position: relative;
@@ -2025,7 +1922,7 @@ body {
   }
 
   .card-5-img-desktop {
-    width: 307px
+    width: 307px;
   }
 
   .section-2-3-img-1 {
@@ -2058,7 +1955,9 @@ body {
   }
 
   /* Styles for Section 3 | About Section */
-  .lang-desktop, .frame-desktop, .skills-desktop {
+  .lang-desktop,
+  .frame-desktop,
+  .skills-desktop {
     padding: 10px 70px 0 70px;
   }
 
@@ -2068,12 +1967,12 @@ body {
 }
 
 /* Styles for tablet & desktop screen sizes at & above 1024px */
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1024px) {
   /* Styles for Section 1 | Headline Section elements */
   .section-1-desktop .section-1-heading-desktop {
     font-size: 71px;
   }
-  
+
   .section-1-desktop .section-1-texts-desktop .section-1-paragraph-desktop {
     display: block;
     margin-right: 87px;
@@ -2083,7 +1982,7 @@ body {
   .section-2-1-heading-desktop {
     font-size: 76px;
     position: relative;
-    top: -218px
+    top: -218px;
   }
 
   /* Styles for Section 2-2 | Projects Section 2-2 */
@@ -2155,18 +2054,10 @@ body {
     margin-right: 55px;
   }
 
-  .lang-desktop, 
-  .frame-desktop, 
+  .lang-desktop,
+  .frame-desktop,
   .skills-desktop {
     padding: 16px 70px 0 70px;
-  }
-
-  .lang-frame-skills-desktop .lang-desktop img, 
-  .lang-frame-skills-desktop .frame-desktop img, 
-  .lang-frame-skills-desktop .skills-desktop img {
-    position: relative;
-    top: 3px;
-    left: 127px;
   }
 
   .lang-frame-skills-desktop img {
@@ -2175,13 +2066,21 @@ body {
     left: 81px;
   }
 
+  .lang-frame-skills-desktop .lang-desktop img,
+  .lang-frame-skills-desktop .frame-desktop img,
+  .lang-frame-skills-desktop .skills-desktop img {
+    position: relative;
+    top: 3px;
+    left: 127px;
+  }
+
   .section-3-1-desktop .section-3-1-heading-desktop {
     font-size: 70px;
   }
 }
 
 /* Styles for tablet & desktop screen sizes at & above 1200px */
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1200px) {
   /* Styles for Section 1 | Headline Section elements */
   .section-1-texts-desktop {
     position: relative;
@@ -2231,6 +2130,12 @@ body {
 
   .section-2-1-desktop .project-description-desktop h3 {
     font-size: 58px;
+  }
+
+  .lang-desktop ul li,
+  .frame-desktop ul li,
+  .skills-desktop ul li {
+    font-size: 24px;
   }
 
   .project-description-desktop .project-technologies-desktop li {
@@ -2335,32 +2240,10 @@ body {
     margin-right: 121px;
   }
 
-  .lang-desktop, 
-  .frame-desktop, 
+  .lang-desktop,
+  .frame-desktop,
   .skills-desktop {
     padding: 20px 70px 0 70px;
-  }
-
-  .lang-desktop h3, 
-  .frame-desktop h3, 
-  .skills-desktop h3 {
-    font-size: 34px;
-  }
-
-  .lang-desktop ul li, 
-  .frame-desktop ul li, 
-  .skills-desktop ul li {
-    font-size: 24px;
-  }
-
-  .lang-frame-skills-desktop .lang-desktop img, 
-  .lang-frame-skills-desktop .frame-desktop img, 
-  .lang-frame-skills-desktop .skills-desktop img {
-    width: 122px;
-    height: 122px;
-    position: relative;
-    top: 4px;
-    left: 138px;
   }
 
   .lang-frame-skills-desktop img {
@@ -2369,6 +2252,16 @@ body {
     position: relative;
     top: 238px;
     left: 106px;
+  }
+
+  .lang-frame-skills-desktop .lang-desktop img,
+  .lang-frame-skills-desktop .frame-desktop img,
+  .lang-frame-skills-desktop .skills-desktop img {
+    width: 122px;
+    height: 122px;
+    position: relative;
+    top: 4px;
+    left: 138px;
   }
 
   .section-3-1-desktop .section-3-1-heading-desktop {
@@ -2397,7 +2290,7 @@ body {
 }
 
 /* Styles for tablet & desktop screen sizes at & above 1500px */
-@media only screen and (min-width: 1500px){
+@media only screen and (min-width: 1500px) {
   /* Styles for Section 1 | Headline Section elements */
   .section-1-texts-desktop {
     position: relative;
@@ -2447,7 +2340,7 @@ body {
     position: relative;
     top: -357px;
   }
-  
+
   .section-2-1-desktop .project-description-desktop h3 {
     font-size: 60px;
   }
@@ -2513,11 +2406,6 @@ body {
   }
 
   /* Style for Section 2-3 | Projects Section 2-3 */
-  .section-2-2-desktop {
-    position: relative;
-    top: -220px;
-  }
-
   .card-3-img-desktop {
     height: 501px;
     width: 749px;
@@ -2552,21 +2440,23 @@ body {
   }
 
   /* Styles for Section 3 | About Section */
-  .lang-desktop, .frame-desktop, .skills-desktop {
+  .lang-desktop,
+  .frame-desktop,
+  .skills-desktop {
     padding: 26px 100px 41px 100px;
-  }
-
-  .lang-frame-skills-desktop .lang-desktop img, 
-  .lang-frame-skills-desktop .frame-desktop img, 
-  .lang-frame-skills-desktop .skills-desktop img  {
-    position: relative;
-    top: 40px;
-    left: 168px;
   }
 
   .lang-frame-skills-desktop img {
     position: relative;
     top: 288px;
+  }
+
+  .lang-frame-skills-desktop .lang-desktop img,
+  .lang-frame-skills-desktop .frame-desktop img,
+  .lang-frame-skills-desktop .skills-desktop img {
+    position: relative;
+    top: 40px;
+    left: 168px;
   }
 
   .section-3-1-desktop .section-3-1-heading-desktop {
@@ -2600,7 +2490,7 @@ body {
 }
 
 /* Styles for tablet & desktop screen sizes at & above 1800px */
-@media only screen and (min-width: 1800px){
+@media only screen and (min-width: 1800px) {
   /* Styles for Section 2-1 | Projects Section 2-1 */
   .section-2-1-heading-desktop {
     position: relative;
@@ -2696,7 +2586,7 @@ body {
   }
 
   .card-4-desktop {
-    margin-right: 208px;;
+    margin-right: 208px;
   }
 
   .card-4-img-desktop {

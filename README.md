@@ -74,7 +74,8 @@ Give a ⭐️ if you like this project!
   1. Okolo Oshoke
   2. Amol Charpe 
   3. Clifford Owusu
-- Stand-Up Team
+- Morning Session Teams
+- Stand-Up Teams
 - Microverse TSEs
 - Figma 
 

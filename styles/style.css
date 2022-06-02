@@ -468,6 +468,11 @@ body {
     border: 5px solid #1a2236;
   }
 
+  /* Hide Section 4 |  Contact Form Section for tablet & desktop screens */
+  .section-4-desktop {
+    display: none;
+  }
+
   /* Footer Section for mobile screens */
   .footer-mobile {
     width: 100%;
@@ -913,6 +918,11 @@ body {
 
   .contact-form .user-submit-btn:active {
     border: 5px solid #1a2236;
+  }
+
+  /* Hide Section 4 |  Contact Form Section for tablet & desktop screens */
+  .section-4-desktop {
+    display: none;
   }
 
   .footer-mobile {

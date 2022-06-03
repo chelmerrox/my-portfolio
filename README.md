@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/chelmerrox/my-portfolio/milestone-4/index.html)
+[Live Demo Link](https://raw.githack.com/chelmerrox/my-portfolio/main/index.html)
 
 ## Preview
 

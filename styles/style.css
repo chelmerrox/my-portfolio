@@ -1614,7 +1614,7 @@ body {
     color: #1a2236;
     background-color: white;
     border: 1px solid #1a2236;
-    
+    animation: shake 2s linear infinite;
   }
 
   .section-3-1-button-desktop a span svg .download-icon-path-1:hover,

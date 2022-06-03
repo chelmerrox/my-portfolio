@@ -57,6 +57,10 @@ $ cd my-portfolio
 - Twitter: [@chelmerrox](https://twitter.com/chelmerrox)
 - LinkedIn: [Losalini Rokocakau](https://linkedin.com/in/losalini-rokocakau)
 
+👤 **Clifford Owusu**
+
+- GitHub: [@sireclifford](https://github.com/sireclifford)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!

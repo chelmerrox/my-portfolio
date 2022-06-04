@@ -987,6 +987,7 @@ body {
     z-index: 1;
     background-color: white;
     width: 100%;
+    box-shadow: 3px 0 4px 0 rgb(191 181 181 / 75%);
   }
 
   .nav-desktop ul {

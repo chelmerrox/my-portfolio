@@ -13,7 +13,9 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/chelmerrox/my-portfolio/main/index.html)
+[Previous Live Demo Link](https://raw.githack.com/chelmerrox/my-portfolio/main/index.html)
+
+[GitHub Pages Link](https://chelmerrox.github.io/my-portfolio/)
 
 ## Preview
 

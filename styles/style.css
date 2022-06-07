@@ -987,7 +987,6 @@ body {
     z-index: 1;
     background-color: white;
     width: 100%;
-    box-shadow: 3px 0 4px 0 rgb(191 181 181 / 75%);
   }
 
   .nav-desktop ul {
@@ -1563,11 +1562,11 @@ body {
   }
 
   .frame-desktop {
-    background-color: #5c0f15;
+    background-color: #e2505c;
   }
 
   .skills-desktop {
-    background-color: #6f4701;
+    background-color: #744a01;
   }
 
   .lang-desktop h3,
@@ -1695,7 +1694,7 @@ body {
 
   .section-4-form-desktop .contact-form .user-name-section label,
   .section-4-form-desktop .contact-form .user-email-section label {
-    color: #4d4d51;
+    color: #525257;
     font-size: 10px;
     position: relative;
     top: 19px;
@@ -1718,7 +1717,7 @@ body {
     width: 100%;
   }
 
-  .user-comments-desktop {
+  .section-4-form-desktop .contact-form .user-comments-desktop {
     display: none;
   }
 

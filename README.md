@@ -63,6 +63,15 @@ $ cd my-portfolio
 
 - GitHub: [@sireclifford](https://github.com/sireclifford)
 
+
+👤 **Edith Naisanga**
+
+- GitHub: [@nedith](https://github.com/nedith)
+
+👤 **Faranosh Amini**
+
+- GitHub: [@FaranoshAmini](https://github.com/FaranoshAmini)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!

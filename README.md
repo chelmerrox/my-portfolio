@@ -89,6 +89,8 @@ Give a ⭐️ if you like this project!
   1. Okolo Oshoke
   2. Amol Charpe 
   3. Clifford Owusu
+  4. Edith Naisanga
+  5. Faranosh Amini
 - Morning Session Teams
 - Stand-Up Teams
 - Microverse TSEs

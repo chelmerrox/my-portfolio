@@ -1718,6 +1718,10 @@ body {
     width: 100%;
   }
 
+  .user-comments-desktop {
+    display: none;
+  }
+
   .section-4-form-desktop .contact-form .user-submit-btn {
     margin-top: 15px;
     text-align: center;

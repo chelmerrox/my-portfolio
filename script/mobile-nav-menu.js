@@ -14,7 +14,7 @@ function closeMenu() {
 }
 
 // Open Nav Menu for touchstart
-/* hamburger.addEventListener('touchstart', openMenu); */
+ hamburger.addEventListener('touchstart', openMenu);
 
 // Close Nav Menu for touchend
 /* document.querySelectorAll('.nav-link-mobile').forEach((n) => n.addEventListener('touchend', closeMenu)); */

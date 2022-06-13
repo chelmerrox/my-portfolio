@@ -51,9 +51,9 @@ formMobile.addEventListener('submit', (e) => {
 
   validateEmail(emailMobile, emailValueMobile, errorContainerMobile);
 
-  if (nameValueMobile !== '' && emailValueMobile.match(emailPattern) && commentValueMobile !== '') {
+  /* if (nameValueMobile !== '' && emailValueMobile.match(emailPattern) && commentValueMobile !== '') {
     formMobile.submit();
-  }
+  } */
 });
 
 /* formDesktop.addEventListener('submit', (e) => {

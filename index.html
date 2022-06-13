@@ -17,15 +17,43 @@
   
   <body>
     <!--Navbar for mobile screens-->
-    <header class="nav-mobile">
-      <a href="#" class="image-1-mobile-link">
-        <img src="images/image1.jpg" alt="Geometric image in top corner" class="image-1-mobile"/>
-      </a>
-      
-      <a href="#" class="image-2-mobile-link">
-        <img src="images/ic_menu.svg" alt="Hamburger Icon" class="hamburger-icon"/>
-      </a>
-    </header> 
+    <header>
+      <nav class="nav-mobile">
+        <a href="#" class="image-1-mobile-link">
+          <img src="images/image1.jpg" alt="Geometric image in top corner" class="image-1-mobile"/>
+        </a>
+    
+        <!--To show only when hamburger icon is clicked-->
+        <div class="nav-menu-mobile">
+          <!-- <img src="images/image15.jpg" class="nav-menu-img-1-mobile"/> -->
+          <div class="nav-menu-img-1-mobile"></div>
+
+          <ul>
+            <li class="nav-item-mobile">
+              <a href="#section-1-mobile" class="nav-link-mobile poppins-font">Hello</a>
+            </li>
+            <li class="nav-item-mobile">
+              <a href="#section-2-mobile" class="nav-link-mobile poppins-font">Portfolio</a>
+            </li>
+            <li class="nav-item-mobile">
+              <a href="#section-3-mobile" class="nav-link-mobile poppins-font">About</a>
+            </li>
+            <li class="nav-item-mobile">
+              <a href="#section-4-mobile" class="nav-link-mobile poppins-font">Contact</a>
+            </li>
+          </ul>
+    
+          <!-- <img src="images/image16.jpg" class="nav-menu-img-2-mobile"/> -->
+          <div class="nav-menu-img-2-mobile"></div>
+        </div>
+    
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
 
     <!--Navbar for tablet & desktop screens-->
     <header class="nav-desktop">
@@ -40,7 +68,7 @@
     <main>
       <!--Section 1 | Headline Section for mobile screens-->
       <div>
-        <section class="section-1-mobile">
+        <section class="section-1-mobile" id="section-1-mobile">
           <h1 class="section-1-heading-mobile playfair-display-font font-color">Losalini Rokocakau</h1>
           <p class="section-1-paragraph-mobile poppins-font font-color">Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works.
           If you like what you see and have a project you need coded, don’t hesitate and contact me.</p>  
@@ -72,7 +100,7 @@
       </div>
 
       <!--Section 2 | Projects Section for mobile screens-->
-      <section class="section-2-mobile">
+      <section class="section-2-mobile" id="section-2-mobile">
         <h2 class="section-2-heading-mobile playfair-display-font font-color">Projects</h2>
 
         <!--Projects container for project cards-->
@@ -243,8 +271,8 @@
         </div>
       </div>
 
-      <!--Section 2-3 for tablet & desktop screens-->
-      <div class="section-2-3-desktop">
+       <!--Section 2-3 for tablet & desktop screens-->
+       <div class="section-2-3-desktop">
         <!--Project Card 3-->
         <div class="container card-3-desktop">
           <img src="images/image5.jpg" alt="A laptop & a mobile phone" class="card-3-img-desktop"/>
@@ -256,7 +284,7 @@
         <div class="section-2-3-1-desktop">
           <!--Project Card 5-->
           <div class="container card-5-desktop">
-            <img src="images/image7.jpg" alt="A tilted laptop class="card-5-img-desktop"/>
+            <img src="images/image7.jpg" alt="A tilted laptop" class="card-5-img-desktop"/>
             <div class="middle">
               <a href="#" class="see-this-project-btn-desktop poppins-font bg-color font-white">See project <span class="material-icons ">arrow_forward</span></a>
             </div>
@@ -281,11 +309,11 @@
       </div>
 
       <!--Section 3 | About Section for mobile screens-->
-      <section class="section-3-mobile">
+      <section class="section-3-mobile" id="section-3-mobile">
         <h2 class="section-3-heading-mobile playfair-display-font font-color">About</h2>
         <p class="section-3-paragraph-mobile poppins-font font-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
         quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod</p>
-    
+      
         <div class="section-3-button-mobile">
           <a href="#" class="poppins-font bg-color font-white">Get my CV <span><svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M1 6V24H25V6" stroke="white" stroke-width="2" class="download-icon-path-1"/>
@@ -409,29 +437,29 @@
 
       <!--Section 4 | Get Started Section (Contact form) for mobile screens-->
       <div class="section-4-mobile" id="section-4-mobile">
-        <img src="images/image-1-1.svg" alt="Geometric image in top corner" />
- 
-         <div>
-           <h2 class="section-4-heading-mobile playfair-display-font font-color" id="section-4-heading-mobile">Get started</h2>
- 
-           <p class="section-4-paragraph-mobile poppins-font font-color" id="section-4-paragraph-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-           sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-         </div>
- 
-         <form action="https://formspree.io/f/xwkyyayl" method="POST" name="contact-form" class="contact-form" id="contact-form">
-           <div class="user-name-section" id="user-name-section">
-             <label for="user-name" class="poppins-font">Your name</label>
-             <input type="text" class="poppins-font user-name" id="user-name" name="user-name" placeholder="Anastasiia" maxlength="30" required/>
-           </div>
-           
-           <div class="user-email-section" id="user-email-section">
-             <label for="user-email" class="poppins-font">Your email</label>
-             <input type="email" class="poppins-font user-email" id="user-email" name="user-email" placeholder="anastassia@gmail.com" required/>
-           </div>
- 
-           <textarea class="poppins-font" id="user-comments" name="user-comments" placeholder="Enter your message here..." maxlength="500" required></textarea>
-           <input type="submit" class="user-submit-btn poppins-font font-white bg-color" id="user-submit-btn" value="Start collaboration"/>
-         </form>
+       <img src="images/image-1-1.svg" alt="Geometric image in top corner" />
+
+        <div>
+          <h2 class="section-4-heading-mobile playfair-display-font font-color" id="section-4-heading-mobile">Get started</h2>
+
+          <p class="section-4-paragraph-mobile poppins-font font-color" id="section-4-paragraph-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+        </div>
+
+        <form action="https://formspree.io/f/xwkyyayl" method="POST" name="contact-form" class="contact-form" id="contact-form">
+          <div class="user-name-section" id="user-name-section">
+            <label for="user-name" class="poppins-font">Your name</label>
+            <input type="text" class="poppins-font user-name" id="user-name" name="user-name" placeholder="Anastasiia" maxlength="30" required/>
+          </div>
+          
+          <div class="user-email-section" id="user-email-section">
+            <label for="user-email" class="poppins-font">Your email</label>
+            <input type="email" class="poppins-font user-email" id="user-email" name="user-email" placeholder="anastassia@gmail.com" required/>
+          </div>
+
+          <textarea class="poppins-font" id="user-comments" name="user-comments" placeholder="Enter your message here..." maxlength="500" required></textarea>
+          <input type="submit" class="user-submit-btn poppins-font font-white bg-color" id="user-submit-btn" value="Start collaboration"/>
+        </form>
       </div>
 
       <!--Section 4 | Get Started Section (Contact form) for tablet & desktop screens-->
@@ -523,5 +551,7 @@
         </li>
       </ul>
     </footer>
+
+    <script src="script/mobile-nav-menu.js"></script>
   </body>
 </html>

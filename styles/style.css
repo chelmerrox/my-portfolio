@@ -543,6 +543,29 @@ body {
     border-radius: 5px;
   }
 
+  /* Styles to apply to <small> when there is an invalid email input by the user */
+  .error-border {
+    box-shadow: 0 0 7px red;
+  }
+
+  /* Styles to apply to <small> when there is an invalid email input by the user */
+  .error {
+    color: red;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  /* Styles to apply to <small> when there is a valid email input by the user */
+  .success {
+    color: #8bcf23;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
   .contact-form .user-submit-btn {
     margin-top: 15px;
     text-align: center;
@@ -1049,6 +1072,29 @@ body {
     padding-left: 12px;
     border: 1px solid #dfdfe0;
     border-radius: 5px;
+  }
+
+  /* Styles to apply to <small> when there is an invalid email input by the user */
+  .error-border {
+    box-shadow: 0 0 7px red;
+  }
+
+  /* Styles to apply to <small> when there is an invalid email input by the user */
+  .error {
+    color: red;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  /* Styles to apply to <small> when there is a valid email input by the user */
+  .success {
+    color: #8bcf23;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .contact-form .user-submit-btn {
@@ -1859,6 +1905,29 @@ body {
 
   .section-4-form-desktop .contact-form .user-comments-desktop {
     display: none;
+  }
+
+  /* Styles to apply to <small> when there is an invalid email input by the user */
+  .error-border {
+    box-shadow: 0 0 7px red;
+  }
+
+  /* Styles to apply to <small> when there is an invalid email input by the user */
+  .error {
+    color: red;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  /* Styles to apply to <small> when there is a valid email input by the user */
+  .success {
+    color: #8bcf23;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .section-4-form-desktop .contact-form .user-submit-btn {

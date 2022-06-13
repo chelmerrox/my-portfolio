@@ -56,7 +56,7 @@ formMobile.addEventListener('submit', (e) => {
   } 
 });
 
-/* formDesktop.addEventListener('submit', (e) => {
+ formDesktop.addEventListener('submit', (e) => {
   e.preventDefault();
 
   // Accessing the value of the name, email & comment's value
@@ -69,4 +69,4 @@ formMobile.addEventListener('submit', (e) => {
   if (nameValueDesktop !== '' && emailValueDesktop.match(emailPattern) && commentValueDesktop !== '') {
     formDesktop.submit();
   }
-}); */
+}); 

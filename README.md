@@ -9,11 +9,12 @@
 
 - HTML5
 - CSS3
+- JavaScript
 - Git
 
 ## Live Demo
 
-[Previous Live Demo Link](https://raw.githack.com/chelmerrox/my-portfolio/main/index.html)
+[Previous Live Demo Link](https://raw.githack.com/chelmerrox/my-portfolio/milestone-7/index.html)
 
 [GitHub Pages Link](https://chelmerrox.github.io/my-portfolio/)
 
@@ -28,6 +29,7 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 - HTML5 & CSS3 
+- JavaScript
 - VSCode (or any other text editor)
 - Git
 - GitHub
@@ -72,6 +74,10 @@ $ cd my-portfolio
 
 - GitHub: [@FaranoshAmini](https://github.com/FaranoshAmini)
 
+👤 **Maris Kelly Besong**
+
+- GitHub: [@kelwilson](https://github.com/kelwilson)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -91,6 +97,7 @@ Give a ⭐️ if you like this project!
   3. Clifford Owusu
   4. Edith Naisanga
   5. Faranosh Amini
+  6. Maris Kelly Besong
 - Morning Session Teams
 - Stand-Up Teams
 - Microverse TSEs

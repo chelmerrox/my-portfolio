@@ -15,7 +15,7 @@ let emailValueDesktop1;
 let commentValueDesktop1;
 
 // Object to store values/data from user input in the form
-/* let userinputDataMobile = {
+ let userinputDataMobile = {
     username: nameValueMobile1,
     useremail: emailValueMobile1,
     usercomment: commentValueMobile1
@@ -25,7 +25,7 @@ let commentValueDesktop1;
     username: nameValueDesktop1,
     useremail: emailValueDesktop1,
     usercomment: commentValueDesktop1
-  }; */
+  }; 
 
 // Function Declarations
 // Function to store form inputs in local storage

@@ -7,10 +7,12 @@ const commentMobile1 = document.getElementById('user-comments-mobile');
 const commentDesktop1 = document.getElementById('user-comments-desktop');
 
 // Variables to store the value of name, email & comment
-let nameValueMobile1; let emailValueMobile1; let
-  commentValueMobile1;
-let nameValueDesktop1; let emailValueDesktop1; let
-  commentValueDesktop1;
+let nameValueMobile1; 
+let emailValueMobile1; 
+let commentValueMobile1;
+let nameValueDesktop1; 
+let emailValueDesktop1; 
+let commentValueDesktop1;
 
 // Object to store values/data from user input in the form
 /* let userinputDataMobile = {
@@ -56,7 +58,7 @@ function prefillFormFields(userinputDataForScreen) {
   } */
 
 // For inputs in Mobile screen
-nameMobile.addEventListener('change', () => {
+nameMobile1.addEventListener('change', () => {
   // Accessing the name's value
   nameValueMobile1 = nameMobile1.value;
 
@@ -70,7 +72,7 @@ nameMobile.addEventListener('change', () => {
   saveToLocalStorage(userinputDataMobile);
 });
 
-emailMobile.addEventListener('change', () => {
+emailMobile1.addEventListener('change', () => {
   // Accessing the email's value
   emailValueMobile1 = emailMobile1.value;
 
@@ -84,7 +86,7 @@ emailMobile.addEventListener('change', () => {
   saveToLocalStorage(userinputDataMobile);
 });
 
-commentMobile.addEventListener('change', () => {
+commentMobile1.addEventListener('change', () => {
   // Accessing the comment's value
   commentValueMobile1 = commentMobile1.value;
 
@@ -99,7 +101,7 @@ commentMobile.addEventListener('change', () => {
 });
 
 // For inputs in Desktop screen
-nameDesktop.addEventListener('change', () => {
+nameDesktop1.addEventListener('change', () => {
   // Accessing the name's value
   nameValueDesktop1 = nameDesktop1.value;
 
@@ -113,7 +115,7 @@ nameDesktop.addEventListener('change', () => {
   saveToLocalStorage(userinputDataDesktop);
 });
 
-emailDesktop.addEventListener('change', () => {
+emailDesktop1.addEventListener('change', () => {
   // Accessing the email's value
   emailValueDesktop1 = emailDesktop1.value;
 
@@ -127,7 +129,7 @@ emailDesktop.addEventListener('change', () => {
   saveToLocalStorage(userinputDataDesktop);
 });
 
-commentDesktop.addEventListener('change', () => {
+commentDesktop1.addEventListener('change', () => {
   // Accessing the comment's value
   commentValueDesktop1 = commentDesktop1.value;
 

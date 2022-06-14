@@ -53,9 +53,9 @@ function prefillFormFields(userinputDataForScreen) {
 // If local storage is not empty,
 // then prefill the fields with the user data for mobile in local storage
 // when page is refreshed/reloaded
-/* if (userinputDataMobile || userinputDataDesktop){
+ if (userinputDataMobile || userinputDataDesktop){
     prefillFormFields(userinputDataMobile);
-  } */
+  } 
 
 // For inputs in Mobile screen
 nameMobile1.addEventListener('change', () => {

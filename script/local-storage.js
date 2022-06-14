@@ -7,25 +7,25 @@ const commentMobile1 = document.getElementById('user-comments-mobile');
 const commentDesktop1 = document.getElementById('user-comments-desktop');
 
 // Variables to store the value of name, email & comment
-let nameValueMobile1; 
-let emailValueMobile1; 
+let nameValueMobile1;
+let emailValueMobile1;
 let commentValueMobile1;
-let nameValueDesktop1; 
-let emailValueDesktop1; 
+let nameValueDesktop1;
+let emailValueDesktop1;
 let commentValueDesktop1;
 
 // Object to store values/data from user input in the form
- let userinputDataMobile = {
-    username: nameValueMobile1,
-    useremail: emailValueMobile1,
-    usercomment: commentValueMobile1
-  };
+let userinputDataMobile = {
+  username: nameValueMobile1,
+  useremail: emailValueMobile1,
+  usercomment: commentValueMobile1,
+};
 
-  let userinputDataDesktop = {
-    username: nameValueDesktop1,
-    useremail: emailValueDesktop1,
-    usercomment: commentValueDesktop1
-  }; 
+let userinputDataDesktop = {
+  username: nameValueDesktop1,
+  useremail: emailValueDesktop1,
+  usercomment: commentValueDesktop1,
+};
 
 // Function Declarations
 // Function to store form inputs in local storage
@@ -35,7 +35,7 @@ function saveToLocalStorage(userinputDataForScreen) {
   localStorage.setItem('userData', x);
 }
 
-function prefillFormFields(userinputDataForScreen) {
+function prefillFormFields() {
   // Deserialization of the JSON string to a JS object & then getting user input from local storage
   const storedInput = JSON.parse(localStorage.getItem('userData'));
 
@@ -53,9 +53,9 @@ function prefillFormFields(userinputDataForScreen) {
 // If local storage is not empty,
 // then prefill the fields with the user data for mobile in local storage
 // when page is refreshed/reloaded
- if (userinputDataMobile || userinputDataDesktop){
-    prefillFormFields(userinputDataMobile);
-  } 
+if (userinputDataMobile || userinputDataDesktop) {
+  prefillFormFields();
+}
 
 // For inputs in Mobile screen
 nameMobile1.addEventListener('change', () => {

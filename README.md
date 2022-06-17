@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Previous Live Demo Link](https://raw.githack.com/chelmerrox/my-portfolio/milestone-9/index.html)
+[Previous Live Demo Link]()
 
 [GitHub Pages Link](https://chelmerrox.github.io/my-portfolio/)
 

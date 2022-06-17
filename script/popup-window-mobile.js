@@ -9,7 +9,7 @@ const projectsMobile = [
     num: 1,
     cardTitle: 'Project name goes here',
     technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
-    image1: '../images/image3.jpg',
+    image1: '../../images/image3.jpg',
     paragraphs: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
       'Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
     button1: 'See this project',

@@ -454,14 +454,14 @@ dataModalTarget1.forEach((id) => {
   overlay1 = document.getElementById('overlay');
 
   // To open modal button
-  /* seeThisProjectBtnMobile1.addEventListener('click', () => {
+  seeThisProjectBtnMobile1.addEventListener('click', () => {
     const modal1 = document.getElementById(`${id}`);
     openModal1(modal1);
-  }) */
+  })
 
   // To close a modal by clicking on the close button
-  /* closeModalButtons1.addEventListener('click', () => {
+  closeModalButtons1.addEventListener('click', () => {
     const modal1 = closeModalButtons1.closest('.modal-desktop');
     closeModal1(modal1);
-  }) */
+  })
 });

@@ -436,15 +436,15 @@ body {
   }
 
   .popup-img-3-mobile {
-    grid-column-start: 2 ;
+    grid-column-start: 2;
     grid-column-end: 3;
   }
-  
+
   .popup-img-4-mobile {
     grid-column-start: 3;
     grid-column-end: 4;
   }
-  
+
   .popup-img-5-mobile {
     grid-column-start: 4;
     grid-column-end: 5;
@@ -486,6 +486,29 @@ body {
     margin-bottom: 5px;
   }
 
+  .lang-mobile img {
+    position: relative;
+    left: 131px;
+    top: 30px;
+  }
+
+  .frame-mobile img {
+    position: relative;
+    left: 138px;
+    top: 35px;
+  }
+
+  .skills-mobile img {
+    position: relative;
+    left: 131px;
+    top: 30px;
+  }
+
+  .section-4-mobile img {
+    position: relative;
+    right: 8px;
+  }
+
   .modal-body .button2A img {
     width: 13px;
     height: 13px;
@@ -493,7 +516,7 @@ body {
   }
 
   .modal-body .button2B {
-    padding: 11px 39px;   
+    padding: 11px 39px;
   }
 
   .modal-body .button2B img {
@@ -521,7 +544,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgb(0,0,0, .5);
+    background-color: rgb(0, 0, 0, 0.5);
     pointer-events: none;
   }
 
@@ -622,24 +645,6 @@ body {
     margin-left: 20px;
   }
 
-  .lang-mobile img {
-    position: relative;
-    left: 131px;
-    top: 30px;
-  }
-
-  .frame-mobile img {
-    position: relative;
-    left: 138px;
-    top: 35px;
-  }
-
-  .skills-mobile img {
-    position: relative;
-    left: 131px;
-    top: 30px;
-  }
-
   /* Hide Section 3 |  About Section for tablet & desktop screens */
   .section-3-desktop {
     display: none;
@@ -649,11 +654,6 @@ body {
   .section-4-mobile {
     padding-bottom: 38px;
     background-color: #f9f9fa;
-  }
-
-  .section-4-mobile img {
-    position: relative;
-    right: 8px;
   }
 
   .section-4-mobile div {
@@ -1143,15 +1143,15 @@ body {
   }
 
   .popup-img-3-mobile {
-    grid-column-start: 2 ;
+    grid-column-start: 2;
     grid-column-end: 3;
   }
-  
+
   .popup-img-4-mobile {
     grid-column-start: 3;
     grid-column-end: 4;
   }
-  
+
   .popup-img-5-mobile {
     grid-column-start: 4;
     grid-column-end: 5;
@@ -1191,6 +1191,29 @@ body {
     margin-bottom: 5px;
   }
 
+  .lang-mobile img {
+    position: relative;
+    left: 226px;
+    top: 55px;
+  }
+
+  .frame-mobile img {
+    position: relative;
+    left: 232px;
+    top: 35px;
+  }
+
+  .skills-mobile img {
+    position: relative;
+    left: 226px;
+    top: 30px;
+  }
+
+  .section-4-mobile img {
+    position: relative;
+    right: 8px;
+  }
+
   .modal-body .button2A img {
     width: 13px;
     height: 13px;
@@ -1198,7 +1221,7 @@ body {
   }
 
   .modal-body .button2B {
-    padding: 11px 39px;   
+    padding: 11px 39px;
   }
 
   .modal-body .button2B img {
@@ -1226,7 +1249,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgb(0,0,0, .5);
+    background-color: rgb(0, 0, 0, 0.5);
     pointer-events: none;
   }
 
@@ -1327,24 +1350,6 @@ body {
     margin-left: 20px;
   }
 
-  .lang-mobile img {
-    position: relative;
-    left: 226px;
-    top: 55px;
-  }
-
-  .frame-mobile img {
-    position: relative;
-    left: 232px;
-    top: 35px;
-  }
-
-  .skills-mobile img {
-    position: relative;
-    left: 226px;
-    top: 30px;
-  }
-
   /* Hide Section 3 |  About Section for tablet & desktop screens */
   .section-3-desktop {
     display: none;
@@ -1354,11 +1359,6 @@ body {
   .section-4-mobile {
     padding-bottom: 38px;
     background-color: #f9f9fa;
-  }
-
-  .section-4-mobile img {
-    position: relative;
-    right: 8px;
   }
 
   .section-4-mobile div {
@@ -1513,8 +1513,8 @@ body {
   }
 }
 
-/* Styles for mobile screen sizes at 360px */ 
-@media only screen and (min-width: 360px){
+/* Styles for mobile screen sizes at 360px */
+@media only screen and (min-width: 360px) {
   /* Styles for the popup window/modals in mobile screen */
   .modal {
     height: 91%;
@@ -1525,8 +1525,8 @@ body {
   }
 }
 
-/* Styles for mobile screen sizes at 375px */ 
-@media only screen and (min-width: 375px){
+/* Styles for mobile screen sizes at 375px */
+@media only screen and (min-width: 375px) {
   /* Styles for the popup window/modals in mobile screen */
   .modal {
     height: 99%;
@@ -1537,8 +1537,8 @@ body {
   }
 }
 
-/* Styles for mobile screen sizes at 390px */ 
-@media only screen and (min-width: 390px){
+/* Styles for mobile screen sizes at 390px */
+@media only screen and (min-width: 390px) {
   /* Styles for the popup window/modals in mobile screen */
   .modal {
     height: 83%;
@@ -1549,8 +1549,8 @@ body {
   }
 }
 
-/* Styles for mobile screen sizes at 414px */ 
-@media only screen and (min-width: 414px){
+/* Styles for mobile screen sizes at 414px */
+@media only screen and (min-width: 414px) {
   /* Styles for the popup window/modals in mobile screen */
   .modal {
     height: 80%;
@@ -1855,6 +1855,12 @@ body {
     left: -41px;
   }
 
+  .project-description-card-6-desktop .project-technologies-desktop li {
+    background-color: #98dede;
+    padding: 6px;
+    font-size: 10px;
+  }
+
   .modal-desktop .modal-body .project-technologies-popup-desktop li {
     font-size: 15px;
     border: 1px solid #1a2236;
@@ -1886,15 +1892,15 @@ body {
   }
 
   .popup-img-3-desktop {
-    grid-column-start: 2 ;
+    grid-column-start: 2;
     grid-column-end: 3;
   }
-  
+
   .popup-img-4-desktop {
     grid-column-start: 3;
     grid-column-end: 4;
   }
-  
+
   .popup-img-5-desktop {
     grid-column-start: 4;
     grid-column-end: 5;
@@ -1944,6 +1950,26 @@ body {
     margin-right: 10px;
   }
 
+  .lang-frame-skills-desktop img {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 173px;
+    height: 173px;
+    position: relative;
+    top: 202px;
+    left: 54px;
+  }
+
+  .lang-frame-skills-desktop .lang-desktop img,
+  .lang-frame-skills-desktop .frame-desktop img,
+  .lang-frame-skills-desktop .skills-desktop img {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 2px;
+    left: 89px;
+  }
+
   .modal-desktop .modal-body .button2A img {
     width: 13px;
     height: 13px;
@@ -1952,7 +1978,7 @@ body {
 
   .modal-desktop .modal-body .button2B {
     padding: 11px 39px;
-    margin-top: -6px; 
+    margin-top: -6px;
   }
 
   .modal-desktop .modal-body .button2B img {
@@ -1994,7 +2020,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgb(0,0,0, .5);
+    background-color: rgb(0, 0, 0, 0.5);
     pointer-events: none;
   }
 
@@ -2167,12 +2193,6 @@ body {
     left: -36px;
   }
 
-  .project-description-card-6-desktop .project-technologies-desktop li {
-    background-color: #98dede;
-    padding: 6px;
-    font-size: 10px;
-  }
-
   .project-description-card-6-desktop .see-this-project-btn-desktop:hover {
     background-color: #1a2236;
     color: white;
@@ -2328,10 +2348,10 @@ body {
     grid-row-end: 2;
   }
 
-  .skills-desktop,
-  .lang-frame-skills-desktop img {
+  .skills-desktop {
     grid-row-start: 2;
     grid-row-end: 3;
+    background-color: #744a01;
   }
 
   .lang-desktop,
@@ -2340,10 +2360,10 @@ body {
     grid-column-end: 2;
   }
 
-  .frame-desktop,
-  .lang-frame-skills-desktop img {
+  .frame-desktop {
     grid-column-start: 2;
     grid-column-end: 3;
+    background-color: #e2505c;
   }
 
   .lang-desktop,
@@ -2359,36 +2379,10 @@ body {
     background-color: #1c528a;
   }
 
-  .frame-desktop {
-    background-color: #e2505c;
-  }
-
-  .skills-desktop {
-    background-color: #744a01;
-  }
-
   .lang-desktop h3,
   .frame-desktop h3,
   .skills-desktop h3 {
     font-size: 23px;
-  }
-
-  .lang-frame-skills-desktop img {
-    width: 173px;
-    height: 173px;
-    position: relative;
-    top: 202px;
-    left: 54px;
-  }
-
-  .lang-frame-skills-desktop .lang-desktop img,
-  .lang-frame-skills-desktop .frame-desktop img,
-  .lang-frame-skills-desktop .skills-desktop img {
-    width: 80px;
-    height: 80px;
-    position: relative;
-    top: 2px;
-    left: 89px;
   }
 
   .section-3-1-desktop {
@@ -2785,12 +2779,13 @@ body {
     margin-left: -123px;
   }
 
-  .modal-desktop .modal-body .button2A, 
+  .modal-desktop .modal-body .button2A,
   .modal-desktop .modal-body .button2B {
     font-size: 18px;
   }
 
-  .modal-desktop .links .linkA, .modal-desktop .links .linkB {
+  .modal-desktop .links .linkA,
+  .modal-desktop .links .linkB {
     font-size: 21px;
   }
 
@@ -3257,6 +3252,11 @@ body {
     height: 94.55%;
   }
 
+  .project-description-card-6-desktop .project-technologies-desktop li {
+    font-size: 22px;
+    padding: 10px;
+  }
+
   .modal-desktop .modal-body .project-technologies-popup-desktop li {
     font-size: 21px;
     margin-top: -50px;
@@ -3266,9 +3266,9 @@ body {
     width: 129%;
   }
 
-  .popup-img-2-desktop, 
-  .popup-img-3-desktop, 
-  .popup-img-4-desktop, 
+  .popup-img-2-desktop,
+  .popup-img-3-desktop,
+  .popup-img-4-desktop,
   .popup-img-5-desktop {
     width: 86%;
   }
@@ -3321,11 +3321,6 @@ body {
 
   .project-description-card-6-desktop h4 {
     font-size: 38px;
-  }
-
-  .project-description-card-6-desktop .project-technologies-desktop li {
-    font-size: 22px;
-    padding: 10px;
   }
 
   .project-description-card-6-desktop .see-this-project-btn-desktop {

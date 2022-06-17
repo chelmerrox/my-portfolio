@@ -1797,29 +1797,36 @@ body {
     left: 3px;
   }
 
-  /* Styles for the popup window/modals in mobile screen */
+  /* Styles for the popup window/modals in tablet & desktop screen */
   .modal-desktop {
     position: fixed;
-    top: 2%;
-    left: 7%;
-    /* transform: translate(-50%, -50%) scale(0);
-    transition: 200ms ease-in-out; */
+    top: 54%;
+    left: 52%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
     border: 1px solid #1a2236;
     z-index: 10;
     background-color: white;
-    width: 500px;
+    width: 544px;
+    height: 91.55%;
     max-width: 86%;
+    padding-left: 19px;
+    padding-right: 19px;
   }
 
   .modal-desktop.active {
-    /* transform: translate(-50%, -50%) scale(1); */
+    transform: translate(-50%, -50%) scale(1);
   }
 
   .modal-desktop .modal-header {
     padding: 10px 15px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
+  }
+
+  .modal-desktop .popup-title {
+    font-size: 30px;
   }
 
   .modal-desktop .modal-header .close-button {
@@ -1827,8 +1834,9 @@ body {
     border: none;
     outline: none;
     background: none;
-    font-size: 2rem;
+    font-size: 3.3rem;
     font-weight: lighter;
+    margin-top: -3px;
   }
 
   .modal-desktop .modal-body {
@@ -1838,10 +1846,6 @@ body {
   }
 
   /* Styles for the modal/popup content */
-  .modal-desktop .modal-body .popup-title {
-    font-size: 30px;
-  }
-
   .modal-desktop .modal-body .project-technologies-popup-desktop {
     list-style: none;
     display: flex;
@@ -1852,7 +1856,7 @@ body {
   }
 
   .modal-desktop .modal-body .project-technologies-popup-desktop li {
-    font-size: 13px;
+    font-size: 15px;
     border: 1px solid #1a2236;
     background-color: white;
     padding: 3px 4px;
@@ -1916,14 +1920,15 @@ body {
   .modal-desktop .modal-body .texts {
     font-size: 13px;
     position: relative;
-    top: -171px;
+    top: -195px;
   }
 
   .modal-desktop .modal-body .buttons {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-top: -62px;
+    margin-top: -185px;
+    margin-left: -44px;
   }
 
   .modal-desktop .modal-body .button2A,
@@ -1936,6 +1941,7 @@ body {
   .modal-desktop .modal-body .button2A {
     padding: 11px 48px;
     margin-bottom: 5px;
+    margin-right: 10px;
   }
 
   .modal-desktop .modal-body .button2A img {
@@ -1945,13 +1951,39 @@ body {
   }
 
   .modal-desktop .modal-body .button2B {
-    padding: 11px 39px;   
+    padding: 11px 39px;
+    margin-top: -6px; 
   }
 
   .modal-desktop .modal-body .button2B img {
     width: 13px;
     height: 13px;
     margin-left: 3px;
+  }
+
+  .modal-desktop .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 109%;
+    margin-top: 42px;
+  }
+
+  .modal-desktop .links span .back-arrow {
+    position: relative;
+    top: 5px;
+    font-size: 26px;
+  }
+
+  .modal-desktop .links .linkA,
+  .modal-desktop .links .linkB {
+    text-decoration: none;
+  }
+
+  .modal-desktop .links span .forward-arrow {
+    position: relative;
+    top: 5px;
+    font-size: 26px;
   }
 
   .modal-desktop #overlay {
@@ -2594,7 +2626,7 @@ body {
   }
 
   .section-2-1-desktop .project-description-desktop h3 {
-    font-size: 37px;
+    font-size: 33px;
   }
 
   .project-description-desktop .project-technologies-desktop li {
@@ -2603,6 +2635,11 @@ body {
 
   .see-this-project-btn-desktop {
     font-size: 20px;
+  }
+
+  /* Styles for the popup/modal window for tablet & desktop screens */
+  .modal-desktop {
+    height: 84.55%;
   }
 
   /* Styles for Section 2-2 | Projects Section 2-2 */
@@ -2724,6 +2761,36 @@ body {
   }
 
   .see-this-project-btn-desktop {
+    font-size: 21px;
+  }
+
+  /* Styles for popup window/modal in tablet & desktop screens */
+  .modal-desktop {
+    width: 681px;
+    height: 89.55%;
+  }
+
+  .modal-desktop .modal-body .project-technologies-popup-desktop li {
+    font-size: 20px;
+  }
+
+  .modal-desktop .modal-body .texts {
+    font-size: 18px;
+    position: relative;
+    top: -230px;
+  }
+
+  .modal-desktop .modal-body .buttons {
+    margin-top: -216px;
+    margin-left: -123px;
+  }
+
+  .modal-desktop .modal-body .button2A, 
+  .modal-desktop .modal-body .button2B {
+    font-size: 18px;
+  }
+
+  .modal-desktop .links .linkA, .modal-desktop .links .linkB {
     font-size: 21px;
   }
 
@@ -3173,7 +3240,7 @@ body {
   }
 
   .section-2-1-desktop .project-description-desktop h3 {
-    font-size: 60px;
+    font-size: 41px;
   }
 
   .project-description-desktop .project-technologies-desktop {
@@ -3183,6 +3250,36 @@ body {
 
   .project-description-desktop .project-technologies-desktop li {
     font-size: 25px;
+  }
+
+  /* Styles for popup window/modal for tablet & desktop screens */
+  .modal-desktop {
+    height: 94.55%;
+  }
+
+  .modal-desktop .modal-body .project-technologies-popup-desktop li {
+    font-size: 21px;
+    margin-top: -50px;
+  }
+
+  .popup-img-1-desktop {
+    width: 129%;
+  }
+
+  .popup-img-2-desktop, 
+  .popup-img-3-desktop, 
+  .popup-img-4-desktop, 
+  .popup-img-5-desktop {
+    width: 86%;
+  }
+
+  .modal-desktop .modal-body .texts {
+    position: relative;
+    top: -275px;
+  }
+
+  .modal-desktop .modal-body .buttons {
+    margin-top: -259px;
   }
 
   /* Styles for Section 2-2 | Projects Section 2-2 */

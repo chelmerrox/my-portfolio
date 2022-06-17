@@ -457,11 +457,11 @@ dataModalTarget1.forEach((id) => {
   seeThisProjectBtnDesktop.addEventListener('click', () => {
     const modal1 = document.getElementById(`${id}`);
     openModal1(modal1);
-  })
+  });
 
   // To close a modal by clicking on the close button
   closeModalButtons1.addEventListener('click', () => {
     const modal1 = closeModalButtons1.closest('.modal-desktop');
     closeModal1(modal1);
-  })
+  });
 });

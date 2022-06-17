@@ -1,5 +1,5 @@
 // Variable declarations
-/* const section1Desktop = document.querySelector('.section-1-desktop'); */
+const section1Desktop = document.querySelector('.section-1-desktop');
 const section2Mobile = document.createElement('section');
 const projectsContainerMobile = document.createElement('div');
 

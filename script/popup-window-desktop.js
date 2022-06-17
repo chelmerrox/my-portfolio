@@ -446,7 +446,7 @@ function closeModal1(modal) {
 
 dataModalTarget1.forEach((id) => {
   // the open a Modal button
-  const seeThisProjectBtnMobile1 = document.querySelector(`[data-modal-target='${id}']`);
+  const seeThisProjectBtnDesktop = document.querySelector(`[data-modal-target='${id}']`);
 
   j += 1; // for the close-button-number class
   const closeModalButtons1 = document.querySelector(`.close-button-${j}`); // the close a Modal button
@@ -454,7 +454,7 @@ dataModalTarget1.forEach((id) => {
   overlay1 = document.getElementById('overlay');
 
   // To open modal button
-  seeThisProjectBtnMobile1.addEventListener('click', () => {
+  seeThisProjectBtnDesktop.addEventListener('click', () => {
     const modal1 = document.getElementById(`${id}`);
     openModal1(modal1);
   })

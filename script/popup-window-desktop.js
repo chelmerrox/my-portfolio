@@ -13,12 +13,12 @@ const projects2Desktop1 = [
     images2: ['../images/image9.jpg', '../images/image3.jpg'],
     technologies1: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
     paragraphs2: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
-                 'Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
+      'Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
     button11: 'See this project',
     buttons2: ['See live', 'See source'],
-    links: ['Previous project', 'Next project']
-  }
-]
+    links: ['Previous project', 'Next project'],
+  },
+];
 
 const projects2Desktop2 = [
   {
@@ -27,38 +27,38 @@ const projects2Desktop2 = [
     images2: ['../images/image4.jpg', '../images/image11.png', '../images/image8.jpg'],
     technologies1: ['HTML/CSS', 'Ruby on Rails', 'JavaScript', '+1'],
     paragraphs2: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
-                 'Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
+      'Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
     button11: 'See this project',
     buttons2: ['See live', 'See source'],
-    links: ['Previous project', 'Next project']
-  }
-]
+    links: ['Previous project', 'Next project'],
+  },
+];
 
 const projects2Desktop3 = [{
-    cardNum: [13, 15],
-    cardTitles: 'Project name goes here',
-    images2: ['../images/image5.jpg', '../images/image7.jpg', '../images/image12.png'],
-    technologies1: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
-    paragraphs2: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
-                  'Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
-    button11: 'See this project',
-    buttons2: ['See live', 'See source'],
-    links: ['Previous project', 'Next project']
-  }
-]
+  cardNum: [13, 15],
+  cardTitles: 'Project name goes here',
+  images2: ['../images/image5.jpg', '../images/image7.jpg', '../images/image12.png'],
+  technologies1: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
+  paragraphs2: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
+    'Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
+  button11: 'See this project',
+  buttons2: ['See live', 'See source'],
+  links: ['Previous project', 'Next project'],
+},
+];
 
 const projects2Desktop4 = [{
-    cardNum: 14,
-    cardTitles: 'Project name goes here',
-    images2: ['../images/image13.png', '../images/image14.png', '../images/image6.jpg'],
-    technologies1: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
-    paragraphs2: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
-                 'Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
-    button11: 'See this project',
-    buttons2: ['See live', 'See source'],
-    links: ['Previous project', 'Next project']
-  }
-]
+  cardNum: 14,
+  cardTitles: 'Project name goes here',
+  images2: ['../images/image13.png', '../images/image14.png', '../images/image6.jpg'],
+  technologies1: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
+  paragraphs2: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
+    'Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
+  button11: 'See this project',
+  buttons2: ['See live', 'See source'],
+  links: ['Previous project', 'Next project'],
+},
+];
 
 // Section 2-1 Desktop
 projects2Desktop1.forEach((cardObject) => {
@@ -133,7 +133,7 @@ section2Mobile1.after(section2Desktop1); // Append Section 2-1 desktop after Sec
 
 // Section 2-2 Desktop
 projects2Desktop2.forEach((cardObject) => {
-    section2Desktop2.innerHTML = `
+  section2Desktop2.innerHTML = `
     <!--Project Card 2-->
     <div class="container card-2-desktop card-${cardObject.cardNum[0]}">
       <img src="${cardObject.images2[0]}" alt="A macbook" class="card-2-img-desktop"/>
@@ -426,19 +426,19 @@ projects2Desktop4.forEach((cardObject) => {
 section2Desktop4.className = 'section-2-4-desktop';
 section2Desktop3.after(section2Desktop4); // Append Section 2-4 desktop after Section 2-3 Desktop
 
-//Stores all of the id values of the modal/popup container
-//that are also stored & matched up with the data-modal-target attribute
-let dataModalTarget1 = ['modal-11','modal-12','modal-13', 'modal-14','modal-15','modal-16'];
+// Stores all of the id values of the modal/popup container
+// that are also stored & matched up with the data-modal-target attribute
+const dataModalTarget1 = ['modal-11', 'modal-12', 'modal-13', 'modal-14', 'modal-15', 'modal-16'];
 let j = 10;
 let overlay1;
 
-function openModal1(modal){
-  if (modal === null){ return; }
-    modal.classList.add('active');
-    overlay1.classList.add('active');
+function openModal1(modal) {
+  if (modal === null) { return; }
+  modal.classList.add('active');
+  overlay1.classList.add('active');
 }
 
-function closeModal1(modal){
+function closeModal1(modal) {
   if (modal === null) { return; }
   modal.classList.remove('active');
   overlay1.classList.remove('active');
@@ -447,11 +447,10 @@ function closeModal1(modal){
 dataModalTarget1.forEach((id) => {
   // the open a Modal button
   const seeThisProjectBtnMobile1 = document.querySelector(`[data-modal-target='${id}']`);
-  console.log(seeThisProjectBtnMobile1);
 
-  j += 1; //for the close-button-number class
-  const closeModalButtons1 = document.querySelector(`.close-button-${j}`); //the close a Modal button
-  
+  j += 1; // for the close-button-number class
+  const closeModalButtons1 = document.querySelector(`.close-button-${j}`); // the close a Modal button
+
   overlay1 = document.getElementById('overlay');
 
   // To open modal button
@@ -466,5 +465,3 @@ dataModalTarget1.forEach((id) => {
     closeModal1(modal1);
   }) */
 });
-
-

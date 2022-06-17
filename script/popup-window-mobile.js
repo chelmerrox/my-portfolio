@@ -11,9 +11,9 @@ const projectsMobile = [
     technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
     image1: '../images/image3.jpg',
     paragraphs: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
-               'Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
+      'Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
     button1: 'See this project',
-    buttons: ['See live', 'See source']
+    buttons: ['See live', 'See source'],
   },
   {
     num: 2,
@@ -21,9 +21,9 @@ const projectsMobile = [
     technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
     image1: '../images/image4.jpg',
     paragraphs: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
-                 'Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
+      'Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
     button1: 'See this project',
-    buttons: ['See live', 'See source']
+    buttons: ['See live', 'See source'],
   },
   {
     num: 3,
@@ -31,9 +31,9 @@ const projectsMobile = [
     technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
     image1: '../images/image5.jpg',
     paragraphs: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
-                 'Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
+      'Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
     button1: 'See this project',
-    buttons: ['See live','See source']
+    buttons: ['See live', 'See source'],
   },
   {
     num: 4,
@@ -41,9 +41,9 @@ const projectsMobile = [
     technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
     image1: '../images/image6.jpg',
     paragraphs: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
-                 'Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
+      'Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
     button1: 'See this project',
-    buttons: ['See live','See source']
+    buttons: ['See live', 'See source'],
   },
   {
     num: 5,
@@ -51,9 +51,9 @@ const projectsMobile = [
     technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
     image1: '../images/image7.jpg',
     paragraphs: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
-                 'Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
+      'Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
     button1: 'See this project',
-    buttons: ['See live','See source']
+    buttons: ['See live', 'See source'],
   },
   {
     num: 6,
@@ -61,11 +61,11 @@ const projectsMobile = [
     technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
     image1: '../images/image8.jpg',
     paragraphs: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
-                 'Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
+      'Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
     button1: 'See this project',
-    buttons: ['See live','See source']
-  }
-]
+    buttons: ['See live', 'See source'],
+  },
+];
 
 // Create Section 2 Mobile | Projects Section
 section2Mobile.innerHTML = `
@@ -134,27 +134,28 @@ projectsMobile.forEach((cardObj) => {
     </div>
   `;
 
-  projectsContainerMobile.append(cardMobile);  
+  projectsContainerMobile.append(cardMobile);
 });
 
 projectsContainerMobile.className = 'projects-container-mobile';
 
-section2Mobile.append(projectsContainerMobile); // Append projects-container-mobile to Section 2 Mobile
-section1Desktop.after(section2Mobile);  // Append Section 2 Mobile after Section 1 Desktop
+// Append projects-container-mobile to Section 2 Mobile
+section2Mobile.append(projectsContainerMobile);
+section1Desktop.after(section2Mobile); // Append Section 2 Mobile after Section 1 Desktop
 
-//Stores all of the id values of the modal/popup container
-//that are also stored & matched up with the data-modal-target attribute
-let dataModalTarget = ['modal-1','modal-2','modal-3', 'modal-4','modal-5','modal-6'];
+// Stores all of the id values of the modal/popup container
+// that are also stored & matched up with the data-modal-target attribute
+const dataModalTarget = ['modal-1', 'modal-2', 'modal-3', 'modal-4', 'modal-5', 'modal-6'];
 let i = 0;
 let overlay;
 
-function openModal(modal){
-  if (modal === null){ return; }
-    modal.classList.add('active');
-    overlay.classList.add('active');
+function openModal(modal) {
+  if (modal === null) { return; }
+  modal.classList.add('active');
+  overlay.classList.add('active');
 }
 
-function closeModal(modal){
+function closeModal(modal) {
   if (modal === null) { return; }
   modal.classList.remove('active');
   overlay.classList.remove('active');
@@ -164,21 +165,20 @@ dataModalTarget.forEach((id) => {
   // the open a Modal button
   const seeThisProjectBtnMobile = document.querySelector(`[data-modal-target='${id}']`);
 
-  i += 1; //for the close-button-number class
-  const closeModalButtons = document.querySelector(`.close-button-${i}`); //the close a Modal button
-  
+  i += 1; // for the close-button-number class
+  const closeModalButtons = document.querySelector(`.close-button-${i}`); // the close a Modal button
+
   overlay = document.getElementById('overlay');
 
   // To open modal button
   seeThisProjectBtnMobile.addEventListener('click', () => {
     const modal = document.getElementById(`${id}`);
     openModal(modal);
-  })
+  });
 
   // To close a modal by clicking on the close button
   closeModalButtons.addEventListener('click', () => {
     const modal = closeModalButtons.closest('.modal');
     closeModal(modal);
-  })
+  });
 });
-

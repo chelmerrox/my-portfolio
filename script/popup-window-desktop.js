@@ -129,6 +129,7 @@ projects2Desktop1.forEach((cardObject) => {
 });
 
 section2Desktop1.className = 'section-2-1-desktop';
+section2Desktop1.id = 'section-2-1-desktop';
 section2Mobile1.after(section2Desktop1); // Append Section 2-1 desktop after Section 2 Mobile
 
 // Section 2-2 Desktop

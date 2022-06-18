@@ -53,13 +53,15 @@ $ cd my-portfolio
 
 ```
 
-## Authors
+## Author
 
 👤 **Losalini Rokocakau**
 
 - GitHub: [@chelmerrox](https://github.com/chelmerrox)
 - Twitter: [@chelmerrox](https://twitter.com/chelmerrox)
 - LinkedIn: [Losalini Rokocakau](https://linkedin.com/in/losalini-rokocakau)
+
+## Collaborators
 
 👤 **Clifford Owusu**
 

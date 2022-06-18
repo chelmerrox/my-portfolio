@@ -1,4 +1,4 @@
-// Variable delcarations
+// Variable declarations
 const formMobile = document.getElementById('form-mobile');
 const formDesktop = document.getElementById('form-desktop');
 const nameMobile = document.getElementById('user-name-mobile');

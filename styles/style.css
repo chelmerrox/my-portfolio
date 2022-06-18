@@ -350,6 +350,209 @@ body {
     left: 3px;
   }
 
+  /* Styles for the popup window/modals in mobile screen */
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid #1a2236;
+    z-index: 10;
+    background-color: white;
+    width: 500px;
+    max-width: 83%;
+  }
+
+  .modal.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  .modal-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .modal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 2rem;
+    font-weight: lighter;
+  }
+
+  .modal-body {
+    padding: 10px 15px;
+    position: relative;
+    top: -24px;
+  }
+
+  /* Styles for the modal/popup content */
+  .modal-body .popup-title {
+    font-size: 14px;
+  }
+
+  .modal-body .project-technologies-popup-mobile {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    left: -41px;
+  }
+
+  .modal-body .project-technologies-popup-mobile li {
+    font-size: 7px;
+    border: 1px solid #1a2236;
+    background-color: white;
+    padding: 3px 4px;
+  }
+
+  .modal-body .project-technologies-popup-mobile .rubyonrails-text {
+    display: inline-flex;
+    font-size: 7px;
+  }
+
+  .popup-img-mobile {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .popup-img-1-mobile {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 137%;
+  }
+
+  .popup-img-2-mobile {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .popup-img-3-mobile {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  .popup-img-4-mobile {
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+
+  .popup-img-5-mobile {
+    grid-column-start: 4;
+    grid-column-end: 5;
+  }
+
+  .popup-img-2-mobile,
+  .popup-img-3-mobile,
+  .popup-img-4-mobile,
+  .popup-img-5-mobile {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 109%;
+    height: 49%;
+  }
+
+  .modal-body .texts {
+    font-size: 9px;
+    position: relative;
+    top: -55px;
+  }
+
+  .modal-body .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 14px;
+    margin-top: -39px;
+  }
+
+  .modal-body .button2A,
+  .modal-body .button2B {
+    text-decoration: none;
+    border: 1px solid #1a2236;
+    font-size: 12px;
+  }
+
+  .modal-body .button2A {
+    padding: 11px 48px;
+    margin-bottom: 5px;
+  }
+
+  .lang-mobile img {
+    position: relative;
+    left: 131px;
+    top: 30px;
+  }
+
+  .frame-mobile img {
+    position: relative;
+    left: 138px;
+    top: 35px;
+  }
+
+  .skills-mobile img {
+    position: relative;
+    left: 131px;
+    top: 30px;
+  }
+
+  .section-4-mobile img {
+    position: relative;
+    right: 8px;
+  }
+
+  .modal-body .button2A img {
+    width: 13px;
+    height: 13px;
+    margin-left: 3px;
+  }
+
+  .modal-body .button2B {
+    padding: 11px 39px;
+  }
+
+  .modal-body .button2B img {
+    width: 13px;
+    height: 13px;
+    margin-left: 3px;
+  }
+
+  .modal-body .button2A:hover,
+  .modal-body .button2B:hover {
+    background-color: #1a2236;
+    color: white;
+  }
+
+  .modal-body .button2A:active,
+  .modal-body .button2B:active {
+    font-weight: bolder;
+  }
+
+  #overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+    pointer-events: none;
+  }
+
+  #overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
   /* Hide Section 2-1, Section 2-2, Section 2-3, Section 2-4 |
   Projects Section 2-1, 2-2, 2-3, 2-4 for tablet & desktop screens */
   .section-2-1-desktop,
@@ -442,24 +645,6 @@ body {
     margin-left: 20px;
   }
 
-  .lang-mobile img {
-    position: relative;
-    left: 131px;
-    top: 30px;
-  }
-
-  .frame-mobile img {
-    position: relative;
-    left: 138px;
-    top: 35px;
-  }
-
-  .skills-mobile img {
-    position: relative;
-    left: 131px;
-    top: 30px;
-  }
-
   /* Hide Section 3 |  About Section for tablet & desktop screens */
   .section-3-desktop {
     display: none;
@@ -469,11 +654,6 @@ body {
   .section-4-mobile {
     padding-bottom: 38px;
     background-color: #f9f9fa;
-  }
-
-  .section-4-mobile img {
-    position: relative;
-    right: 8px;
   }
 
   .section-4-mobile div {
@@ -877,6 +1057,207 @@ body {
     left: 3px;
   }
 
+  /* Styles for the popup window/modals in mobile screen */
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid #1a2236;
+    z-index: 10;
+    background-color: white;
+    width: 500px;
+    height: 99%;
+    max-width: 86%;
+  }
+
+  .modal.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  .modal-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .modal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 2rem;
+    font-weight: lighter;
+  }
+
+  .modal-body {
+    padding: 10px 15px;
+    position: relative;
+    top: -24px;
+  }
+
+  /* Styles for the modal/popup content */
+  .modal-body .popup-title {
+    font-size: 22px;
+  }
+
+  .modal-body .project-technologies-popup-mobile {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    left: -41px;
+  }
+
+  .modal-body .project-technologies-popup-mobile li {
+    font-size: 10px;
+    border: 1px solid #1a2236;
+    background-color: white;
+    padding: 3px 4px;
+  }
+
+  .modal-body .project-technologies-popup-mobile .rubyonrails-text {
+    display: inline-flex;
+  }
+
+  .popup-img-mobile {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .popup-img-1-mobile {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 132%;
+  }
+
+  .popup-img-2-mobile {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .popup-img-3-mobile {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  .popup-img-4-mobile {
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+
+  .popup-img-5-mobile {
+    grid-column-start: 4;
+    grid-column-end: 5;
+  }
+
+  .popup-img-2-mobile,
+  .popup-img-3-mobile,
+  .popup-img-4-mobile,
+  .popup-img-5-mobile {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 96%;
+  }
+
+  .modal-body .texts {
+    font-size: 9px;
+    position: relative;
+    top: -81px;
+  }
+
+  .modal-body .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -73px;
+  }
+
+  .modal-body .button2A,
+  .modal-body .button2B {
+    text-decoration: none;
+    border: 1px solid #1a2236;
+    font-size: 12px;
+  }
+
+  .modal-body .button2A {
+    padding: 11px 48px;
+    margin-bottom: 5px;
+  }
+
+  .lang-mobile img {
+    position: relative;
+    left: 226px;
+    top: 55px;
+  }
+
+  .frame-mobile img {
+    position: relative;
+    left: 232px;
+    top: 35px;
+  }
+
+  .skills-mobile img {
+    position: relative;
+    left: 226px;
+    top: 30px;
+  }
+
+  .section-4-mobile img {
+    position: relative;
+    right: 8px;
+  }
+
+  .modal-body .button2A img {
+    width: 13px;
+    height: 13px;
+    margin-left: 3px;
+  }
+
+  .modal-body .button2B {
+    padding: 11px 39px;
+  }
+
+  .modal-body .button2B img {
+    width: 13px;
+    height: 13px;
+    margin-left: 3px;
+  }
+
+  .modal-body .button2A:hover,
+  .modal-body .button2B:hover {
+    background-color: #1a2236;
+    color: white;
+  }
+
+  .modal-body .button2A:active,
+  .modal-body .button2B:active {
+    font-weight: bolder;
+  }
+
+  #overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+    pointer-events: none;
+  }
+
+  #overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
   /* Hide Section 2-1, Section 2-2, Section 2-3, Section 2-4 |
   Projects Section 2-1, 2-2, 2-3, 2-4 for tablet & desktop screens */
   .section-2-1-desktop,
@@ -969,24 +1350,6 @@ body {
     margin-left: 20px;
   }
 
-  .lang-mobile img {
-    position: relative;
-    left: 226px;
-    top: 55px;
-  }
-
-  .frame-mobile img {
-    position: relative;
-    left: 232px;
-    top: 35px;
-  }
-
-  .skills-mobile img {
-    position: relative;
-    left: 226px;
-    top: 30px;
-  }
-
   /* Hide Section 3 |  About Section for tablet & desktop screens */
   .section-3-desktop {
     display: none;
@@ -996,11 +1359,6 @@ body {
   .section-4-mobile {
     padding-bottom: 38px;
     background-color: #f9f9fa;
-  }
-
-  .section-4-mobile img {
-    position: relative;
-    right: 8px;
   }
 
   .section-4-mobile div {
@@ -1152,6 +1510,54 @@ body {
   /* Hide Footer Section for tablet & desktop screens */
   .footer-desktop {
     display: none;
+  }
+}
+
+/* Styles for mobile screen sizes at 360px */
+@media only screen and (min-width: 360px) {
+  /* Styles for the popup window/modals in mobile screen */
+  .modal {
+    height: 91%;
+  }
+
+  .modal-body .project-technologies-popup-mobile li {
+    font-size: 12px;
+  }
+}
+
+/* Styles for mobile screen sizes at 375px */
+@media only screen and (min-width: 375px) {
+  /* Styles for the popup window/modals in mobile screen */
+  .modal {
+    height: 99%;
+  }
+
+  .modal-body .project-technologies-popup-mobile li {
+    font-size: 12px;
+  }
+}
+
+/* Styles for mobile screen sizes at 390px */
+@media only screen and (min-width: 390px) {
+  /* Styles for the popup window/modals in mobile screen */
+  .modal {
+    height: 83%;
+  }
+
+  .modal-body .project-technologies-popup-mobile li {
+    font-size: 13px;
+  }
+}
+
+/* Styles for mobile screen sizes at 414px */
+@media only screen and (min-width: 414px) {
+  /* Styles for the popup window/modals in mobile screen */
+  .modal {
+    height: 80%;
+  }
+
+  .modal-body .project-technologies-popup-mobile li {
+    font-size: 14px;
   }
 }
 
@@ -1391,6 +1797,238 @@ body {
     left: 3px;
   }
 
+  /* Styles for the popup window/modals in tablet & desktop screen */
+  .modal-desktop {
+    position: fixed;
+    top: 54%;
+    left: 52%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid #1a2236;
+    z-index: 10;
+    background-color: white;
+    width: 544px;
+    height: 91.55%;
+    max-width: 86%;
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+
+  .modal-desktop.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  .modal-desktop .modal-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .modal-desktop .popup-title {
+    font-size: 30px;
+  }
+
+  .modal-desktop .modal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 3.3rem;
+    font-weight: lighter;
+    margin-top: -3px;
+  }
+
+  .modal-desktop .modal-body {
+    padding: 10px 15px;
+    position: relative;
+    top: -24px;
+  }
+
+  /* Styles for the modal/popup content */
+  .modal-desktop .modal-body .project-technologies-popup-desktop {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    left: -41px;
+  }
+
+  .project-description-card-6-desktop .project-technologies-desktop li {
+    background-color: #98dede;
+    padding: 6px;
+    font-size: 10px;
+  }
+
+  .modal-desktop .modal-body .project-technologies-popup-desktop li {
+    font-size: 15px;
+    border: 1px solid #1a2236;
+    background-color: white;
+    padding: 3px 4px;
+  }
+
+  .modal-body .project-technologies-popup-mobile .rubyonrails-text {
+    display: inline-flex;
+  }
+
+  .popup-img-desktop {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .popup-img-1-desktop {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 134%;
+  }
+
+  .popup-img-2-desktop {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .popup-img-3-desktop {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  .popup-img-4-desktop {
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+
+  .popup-img-5-desktop {
+    grid-column-start: 4;
+    grid-column-end: 5;
+  }
+
+  .popup-img-2-desktop,
+  .popup-img-3-desktop,
+  .popup-img-4-desktop,
+  .popup-img-5-desktop {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 102%;
+  }
+
+  .modal-desktop .modal-body .paragraphs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 52px;
+    margin-right: 52px;
+  }
+
+  .modal-desktop .modal-body .texts {
+    font-size: 13px;
+    position: relative;
+    top: -195px;
+  }
+
+  .modal-desktop .modal-body .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: -185px;
+    margin-left: -44px;
+  }
+
+  .modal-desktop .modal-body .button2A,
+  .modal-desktop .modal-body .button2B {
+    text-decoration: none;
+    border: 1px solid #1a2236;
+    font-size: 12px;
+  }
+
+  .modal-desktop .modal-body .button2A {
+    padding: 11px 48px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+  }
+
+  .lang-frame-skills-desktop img {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 173px;
+    height: 173px;
+    position: relative;
+    top: 202px;
+    left: 54px;
+  }
+
+  .lang-frame-skills-desktop .lang-desktop img,
+  .lang-frame-skills-desktop .frame-desktop img,
+  .lang-frame-skills-desktop .skills-desktop img {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 2px;
+    left: 89px;
+  }
+
+  .modal-desktop .modal-body .button2A img {
+    width: 13px;
+    height: 13px;
+    margin-left: 3px;
+  }
+
+  .modal-desktop .modal-body .button2B {
+    padding: 11px 39px;
+    margin-top: -6px;
+  }
+
+  .modal-desktop .modal-body .button2B img {
+    width: 13px;
+    height: 13px;
+    margin-left: 3px;
+  }
+
+  .modal-desktop .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 109%;
+    margin-top: 42px;
+  }
+
+  .modal-desktop .links span .back-arrow {
+    position: relative;
+    top: 5px;
+    font-size: 26px;
+  }
+
+  .modal-desktop .links .linkA,
+  .modal-desktop .links .linkB {
+    text-decoration: none;
+  }
+
+  .modal-desktop .links span .forward-arrow {
+    position: relative;
+    top: 5px;
+    font-size: 26px;
+  }
+
+  .modal-desktop #overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+    pointer-events: none;
+  }
+
+  .modal-desktop #overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
   /* Styles for Section 2-2 | Projects Section 2-2 */
   .section-2-2-desktop {
     display: grid;
@@ -1555,12 +2193,6 @@ body {
     left: -36px;
   }
 
-  .project-description-card-6-desktop .project-technologies-desktop li {
-    background-color: #98dede;
-    padding: 6px;
-    font-size: 10px;
-  }
-
   .project-description-card-6-desktop .see-this-project-btn-desktop:hover {
     background-color: #1a2236;
     color: white;
@@ -1716,10 +2348,10 @@ body {
     grid-row-end: 2;
   }
 
-  .skills-desktop,
-  .lang-frame-skills-desktop img {
+  .skills-desktop {
     grid-row-start: 2;
     grid-row-end: 3;
+    background-color: #744a01;
   }
 
   .lang-desktop,
@@ -1728,10 +2360,10 @@ body {
     grid-column-end: 2;
   }
 
-  .frame-desktop,
-  .lang-frame-skills-desktop img {
+  .frame-desktop {
     grid-column-start: 2;
     grid-column-end: 3;
+    background-color: #e2505c;
   }
 
   .lang-desktop,
@@ -1747,36 +2379,10 @@ body {
     background-color: #1c528a;
   }
 
-  .frame-desktop {
-    background-color: #e2505c;
-  }
-
-  .skills-desktop {
-    background-color: #744a01;
-  }
-
   .lang-desktop h3,
   .frame-desktop h3,
   .skills-desktop h3 {
     font-size: 23px;
-  }
-
-  .lang-frame-skills-desktop img {
-    width: 173px;
-    height: 173px;
-    position: relative;
-    top: 202px;
-    left: 54px;
-  }
-
-  .lang-frame-skills-desktop .lang-desktop img,
-  .lang-frame-skills-desktop .frame-desktop img,
-  .lang-frame-skills-desktop .skills-desktop img {
-    width: 80px;
-    height: 80px;
-    position: relative;
-    top: 2px;
-    left: 89px;
   }
 
   .section-3-1-desktop {
@@ -2014,7 +2620,7 @@ body {
   }
 
   .section-2-1-desktop .project-description-desktop h3 {
-    font-size: 37px;
+    font-size: 33px;
   }
 
   .project-description-desktop .project-technologies-desktop li {
@@ -2023,6 +2629,11 @@ body {
 
   .see-this-project-btn-desktop {
     font-size: 20px;
+  }
+
+  /* Styles for the popup/modal window for tablet & desktop screens */
+  .modal-desktop {
+    height: 84.55%;
   }
 
   /* Styles for Section 2-2 | Projects Section 2-2 */
@@ -2144,6 +2755,37 @@ body {
   }
 
   .see-this-project-btn-desktop {
+    font-size: 21px;
+  }
+
+  /* Styles for popup window/modal in tablet & desktop screens */
+  .modal-desktop {
+    width: 681px;
+    height: 89.55%;
+  }
+
+  .modal-desktop .modal-body .project-technologies-popup-desktop li {
+    font-size: 20px;
+  }
+
+  .modal-desktop .modal-body .texts {
+    font-size: 18px;
+    position: relative;
+    top: -230px;
+  }
+
+  .modal-desktop .modal-body .buttons {
+    margin-top: -216px;
+    margin-left: -123px;
+  }
+
+  .modal-desktop .modal-body .button2A,
+  .modal-desktop .modal-body .button2B {
+    font-size: 18px;
+  }
+
+  .modal-desktop .links .linkA,
+  .modal-desktop .links .linkB {
     font-size: 21px;
   }
 
@@ -2593,7 +3235,7 @@ body {
   }
 
   .section-2-1-desktop .project-description-desktop h3 {
-    font-size: 60px;
+    font-size: 41px;
   }
 
   .project-description-desktop .project-technologies-desktop {
@@ -2603,6 +3245,41 @@ body {
 
   .project-description-desktop .project-technologies-desktop li {
     font-size: 25px;
+  }
+
+  /* Styles for popup window/modal for tablet & desktop screens */
+  .modal-desktop {
+    height: 94.55%;
+  }
+
+  .project-description-card-6-desktop .project-technologies-desktop li {
+    font-size: 22px;
+    padding: 10px;
+  }
+
+  .modal-desktop .modal-body .project-technologies-popup-desktop li {
+    font-size: 21px;
+    margin-top: -50px;
+  }
+
+  .popup-img-1-desktop {
+    width: 129%;
+  }
+
+  .popup-img-2-desktop,
+  .popup-img-3-desktop,
+  .popup-img-4-desktop,
+  .popup-img-5-desktop {
+    width: 86%;
+  }
+
+  .modal-desktop .modal-body .texts {
+    position: relative;
+    top: -275px;
+  }
+
+  .modal-desktop .modal-body .buttons {
+    margin-top: -259px;
   }
 
   /* Styles for Section 2-2 | Projects Section 2-2 */
@@ -2644,11 +3321,6 @@ body {
 
   .project-description-card-6-desktop h4 {
     font-size: 38px;
-  }
-
-  .project-description-card-6-desktop .project-technologies-desktop li {
-    font-size: 22px;
-    padding: 10px;
   }
 
   .project-description-card-6-desktop .see-this-project-btn-desktop {

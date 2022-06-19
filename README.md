@@ -89,8 +89,8 @@ Give a ⭐️ if you like this project!
 - My God & family
 - Microverse
 - Coding & Learning Partners: 
-  1. Okolo Oshoke
-  2. Amol Charpe 
+  1. [Okolo Oshoke](https://github.com/ooshoke)
+  2. [Amol Charpe](https://github.com/charpeamol) 
   3. Clifford Owusu
   4. Edith Naisanga
   5. Faranosh Amini

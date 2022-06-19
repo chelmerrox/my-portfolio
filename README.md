@@ -63,22 +63,16 @@ $ cd my-portfolio
 
 ## Collaborators
 
-👤 **Clifford Owusu**
+> The collaboration was through remote pair-programming.
 
-- GitHub: [@sireclifford](https://github.com/sireclifford)
+👤 **Clifford Owusu** | GitHub: [@sireclifford](https://github.com/sireclifford)
 
 
-👤 **Edith Naisanga**
+👤 **Edith Naisanga** | GitHub: [@nedith](https://github.com/nedith)
 
-- GitHub: [@nedith](https://github.com/nedith)
+👤 **Faranosh Amini** | GitHub: [@FaranoshAmini](https://github.com/FaranoshAmini)
 
-👤 **Faranosh Amini**
-
-- GitHub: [@FaranoshAmini](https://github.com/FaranoshAmini)
-
-👤 **Maris Kelly Besong**
-
-- GitHub: [@kelwilson](https://github.com/kelwilson)
+👤 **Maris Kelly Besong** | GitHub: [@kelwilson](https://github.com/kelwilson)
 
 ## 🤝 Contributing
 

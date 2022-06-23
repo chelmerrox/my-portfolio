@@ -10,7 +10,7 @@ const projects2Desktop1 = [
   {
     cardNum: 11,
     cardTitles: ['Projects', 'Project name goes here'],
-    images2: ['../images/image9.jpg', '../images/image3.jpg'],
+    images2: ['./images/image9.jpg', './images/image3.jpg'],
     technologies1: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
     paragraphs2: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
       'Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
@@ -24,7 +24,7 @@ const projects2Desktop2 = [
   {
     cardNum: [12, 16],
     cardTitles: 'Project name goes here',
-    images2: ['../images/image4.jpg', '../images/image11.png', '../images/image8.jpg'],
+    images2: ['./images/image4.jpg', './images/image11.png', './images/image8.jpg'],
     technologies1: ['HTML/CSS', 'Ruby on Rails', 'JavaScript', '+1'],
     paragraphs2: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
       'Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
@@ -37,7 +37,7 @@ const projects2Desktop2 = [
 const projects2Desktop3 = [{
   cardNum: [13, 15],
   cardTitles: 'Project name goes here',
-  images2: ['../images/image5.jpg', '../images/image7.jpg', '../images/image12.png'],
+  images2: ['./images/image5.jpg', './images/image7.jpg', './images/image12.png'],
   technologies1: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
   paragraphs2: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
     'Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],
@@ -50,7 +50,7 @@ const projects2Desktop3 = [{
 const projects2Desktop4 = [{
   cardNum: 14,
   cardTitles: 'Project name goes here',
-  images2: ['../images/image13.png', '../images/image14.png', '../images/image6.jpg'],
+  images2: ['./images/image13.png', './images/image14.png', './images/image6.jpg'],
   technologies1: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
   paragraphs2: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
     'Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'],

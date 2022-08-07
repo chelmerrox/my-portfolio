@@ -1622,6 +1622,7 @@ body {
   .section-1-desktop {
     display: flex;
     justify-content: space-evenly;
+    padding-top: 79px;
   }
 
   .section-1-texts-desktop {
